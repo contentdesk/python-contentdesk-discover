@@ -13,7 +13,7 @@ def getAllCategories():
     payload = {}
     headers = {
         'Ocp-Apim-Subscription-Key': DISCOVER_SUBSCRIPTION_KEY,
-        'Accept-Language': 'de',
+        'Accept-Language': 'en',
         'CategoryVersion': 'sui'
     }
 
@@ -26,7 +26,7 @@ def getCategoryTree(category):
     payload = {}
     headers = {
         'Ocp-Apim-Subscription-Key': DISCOVER_SUBSCRIPTION_KEY,
-        'Accept-Language': 'de',
+        'Accept-Language': 'en',
         'CategoryVersion': 'sui'
     }
 
