@@ -2,3 +2,4 @@
 env/*
 src/service/__pycache__/discover.cpython-311.pyc
 src/service/__pycache__*
+output/*
