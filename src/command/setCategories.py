@@ -47,8 +47,7 @@ def addLabeltoCategory(category, language, akeneoCategories):
 
 def main():
     category = 'sui_root'
-    language = 'en'
-    categoriesEN = getCategoryTree(category, language)
+    categoriesEN = getCategoryTree(category, 'en')
     categoriesDE = getCategoryTree(category, 'de')
     categoriesFR = getCategoryTree(category, 'fr')
     categoriesIT = getCategoryTree(category, 'it')
