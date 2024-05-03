@@ -3,6 +3,17 @@ import sys
 sys.path.append("..")
 
 from service.discover import getCategoryTree
+from akeneo.akeneo import Akeneo
+from os import getenv
+from dotenv import find_dotenv, load_dotenv
+load_dotenv(find_dotenv())
+
+AKENEO_HOST = getenv('AKENEO_HOST')
+AKENEO_CLIENT_ID = getenv('AKENEO_CLIENT_ID')
+AKENEO_CLIENT_SECRET = getenv('AKENEO_CLIENT_SECRET')
+AKENEO_USERNAME = getenv('AKENEO_USERNAME')
+AKENEO_PASSWORD = getenv('AKENEO_PASSWORD')
+
 
 def setCategories(category, parentCategory = None, akeneoCategories = {}, language = 'en_US'):
     # check if category is a list
@@ -36,14 +47,28 @@ def setCategories(category, parentCategory = None, akeneoCategories = {}, langua
 
     return akeneoCategories
 
-# set Label for each language
-def addLabeltoCategory(category, language, akeneoCategories):
-    for key in akeneoCategories:
-        print("Category: ")
-        print(category)
-        akeneoCategories[key]["labels"][language] = category[key]
+def patchCategories(code, body):
+    akeneo = Akeneo(
+        AKENEO_HOST,
+        AKENEO_CLIENT_ID,
+        AKENEO_CLIENT_SECRET,
+        AKENEO_USERNAME,
+        AKENEO_PASSWORD
+    )
+    try:
+        response = akeneo.patchCategoryByCode(code, body)
+    except Exception as e:
+        print("Error: ", e)
+        print("patch Family: ", code)
+        print("Response: ", response)
+    return response
 
-    return akeneoCategories
+def setCategoriesInAkeneo(akeneoCategories):
+    for code, body in akeneoCategories.items():
+        print("Code: ", code)
+        print("Body: ", body)
+        response = patchCategories(code, body)
+        print("Response: ", response)
 
 def main():
     category = 'sui_root'
@@ -59,6 +84,8 @@ def main():
 
     with open("../../output/akeneoCategories.json", "w") as file:
         json.dump(akeneoCategories, file)
+
+    setCategoriesInAkeneo(akeneoCategories)
 
 if __name__ == "__main__":
     main()
