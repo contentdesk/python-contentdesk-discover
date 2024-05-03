@@ -38,8 +38,13 @@ def setCategories(category, parentCategory = None, akeneoCategories = {}):
 
 def main():
     category = 'sui_root'
-    categories = getCategoryTree(category)
-    akeneoCategories = setCategories(categories)
+    language = 'en'
+    categoriesEN = getCategoryTree(category, language)
+    categoriesDE = getCategoryTree(category, 'de')
+    categoriesFR = getCategoryTree(category, 'fr')
+    categoriesIT = getCategoryTree(category, 'it')
+    
+    akeneoCategories = setCategories(categoriesEN)
 
     with open("../../output/akeneoCategories.json", "w") as file:
         json.dump(akeneoCategories, file)

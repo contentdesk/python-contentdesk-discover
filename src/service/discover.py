@@ -20,14 +20,14 @@ def getAllCategories():
     response = requests.request("GET", url, headers=headers, data=payload)
     return response.json()
 
-def getCategoryTree(category):
+def getCategoryTree(category, language = 'en', version = 'sui'):
     url = f"{DISCOVER_HOST}/categories/{category}/tree"
 
     payload = {}
     headers = {
         'Ocp-Apim-Subscription-Key': DISCOVER_SUBSCRIPTION_KEY,
-        'Accept-Language': 'en',
-        'CategoryVersion': 'sui'
+        'Accept-Language': language,
+        'CategoryVersion': version
     }
 
     response = requests.request("GET", url, headers=headers, data=payload)
