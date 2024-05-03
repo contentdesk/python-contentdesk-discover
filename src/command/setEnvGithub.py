@@ -57,7 +57,7 @@ def removeSecret(owner, repo, token, environment, secretName):
 
 def getEnvironment():
     # Find all .env.xxx files
-    env_files = glob.glob('env/.env.*')
+    env_files = glob.glob('../../env/.env.*')
     env_suffixes = [os.path.splitext(file)[1][1:] for file in env_files]
 
     # Print the list of files
