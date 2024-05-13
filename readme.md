@@ -2,20 +2,18 @@
 
 Schnittstelle zwischen Contentdesk.io und Discover.swiss
 
-* Categories zu Attribute lei
+* Categories zu Attribute leisure
 * 
 
 
 # Discover.swiss Doc
 
-## Categories
-
+## Categories Dsicover.swiss / Attribute leisure
 https://demo.discover.swiss/categories
 
 https://docs.discover.swiss/dev/concepts/content-organization/category/
 
 Die Kategorien werden als Attribut 'leisure' (Mehrfachauswahl) gespeichert.
-
 
 ## Types
 
