@@ -74,18 +74,16 @@ def main():
     categoriesFR = getCategoryTree(category, 'fr')
     categoriesIT = getCategoryTree(category, 'it')
 
-    # DEBUG
-    #with open("../../output/akeneoCategories.json", "w") as file:
-    #    json.dump(akeneoCategories, file)
-
     attribute = 'leisure'
 
-    #setCategoriesInAkeneo(akeneoCategories)
     print("SET ATTRIBUTE OPTIONS")
     akeneoAttributeOptions = setAttributeOptions(categoriesEN, attribute)
     akeneoAttributeOptions = setAttributeOptions(categoriesDE, attribute, akeneoAttributeOptions, 'de_CH')
     akeneoAttributeOptions = setAttributeOptions(categoriesFR, attribute, akeneoAttributeOptions, 'fr_FR')
     akeneoAttributeOptions = setAttributeOptions(categoriesIT, attribute, akeneoAttributeOptions, 'it_IT')
+
+    # remove the first element
+    akeneoAttributeOptions.pop('sui_root')
 
     # DEBUG
     with open("../../output/akeneoAttributeOptions.json", "w") as file:

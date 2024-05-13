@@ -32,3 +32,15 @@ def getCategoryTree(category, language = 'en', version = 'sui'):
 
     response = requests.request("GET", url, headers=headers, data=payload)
     return response.json()
+
+def getTypesTree(language = 'en'):
+    url = f"{DISCOVER_HOST}/types/tree"
+
+    payload = {}
+    headers = {
+        'Ocp-Apim-Subscription-Key': DISCOVER_SUBSCRIPTION_KEY,
+        'Accept-Language': language
+    }
+
+    response = requests.request("GET", url, headers=headers, data=payload)
+    return response.json()
