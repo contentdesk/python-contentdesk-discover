@@ -55,11 +55,11 @@ def setAttributeOptions(options, attribute, akeneoAttirbuteOptions = {}, languag
             print(opt['name'])
             if opt['identifier'] not in akeneoAttirbuteOptions:
                 akeneoAttirbuteOptions[opt['identifier']] = {}
-                akeneoAttirbuteOptions[opt['identifier']]["code"] = opt['identifier']
-                akeneoAttirbuteOptions[opt['identifier']]["attribute"] = attribute
+            akeneoAttirbuteOptions[opt['identifier']]["code"] = opt['identifier']
+            akeneoAttirbuteOptions[opt['identifier']]["attribute"] = attribute
             if 'labels' not in akeneoAttirbuteOptions[opt['identifier']]:
                 akeneoAttirbuteOptions[opt['identifier']]["labels"] = {}
-                akeneoAttirbuteOptions[opt['identifier']]["labels"][language] = opt['name']
+            akeneoAttirbuteOptions[opt['identifier']]["labels"][language] = opt['name']
             if 'children' in opt:
                 setAttributeOptions(opt['children'], attribute, akeneoAttirbuteOptions, language)
     else:
@@ -68,13 +68,13 @@ def setAttributeOptions(options, attribute, akeneoAttirbuteOptions = {}, languag
         print(options['name'])
         if options['identifier'] not in akeneoAttirbuteOptions:
             akeneoAttirbuteOptions[options['identifier']] = {}
-            akeneoAttirbuteOptions[options['identifier']]["code"] = options['identifier']
-            akeneoAttirbuteOptions[options['identifier']]["attribute"] = attribute
+        akeneoAttirbuteOptions[options['identifier']]["code"] = options['identifier']
+        akeneoAttirbuteOptions[options['identifier']]["attribute"] = attribute
         if 'labels' not in akeneoAttirbuteOptions[options['identifier']]:
             akeneoAttirbuteOptions[options['identifier']]["labels"] = {}
-            akeneoAttirbuteOptions[options['identifier']]["labels"][language] = options['name']
+        akeneoAttirbuteOptions[options['identifier']]["labels"][language] = options['name']
         if 'children' in options:
-                setAttributeOptions(options['children'], attribute, akeneoAttirbuteOptions, language)
+            setAttributeOptions(options['children'], attribute, akeneoAttirbuteOptions, language)
     
     return akeneoAttirbuteOptions
 
@@ -148,6 +148,11 @@ def main():
     akeneoAttributeOptions = setAttributeOptions(categoriesFR, attribute, akeneoAttributeOptions, 'fr_FR')
     akeneoAttributeOptions = setAttributeOptions(categoriesIT, attribute, akeneoAttributeOptions, 'it_IT')
 
+    # DEBUG
+    with open("../../output/akeneoAttributeOptions.json", "w") as file:
+        json.dump(akeneoAttributeOptions, file)
+
+    print("PATCH ATTRIBUTE OPTIONS")
     setAttributeOptionsAkeneo(akeneoAttributeOptions, attribute)
 
 if __name__ == "__main__":
