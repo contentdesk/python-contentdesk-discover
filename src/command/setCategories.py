@@ -47,6 +47,37 @@ def setCategories(category, parentCategory = None, akeneoCategories = {}, langua
 
     return akeneoCategories
 
+def setAttributeOptions(options, attribute, akeneoAttirbuteOptions = {}, language = 'en_US'):
+    if isinstance(options, list):
+        for opt in options:
+            print("Option: ")
+            print(opt['identifier'])
+            print(opt['name'])
+            if opt['identifier'] not in akeneoAttirbuteOptions:
+                akeneoAttirbuteOptions[opt['identifier']] = {}
+                akeneoAttirbuteOptions[opt['identifier']]["code"] = opt['identifier']
+                akeneoAttirbuteOptions[opt['identifier']]["attribute"] = attribute
+            if 'labels' not in akeneoAttirbuteOptions[opt['identifier']]:
+                akeneoAttirbuteOptions[opt['identifier']]["labels"] = {}
+                akeneoAttirbuteOptions[opt['identifier']]["labels"][language] = opt['name']
+            if 'children' in opt:
+                setAttributeOptions(opt['children'], attribute, akeneoAttirbuteOptions, language)
+    else:
+        print("Option: ")
+        print(options['identifier'])
+        print(options['name'])
+        if options['identifier'] not in akeneoAttirbuteOptions:
+            akeneoAttirbuteOptions[options['identifier']] = {}
+            akeneoAttirbuteOptions[options['identifier']]["code"] = options['identifier']
+            akeneoAttirbuteOptions[options['identifier']]["attribute"] = attribute
+        if 'labels' not in akeneoAttirbuteOptions[options['identifier']]:
+            akeneoAttirbuteOptions[options['identifier']]["labels"] = {}
+            akeneoAttirbuteOptions[options['identifier']]["labels"][language] = options['name']
+        if 'children' in options:
+                setAttributeOptions(options['children'], attribute, akeneoAttirbuteOptions, language)
+    
+    return akeneoAttirbuteOptions
+
 def patchCategories(code, body):
     akeneo = Akeneo(
         AKENEO_HOST,
@@ -63,12 +94,34 @@ def patchCategories(code, body):
         print("Response: ", response)
     return response
 
+def patchAttributeOptions(code, attribute, body):
+    akeneo = Akeneo(
+        AKENEO_HOST,
+        AKENEO_CLIENT_ID,
+        AKENEO_CLIENT_SECRET,
+        AKENEO_USERNAME,
+        AKENEO_PASSWORD
+    )
+    try:
+        response = akeneo.patchAttributOptionsByCode(code, attribute, body)
+    except Exception as e:
+        print("Error: ", e)
+        print("patch Family: ", code)
+        print("Response: ", response)
+    return response
+
 def setCategoriesInAkeneo(akeneoCategories):
     for code, body in akeneoCategories.items():
         print("Code: ", code)
         print("Body: ", body)
         response = patchCategories(code, body)
         print("Response: ", response)
+
+def setAttributeOptionsAkeneo(akeneoCategories, attribute):
+    for code, body in akeneoCategories.items():
+        print("Code: ", code)
+        print("Body: ", body)
+        response = patchAttributeOptions(code, attribute, body)
 
 def main():
     category = 'sui_root'
@@ -86,7 +139,16 @@ def main():
     #with open("../../output/akeneoCategories.json", "w") as file:
     #    json.dump(akeneoCategories, file)
 
-    setCategoriesInAkeneo(akeneoCategories)
+    attribute = 'leisure'
+
+    #setCategoriesInAkeneo(akeneoCategories)
+    print("SET ATTRIBUTE OPTIONS")
+    akeneoAttributeOptions = setAttributeOptions(categoriesEN, attribute)
+    akeneoAttributeOptions = setAttributeOptions(categoriesDE, attribute, akeneoAttributeOptions, 'de_CH')
+    akeneoAttributeOptions = setAttributeOptions(categoriesFR, attribute, akeneoAttributeOptions, 'fr_FR')
+    akeneoAttributeOptions = setAttributeOptions(categoriesIT, attribute, akeneoAttributeOptions, 'it_IT')
+
+    setAttributeOptionsAkeneo(akeneoAttributeOptions, attribute)
 
 if __name__ == "__main__":
     main()
