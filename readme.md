@@ -43,3 +43,8 @@ https://developer.discover.swiss/api-details#api=discoverswiss-prod-v2-infocente
 ## Attriubte starRating
 
 https://docs.discover.swiss/dev/quickstarts/how-to-work-with-accommodatahub/#starrating
+
+
+## Attribute accessibility
+
+https://docs.discover.swiss/dev/concepts/ginto-accessibility-data/
