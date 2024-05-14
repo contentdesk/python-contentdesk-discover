@@ -17,7 +17,8 @@ Die Kategorien werden als Attribut 'leisure' (Mehrfachauswahl) gespeichert.
 
 ## Types
 
-ToDo: Abgleich aller Place-Typen
+ToDo: Abgleich aller Place-Typen mit Schema.org
+
 
 
 ## Attribute amentityFeature
