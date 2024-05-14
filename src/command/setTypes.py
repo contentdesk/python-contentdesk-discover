@@ -14,38 +14,7 @@ AKENEO_CLIENT_SECRET = getenv('AKENEO_CLIENT_SECRET')
 AKENEO_USERNAME = getenv('AKENEO_USERNAME')
 AKENEO_PASSWORD = getenv('AKENEO_PASSWORD')
 
-def setAttributeOptions(options, attribute, akeneoAttirbuteOptions = {}, language = 'en_US'):
-    if isinstance(options, list):
-        for opt in options:
-            print("Option: ")
-            print(opt['identifier'])
-            print(opt['name'])
-            if opt['identifier'] not in akeneoAttirbuteOptions:
-                akeneoAttirbuteOptions[opt['identifier']] = {}
-            akeneoAttirbuteOptions[opt['identifier']]["code"] = opt['identifier']
-            akeneoAttirbuteOptions[opt['identifier']]["attribute"] = attribute
-            if 'labels' not in akeneoAttirbuteOptions[opt['identifier']]:
-                akeneoAttirbuteOptions[opt['identifier']]["labels"] = {}
-            akeneoAttirbuteOptions[opt['identifier']]["labels"][language] = opt['name']
-            if 'children' in opt:
-                setAttributeOptions(opt['children'], attribute, akeneoAttirbuteOptions, language)
-    else:
-        print("Option: ")
-        print(options['identifier'])
-        print(options['name'])
-        if options['identifier'] not in akeneoAttirbuteOptions:
-            akeneoAttirbuteOptions[options['identifier']] = {}
-        akeneoAttirbuteOptions[options['identifier']]["code"] = options['identifier']
-        akeneoAttirbuteOptions[options['identifier']]["attribute"] = attribute
-        if 'labels' not in akeneoAttirbuteOptions[options['identifier']]:
-            akeneoAttirbuteOptions[options['identifier']]["labels"] = {}
-        akeneoAttirbuteOptions[options['identifier']]["labels"][language] = options['name']
-        if 'children' in options:
-            setAttributeOptions(options['children'], attribute, akeneoAttirbuteOptions, language)
-    
-    return akeneoAttirbuteOptions
-
-def setTypes(types, akeneoTypes = {}, language = 'en_US'):
+def setTypes(types, akeneoTypes = {}, language = 'en_US', parent = None):
     # check if category is a list
     if isinstance(types, list):
         for typ in types:
@@ -56,20 +25,22 @@ def setTypes(types, akeneoTypes = {}, language = 'en_US'):
                 if typ['additionalType'] not in akeneoTypes:
                     akeneoTypes[typ['additionalType']] = {}
                 akeneoTypes[typ['additionalType']]["code"] = typ['additionalType']
+                akeneoTypes[typ['additionalType']]["parent"] = parent
                 if 'labels' not in akeneoTypes[typ['additionalType']]:
                     akeneoTypes[typ['additionalType']]["labels"] = {}
                 akeneoTypes[typ['additionalType']]["labels"][language] = typ['name']
                 if 'types' in typ:
-                    setTypes(typ['types'], akeneoTypes, language)
+                    setTypes(typ['types'], akeneoTypes, language, typ['entityType'])
             else:
                 if typ['entityType'] not in akeneoTypes:
                     akeneoTypes[typ['entityType']] = {}
                 akeneoTypes[typ['entityType']]["code"] = typ['entityType']
+                akeneoTypes[typ['entityType']]["parent"] = parent
                 if 'labels' not in akeneoTypes[typ['entityType']]:
                     akeneoTypes[typ['entityType']]["labels"] = {}
                 akeneoTypes[typ['entityType']]["labels"][language] = typ['name']
                 if 'types' in typ:
-                    setTypes(typ['types'], akeneoTypes, language)
+                    setTypes(typ['types'], akeneoTypes, language, typ['entityType'])
     else:
         print("Type: ")
         print(types['entityType'])
@@ -77,6 +48,7 @@ def setTypes(types, akeneoTypes = {}, language = 'en_US'):
         if types['entityType'] not in akeneoTypes:
             akeneoTypes[types['entityType']] = {}
         akeneoTypes[types['entityType']]["code"] = types['entityType']
+        akeneoTypes[types['entityType']]["parent"] = parent
         if 'labels' not in akeneoTypes[types['entityType']]:
             akeneoTypes[types['entityType']]["labels"] = {}
         akeneoTypes[types['entityType']]["labels"][language] = types['name']
@@ -84,6 +56,28 @@ def setTypes(types, akeneoTypes = {}, language = 'en_US'):
             setTypes(types['types'], akeneoTypes, language)
 
     return akeneoTypes
+
+def patchTypes(code, body):
+    akeneo = Akeneo(
+        AKENEO_HOST,
+        AKENEO_CLIENT_ID,
+        AKENEO_CLIENT_SECRET,
+        AKENEO_USERNAME,
+        AKENEO_PASSWORD
+    )
+    try:
+        response = akeneo.patchFamily(code, body)
+    except Exception as e:
+        print("Error: ", e)
+        print("patch Family: ", code)
+        print("Response: ", response)
+    return response
+
+def setTypesInAkeneo(akeneoTypes):
+    for code, body in akeneoTypes.items():
+        print("Code: ", code)
+        print("Body: ", body)
+        response = patchTypes(code, body)
 
 def main():
     typesEN = getTypesTree('en')
@@ -99,6 +93,14 @@ def main():
     # DEBUG
     with open("../../output/types.json", "w") as file:
         json.dump(akeneoTypes, file)
+
+    #setTypesInAkeneo(akeneoTypes)
+
+    # Save as csv
+    with open("../../output/types.csv", "w") as file:
+        for code, body in akeneoTypes.items():
+            file.write(f"{code};{body['parent']};{body['labels']['en_US']};{body['labels']['de_CH']};{body['labels']['fr_FR']};{body['labels']['it_IT']}\n")
+
 
 if __name__ == "__main__":
     main()
