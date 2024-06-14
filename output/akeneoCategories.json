@@ -1,0 +1,1762 @@
+{
+    "sui_root": {
+        "code": "sui_root",
+        "parent": null,
+        "labels": {
+            "en_US": "topic SUI",
+            "de_CH": "Themen-SUI",
+            "fr_FR": "Th\u00e8me SUI",
+            "it_IT": "Tema SUI"
+        }
+    },
+    "sui_01": {
+        "code": "sui_01",
+        "parent": "sui_root",
+        "labels": {
+            "en_US": "Activities",
+            "de_CH": "Aktivit\u00e4ten",
+            "fr_FR": "Activit\u00e9s",
+            "it_IT": "Attivit\u00e0"
+        }
+    },
+    "sui_0111": {
+        "code": "sui_0111",
+        "parent": "sui_01",
+        "labels": {
+            "en_US": "Air sports",
+            "de_CH": "Luftsport",
+            "fr_FR": "Sports a\u00e9riens",
+            "it_IT": "Sport aerei"
+        }
+    },
+    "sui_011103": {
+        "code": "sui_011103",
+        "parent": "sui_0111",
+        "labels": {
+            "en_US": "Hang gliding",
+            "de_CH": "Drachenfliegen",
+            "fr_FR": "Deltaplane",
+            "it_IT": "Deltaplano"
+        }
+    },
+    "sui_011104": {
+        "code": "sui_011104",
+        "parent": "sui_0111",
+        "labels": {
+            "en_US": "Hot air balloon flying",
+            "de_CH": "Heissluftballonfliegen",
+            "fr_FR": "Vol en montgolfi\u00e8re",
+            "it_IT": "Volo in mongolfiera"
+        }
+    },
+    "sui_011101": {
+        "code": "sui_011101",
+        "parent": "sui_0111",
+        "labels": {
+            "en_US": "Paragliding",
+            "de_CH": "Gleitschirmfliegen",
+            "fr_FR": "Parapente",
+            "it_IT": "Parapendio"
+        }
+    },
+    "sui_011102": {
+        "code": "sui_011102",
+        "parent": "sui_0111",
+        "labels": {
+            "en_US": "Skydiving",
+            "de_CH": "Fallschirmspringen",
+            "fr_FR": "Parachutisme",
+            "it_IT": "Paracadutismo"
+        }
+    },
+    "sui_0109": {
+        "code": "sui_0109",
+        "parent": "sui_01",
+        "labels": {
+            "en_US": "Aquatics",
+            "de_CH": "Wassersport",
+            "fr_FR": "Natation",
+            "it_IT": "Sport acquatico"
+        }
+    },
+    "sui_010904": {
+        "code": "sui_010904",
+        "parent": "sui_0109",
+        "labels": {
+            "en_US": "Canoeing",
+            "de_CH": "Kanufahren",
+            "fr_FR": "Cano\u00e9",
+            "it_IT": "Canoismo"
+        }
+    },
+    "sui_010901": {
+        "code": "sui_010901",
+        "parent": "sui_0109",
+        "labels": {
+            "en_US": "Canyoning",
+            "de_CH": "Canyoning",
+            "fr_FR": "Canyoning",
+            "it_IT": "Canyoning"
+        }
+    },
+    "sui_010913": {
+        "code": "sui_010913",
+        "parent": "sui_0109",
+        "labels": {
+            "en_US": "Dive",
+            "de_CH": "Tauchen",
+            "fr_FR": "Plonger",
+            "it_IT": "Tuffarsi"
+        }
+    },
+    "sui_010902": {
+        "code": "sui_010902",
+        "parent": "sui_0109",
+        "labels": {
+            "en_US": "Fish",
+            "de_CH": "Fischen",
+            "fr_FR": "Poisson",
+            "it_IT": "Pesce"
+        }
+    },
+    "sui_010903": {
+        "code": "sui_010903",
+        "parent": "sui_0109",
+        "labels": {
+            "en_US": "Kayaking",
+            "de_CH": "Kajakfahren",
+            "fr_FR": "Kayak",
+            "it_IT": "Kayak"
+        }
+    },
+    "sui_010915": {
+        "code": "sui_010915",
+        "parent": "sui_0109",
+        "labels": {
+            "en_US": "Kitesurfing",
+            "de_CH": "Kitesurfen",
+            "fr_FR": "Kitesurf",
+            "it_IT": "Kitesurf"
+        }
+    },
+    "sui_010916": {
+        "code": "sui_010916",
+        "parent": "sui_0109",
+        "labels": {
+            "en_US": "Pedalos",
+            "de_CH": "Pedalos",
+            "fr_FR": "P\u00e9dalos",
+            "it_IT": "Pedal\u00f2"
+        }
+    },
+    "sui_010905": {
+        "code": "sui_010905",
+        "parent": "sui_0109",
+        "labels": {
+            "en_US": "Rafting",
+            "de_CH": "Rafting",
+            "fr_FR": "Rafting",
+            "it_IT": "Fluitazione"
+        }
+    },
+    "sui_010906": {
+        "code": "sui_010906",
+        "parent": "sui_0109",
+        "labels": {
+            "en_US": "Row",
+            "de_CH": "Rudern",
+            "fr_FR": "Ramer",
+            "it_IT": "Fila"
+        }
+    },
+    "sui_010908": {
+        "code": "sui_010908",
+        "parent": "sui_0109",
+        "labels": {
+            "en_US": "Sail",
+            "de_CH": "Segeln",
+            "fr_FR": "Voile",
+            "it_IT": "Vela"
+        }
+    },
+    "sui_010911": {
+        "code": "sui_010911",
+        "parent": "sui_0109",
+        "labels": {
+            "en_US": "SUPStandUpPaddling",
+            "de_CH": "SUPStandUpPaddling",
+            "fr_FR": "SUPStandUpPaddling",
+            "it_IT": "SUPStandUpPaddling"
+        }
+    },
+    "sui_010912": {
+        "code": "sui_010912",
+        "parent": "sui_0109",
+        "labels": {
+            "en_US": "Surfing",
+            "de_CH": "Surfen",
+            "fr_FR": "Surf",
+            "it_IT": "Surf"
+        }
+    },
+    "sui_010907": {
+        "code": "sui_010907",
+        "parent": "sui_0109",
+        "labels": {
+            "en_US": "Swim",
+            "de_CH": "Schwimmen",
+            "fr_FR": "Nager",
+            "it_IT": "Nuotare"
+        }
+    },
+    "sui_010914": {
+        "code": "sui_010914",
+        "parent": "sui_0109",
+        "labels": {
+            "en_US": "Waterskiing & Wakeboard",
+            "de_CH": "Wasserski & Wakeboard",
+            "fr_FR": "Ski nautique & Wakeboard",
+            "it_IT": "Sci nautico & Wakeboard"
+        }
+    },
+    "sui_010917": {
+        "code": "sui_010917",
+        "parent": "sui_0109",
+        "labels": {
+            "en_US": "Windsurfing",
+            "de_CH": "Windsurfen",
+            "fr_FR": "Planche \u00e0 voile",
+            "it_IT": "Windsurf"
+        }
+    },
+    "sui_0116": {
+        "code": "sui_0116",
+        "parent": "sui_01",
+        "labels": {
+            "en_US": "Athletics",
+            "de_CH": "Leichtathletik",
+            "fr_FR": "Athl\u00e9tisme",
+            "it_IT": "Atletica"
+        }
+    },
+    "sui_0108": {
+        "code": "sui_0108",
+        "parent": "sui_01",
+        "labels": {
+            "en_US": "Ball sports",
+            "de_CH": "Ballsport",
+            "fr_FR": "Sports de balle",
+            "it_IT": "Sport con la palla"
+        }
+    },
+    "sui_010813": {
+        "code": "sui_010813",
+        "parent": "sui_0108",
+        "labels": {
+            "en_US": "American football",
+            "de_CH": "American Football",
+            "fr_FR": "Football am\u00e9ricain",
+            "it_IT": "Football americano"
+        }
+    },
+    "sui_010801": {
+        "code": "sui_010801",
+        "parent": "sui_0108",
+        "labels": {
+            "en_US": "Badminton",
+            "de_CH": "Badminton",
+            "fr_FR": "Badminton",
+            "it_IT": "Badminton"
+        }
+    },
+    "sui_010814": {
+        "code": "sui_010814",
+        "parent": "sui_0108",
+        "labels": {
+            "en_US": "Baseball",
+            "de_CH": "Baseball",
+            "fr_FR": "Base-ball",
+            "it_IT": "Baseball"
+        }
+    },
+    "sui_010815": {
+        "code": "sui_010815",
+        "parent": "sui_0108",
+        "labels": {
+            "en_US": "Basketball",
+            "de_CH": "Basketball",
+            "fr_FR": "Basket-ball",
+            "it_IT": "Pallacanestro"
+        }
+    },
+    "sui_010802": {
+        "code": "sui_010802",
+        "parent": "sui_0108",
+        "labels": {
+            "en_US": "Beach volleyball",
+            "de_CH": "Beachvolleyball",
+            "fr_FR": "Beach-volley",
+            "it_IT": "Beach volley"
+        }
+    },
+    "sui_010803": {
+        "code": "sui_010803",
+        "parent": "sui_0108",
+        "labels": {
+            "en_US": "Billiards",
+            "de_CH": "Billard",
+            "fr_FR": "Billard",
+            "it_IT": "Biliardo"
+        }
+    },
+    "sui_010804": {
+        "code": "sui_010804",
+        "parent": "sui_0108",
+        "labels": {
+            "en_US": "Bocce",
+            "de_CH": "Boccia",
+            "fr_FR": "Lyonnaises",
+            "it_IT": "Bocce"
+        }
+    },
+    "sui_010817": {
+        "code": "sui_010817",
+        "parent": "sui_0108",
+        "labels": {
+            "en_US": "Floorball",
+            "de_CH": "Unihockey",
+            "fr_FR": "Floorball",
+            "it_IT": "Floorball"
+        }
+    },
+    "sui_010805": {
+        "code": "sui_010805",
+        "parent": "sui_0108",
+        "labels": {
+            "en_US": "Football",
+            "de_CH": "Fussball",
+            "fr_FR": "Football",
+            "it_IT": "Calcio"
+        }
+    },
+    "sui_010806": {
+        "code": "sui_010806",
+        "parent": "sui_0108",
+        "labels": {
+            "en_US": "Gulf",
+            "de_CH": "Golf",
+            "fr_FR": "Golfe",
+            "it_IT": "Golfo"
+        }
+    },
+    "sui_010807": {
+        "code": "sui_010807",
+        "parent": "sui_0108",
+        "labels": {
+            "en_US": "Handball",
+            "de_CH": "Handball",
+            "fr_FR": "Handball",
+            "it_IT": "Pallamano"
+        }
+    },
+    "sui_010809": {
+        "code": "sui_010809",
+        "parent": "sui_0108",
+        "labels": {
+            "en_US": "Miniature golf",
+            "de_CH": "Minigolf",
+            "fr_FR": "Golf miniature",
+            "it_IT": "Minigolf"
+        }
+    },
+    "sui_010808": {
+        "code": "sui_010808",
+        "parent": "sui_0108",
+        "labels": {
+            "en_US": "Skittles",
+            "de_CH": "Kegeln",
+            "fr_FR": "Skittles",
+            "it_IT": "Birillo"
+        }
+    },
+    "sui_010810": {
+        "code": "sui_010810",
+        "parent": "sui_0108",
+        "labels": {
+            "en_US": "Squash",
+            "de_CH": "Squash",
+            "fr_FR": "Courge",
+            "it_IT": "Schiacciare"
+        }
+    },
+    "sui_010816": {
+        "code": "sui_010816",
+        "parent": "sui_0108",
+        "labels": {
+            "en_US": "Table tennis",
+            "de_CH": "Tischtennis",
+            "fr_FR": "Ping-pong",
+            "it_IT": "Ping-pong"
+        }
+    },
+    "sui_010811": {
+        "code": "sui_010811",
+        "parent": "sui_0108",
+        "labels": {
+            "en_US": "Tennis",
+            "de_CH": "Tennis",
+            "fr_FR": "Tennis",
+            "it_IT": "Tennis"
+        }
+    },
+    "sui_010812": {
+        "code": "sui_010812",
+        "parent": "sui_0108",
+        "labels": {
+            "en_US": "Volleyball",
+            "de_CH": "Volleyball",
+            "fr_FR": "Volley-ball",
+            "it_IT": "Pallavolo"
+        }
+    },
+    "sui_0104": {
+        "code": "sui_0104",
+        "parent": "sui_01",
+        "labels": {
+            "en_US": "Climbing",
+            "de_CH": "Klettersport",
+            "fr_FR": "Escalade",
+            "it_IT": "Arrampicata"
+        }
+    },
+    "sui_010401": {
+        "code": "sui_010401",
+        "parent": "sui_0104",
+        "labels": {
+            "en_US": "Bouldering",
+            "de_CH": "Bouldern",
+            "fr_FR": "Bloc",
+            "it_IT": "Bouldering"
+        }
+    },
+    "sui_010403": {
+        "code": "sui_010403",
+        "parent": "sui_0104",
+        "labels": {
+            "en_US": "Climb",
+            "de_CH": "Klettern",
+            "fr_FR": "Grimper",
+            "it_IT": "Arrampicarsi"
+        }
+    },
+    "sui_010402": {
+        "code": "sui_010402",
+        "parent": "sui_0104",
+        "labels": {
+            "en_US": "Ice climbing",
+            "de_CH": "Eisklettern",
+            "fr_FR": "Escalade sur glace",
+            "it_IT": "Arrampicata su ghiaccio"
+        }
+    },
+    "sui_010404": {
+        "code": "sui_010404",
+        "parent": "sui_0104",
+        "labels": {
+            "en_US": "Sport climbing",
+            "de_CH": "Sportklettern",
+            "fr_FR": "Escalade sportive",
+            "it_IT": "Arrampicata sportiva"
+        }
+    },
+    "sui_0102": {
+        "code": "sui_0102",
+        "parent": "sui_01",
+        "labels": {
+            "en_US": "Cycling",
+            "de_CH": "Velofahren",
+            "fr_FR": "Cyclisme",
+            "it_IT": "Ciclismo"
+        }
+    },
+    "sui_010203": {
+        "code": "sui_010203",
+        "parent": "sui_0102",
+        "labels": {
+            "en_US": "Bicycle",
+            "de_CH": "Fahrrad",
+            "fr_FR": "Bicyclette",
+            "it_IT": "Bicicletta"
+        }
+    },
+    "sui_010201": {
+        "code": "sui_010201",
+        "parent": "sui_0102",
+        "labels": {
+            "en_US": "E-Bike",
+            "de_CH": "E-Bike",
+            "fr_FR": "V\u00e9lo \u00e9lectrique",
+            "it_IT": "E-Bike"
+        }
+    },
+    "sui_010202": {
+        "code": "sui_010202",
+        "parent": "sui_0102",
+        "labels": {
+            "en_US": "E-mountain bike",
+            "de_CH": "E-Mountainbike",
+            "fr_FR": "V\u00e9lo de montagne \u00e9lectrique",
+            "it_IT": "E-mountain bike"
+        }
+    },
+    "sui_010204": {
+        "code": "sui_010204",
+        "parent": "sui_0102",
+        "labels": {
+            "en_US": "Gravel bike",
+            "de_CH": "Gravelbike",
+            "fr_FR": "V\u00e9lo de gravier",
+            "it_IT": "Bici gravel"
+        }
+    },
+    "sui_010205": {
+        "code": "sui_010205",
+        "parent": "sui_0102",
+        "labels": {
+            "en_US": "Mountain bike",
+            "de_CH": "Mountainbike",
+            "fr_FR": "VTT",
+            "it_IT": "Rampichino"
+        }
+    },
+    "sui_010207": {
+        "code": "sui_010207",
+        "parent": "sui_0102",
+        "labels": {
+            "en_US": "Racer",
+            "de_CH": "Rennrad",
+            "fr_FR": "Coureur",
+            "it_IT": "Corridore"
+        }
+    },
+    "sui_0117": {
+        "code": "sui_0117",
+        "parent": "sui_01",
+        "labels": {
+            "en_US": "Dance",
+            "de_CH": "Tanzen",
+            "fr_FR": "Danser",
+            "it_IT": "Ballo"
+        }
+    },
+    "sui_0115": {
+        "code": "sui_0115",
+        "parent": "sui_01",
+        "labels": {
+            "en_US": "Dog sports",
+            "de_CH": "Hundesport",
+            "fr_FR": "Sports canins",
+            "it_IT": "Sport per cani"
+        }
+    },
+    "sui_0114": {
+        "code": "sui_0114",
+        "parent": "sui_01",
+        "labels": {
+            "en_US": "Equitation",
+            "de_CH": "Reitsport",
+            "fr_FR": "\u00c9quitation",
+            "it_IT": "Equitazione"
+        }
+    },
+    "sui_011401": {
+        "code": "sui_011401",
+        "parent": "sui_0114",
+        "labels": {
+            "en_US": "Ride",
+            "de_CH": "Reiten",
+            "fr_FR": "Chevaucher",
+            "it_IT": "Cavalcare"
+        }
+    },
+    "sui_0107": {
+        "code": "sui_0107",
+        "parent": "sui_01",
+        "labels": {
+            "en_US": "Fitness",
+            "de_CH": "Fitness",
+            "fr_FR": "Aptitude",
+            "it_IT": "Idoneit\u00e0"
+        }
+    },
+    "sui_010701": {
+        "code": "sui_010701",
+        "parent": "sui_0107",
+        "labels": {
+            "en_US": "Aerobics",
+            "de_CH": "Aerobic",
+            "fr_FR": "A\u00e9robic",
+            "it_IT": "Aerobica"
+        }
+    },
+    "sui_010702": {
+        "code": "sui_010702",
+        "parent": "sui_0107",
+        "labels": {
+            "en_US": "Biathlon",
+            "de_CH": "Biathlon",
+            "fr_FR": "Biathlon",
+            "it_IT": "Biathlon"
+        }
+    },
+    "sui_010703": {
+        "code": "sui_010703",
+        "parent": "sui_0107",
+        "labels": {
+            "en_US": "Fitness training",
+            "de_CH": "Fitnesstraining",
+            "fr_FR": "Entra\u00eenement physique",
+            "it_IT": "Allenamento fitness"
+        }
+    },
+    "sui_010705": {
+        "code": "sui_010705",
+        "parent": "sui_0107",
+        "labels": {
+            "en_US": "Pilates",
+            "de_CH": "Pilates",
+            "fr_FR": "Pilates",
+            "it_IT": "Pilates"
+        }
+    },
+    "sui_010706": {
+        "code": "sui_010706",
+        "parent": "sui_0107",
+        "labels": {
+            "en_US": "Spinning",
+            "de_CH": "Spinning",
+            "fr_FR": "Filage",
+            "it_IT": "Filatura"
+        }
+    },
+    "sui_010707": {
+        "code": "sui_010707",
+        "parent": "sui_0107",
+        "labels": {
+            "en_US": "Triathlon",
+            "de_CH": "Triathlon",
+            "fr_FR": "Triathlon",
+            "it_IT": "Triathlon"
+        }
+    },
+    "sui_010709": {
+        "code": "sui_010709",
+        "parent": "sui_0107",
+        "labels": {
+            "en_US": "Wellness",
+            "de_CH": "Wellness",
+            "fr_FR": "Bien-\u00eatre",
+            "it_IT": "Benessere"
+        }
+    },
+    "sui_010708": {
+        "code": "sui_010708",
+        "parent": "sui_0107",
+        "labels": {
+            "en_US": "Yoga",
+            "de_CH": "Yoga",
+            "fr_FR": "Yoga",
+            "it_IT": "Yoga"
+        }
+    },
+    "sui_0105": {
+        "code": "sui_0105",
+        "parent": "sui_01",
+        "labels": {
+            "en_US": "Fun Sports",
+            "de_CH": "Fun-Sport",
+            "fr_FR": "Sports amusants",
+            "it_IT": "Sport divertenti"
+        }
+    },
+    "sui_010502": {
+        "code": "sui_010502",
+        "parent": "sui_0105",
+        "labels": {
+            "en_US": "Bungee jumping",
+            "de_CH": "Bungee-Jumping",
+            "fr_FR": "Saut",
+            "it_IT": "Bungee jumping"
+        }
+    },
+    "sui_010519": {
+        "code": "sui_010519",
+        "parent": "sui_0105",
+        "labels": {
+            "en_US": "Mountain cart",
+            "de_CH": "Mountaincart",
+            "fr_FR": "Chariot de montagne",
+            "it_IT": "Carrello da montagna"
+        }
+    },
+    "sui_010520": {
+        "code": "sui_010520",
+        "parent": "sui_0105",
+        "labels": {
+            "en_US": "Scooter",
+            "de_CH": "Trottinett",
+            "fr_FR": "Trottinette",
+            "it_IT": "Monopattino"
+        }
+    },
+    "sui_010516": {
+        "code": "sui_010516",
+        "parent": "sui_0105",
+        "labels": {
+            "en_US": "Ski jumping",
+            "de_CH": "Skispringen",
+            "fr_FR": "Saut \u00e0 ski",
+            "it_IT": "Salto con gli sci"
+        }
+    },
+    "sui_010518": {
+        "code": "sui_010518",
+        "parent": "sui_0105",
+        "labels": {
+            "en_US": "Summer tobogganing",
+            "de_CH": "Sommerrodeln",
+            "fr_FR": "Luge d\u2019\u00e9t\u00e9",
+            "it_IT": "Slittino estivo"
+        }
+    },
+    "sui_0106": {
+        "code": "sui_0106",
+        "parent": "sui_01",
+        "labels": {
+            "en_US": "Martial arts",
+            "de_CH": "Kampfsport",
+            "fr_FR": "Arts martiaux",
+            "it_IT": "Arti marziali"
+        }
+    },
+    "sui_010604": {
+        "code": "sui_010604",
+        "parent": "sui_0106",
+        "labels": {
+            "en_US": "Boxing",
+            "de_CH": "Boxen",
+            "fr_FR": "Boxe",
+            "it_IT": "Boxe"
+        }
+    },
+    "sui_010601": {
+        "code": "sui_010601",
+        "parent": "sui_0106",
+        "labels": {
+            "en_US": "Endurance training",
+            "de_CH": "Ausdauertraining",
+            "fr_FR": "Entra\u00eenement d\u2019endurance",
+            "it_IT": "Allenamento di resistenza"
+        }
+    },
+    "sui_010605": {
+        "code": "sui_010605",
+        "parent": "sui_0106",
+        "labels": {
+            "en_US": "Fencing",
+            "de_CH": "Fechten",
+            "fr_FR": "Escrime",
+            "it_IT": "Scherma"
+        }
+    },
+    "sui_010603": {
+        "code": "sui_010603",
+        "parent": "sui_0106",
+        "labels": {
+            "en_US": "Qi Gong",
+            "de_CH": "Qi Gong",
+            "fr_FR": "Qi Gong",
+            "it_IT": "Qi Gong"
+        }
+    },
+    "sui_010602": {
+        "code": "sui_010602",
+        "parent": "sui_0106",
+        "labels": {
+            "en_US": "Strength training",
+            "de_CH": "Krafttraining",
+            "fr_FR": "Entra\u00eenement en force",
+            "it_IT": "Allenamento della forza"
+        }
+    },
+    "sui_010607": {
+        "code": "sui_010607",
+        "parent": "sui_0106",
+        "labels": {
+            "en_US": "Swing",
+            "de_CH": "Schwingen",
+            "fr_FR": "Balan\u00e7oire",
+            "it_IT": "Altalena"
+        }
+    },
+    "sui_010608": {
+        "code": "sui_010608",
+        "parent": "sui_0106",
+        "labels": {
+            "en_US": "Tai Chi",
+            "de_CH": "Tai Chi",
+            "fr_FR": "Tai Chi",
+            "it_IT": "Tai Chi"
+        }
+    },
+    "sui_010606": {
+        "code": "sui_010606",
+        "parent": "sui_0106",
+        "labels": {
+            "en_US": "Wrestle",
+            "de_CH": "Ringen",
+            "fr_FR": "Lutter",
+            "it_IT": "Lottare"
+        }
+    },
+    "sui_0113": {
+        "code": "sui_0113",
+        "parent": "sui_01",
+        "labels": {
+            "en_US": "Motorsports",
+            "de_CH": "Motorsport",
+            "fr_FR": "Sport automobile",
+            "it_IT": "Sport motoristici"
+        }
+    },
+    "sui_011302": {
+        "code": "sui_011302",
+        "parent": "sui_0113",
+        "labels": {
+            "en_US": "Go-cart",
+            "de_CH": "Go-Kart",
+            "fr_FR": "Kart",
+            "it_IT": "Carrello"
+        }
+    },
+    "sui_011301": {
+        "code": "sui_011301",
+        "parent": "sui_0113",
+        "labels": {
+            "en_US": "Karting",
+            "de_CH": "Kartfahren",
+            "fr_FR": "Karting",
+            "it_IT": "Karting"
+        }
+    },
+    "sui_0101": {
+        "code": "sui_0101",
+        "parent": "sui_01",
+        "labels": {
+            "en_US": "On foot",
+            "de_CH": "Zu Fuss",
+            "fr_FR": "\u00c0 pied",
+            "it_IT": "A piedi"
+        }
+    },
+    "sui_010104": {
+        "code": "sui_010104",
+        "parent": "sui_0101",
+        "labels": {
+            "en_US": "Geocaching",
+            "de_CH": "Geocaching",
+            "fr_FR": "G\u00e9ocaching",
+            "it_IT": "Geocaching"
+        }
+    },
+    "sui_010105": {
+        "code": "sui_010105",
+        "parent": "sui_0101",
+        "labels": {
+            "en_US": "Jog",
+            "de_CH": "Joggen",
+            "fr_FR": "Faire du jogging",
+            "it_IT": "Spintarella"
+        }
+    },
+    "sui_010113": {
+        "code": "sui_010113",
+        "parent": "sui_0101",
+        "labels": {
+            "en_US": "Long-distance hiking",
+            "de_CH": "Weitwandern",
+            "fr_FR": "Randonn\u00e9e de longue distance",
+            "it_IT": "Escursioni a lunga distanza"
+        }
+    },
+    "sui_010106": {
+        "code": "sui_010106",
+        "parent": "sui_0101",
+        "labels": {
+            "en_US": "Marathon running",
+            "de_CH": "Marathonlaufen",
+            "fr_FR": "Marathon",
+            "it_IT": "Maratona"
+        }
+    },
+    "sui_010108": {
+        "code": "sui_010108",
+        "parent": "sui_0101",
+        "labels": {
+            "en_US": "Orienteering",
+            "de_CH": "Orientierungslaufen",
+            "fr_FR": "Orientation",
+            "it_IT": "Orienteering"
+        }
+    },
+    "sui_010109": {
+        "code": "sui_010109",
+        "parent": "sui_0101",
+        "labels": {
+            "en_US": "Pilgrimage",
+            "de_CH": "Pilgern",
+            "fr_FR": "P\u00e8lerinage",
+            "it_IT": "Pellegrinaggio"
+        }
+    },
+    "sui_010107": {
+        "code": "sui_010107",
+        "parent": "sui_0101",
+        "labels": {
+            "en_US": "Pole walking",
+            "de_CH": "Nordic walking",
+            "fr_FR": "Marche \u00e0 la perche",
+            "it_IT": "Pole walking"
+        }
+    },
+    "sui_010110": {
+        "code": "sui_010110",
+        "parent": "sui_0101",
+        "labels": {
+            "en_US": "Stroll",
+            "de_CH": "Spazieren",
+            "fr_FR": "Promenade",
+            "it_IT": "Passeggiare"
+        }
+    },
+    "sui_010111": {
+        "code": "sui_010111",
+        "parent": "sui_0101",
+        "labels": {
+            "en_US": "Trail running",
+            "de_CH": "Trailrunning",
+            "fr_FR": "Course en sentier",
+            "it_IT": "Trail running"
+        }
+    },
+    "sui_010112": {
+        "code": "sui_010112",
+        "parent": "sui_0101",
+        "labels": {
+            "en_US": "Wander",
+            "de_CH": "Wandern",
+            "fr_FR": "Errer",
+            "it_IT": "Vagabondare"
+        }
+    },
+    "sui_0112": {
+        "code": "sui_0112",
+        "parent": "sui_01",
+        "labels": {
+            "en_US": "Shooting sports",
+            "de_CH": "Schiesssport",
+            "fr_FR": "Sports de tir",
+            "it_IT": "Sport di tiro"
+        }
+    },
+    "sui_011201": {
+        "code": "sui_011201",
+        "parent": "sui_0112",
+        "labels": {
+            "en_US": "Archery",
+            "de_CH": "Bogenschiessen",
+            "fr_FR": "Archerie",
+            "it_IT": "Tiro con l'arco"
+        }
+    },
+    "sui_011202": {
+        "code": "sui_011202",
+        "parent": "sui_0112",
+        "labels": {
+            "en_US": "Shoot",
+            "de_CH": "Schiessen",
+            "fr_FR": "Tirer",
+            "it_IT": "Sparare"
+        }
+    },
+    "sui_0103": {
+        "code": "sui_0103",
+        "parent": "sui_01",
+        "labels": {
+            "en_US": "Skating",
+            "de_CH": "Skaten",
+            "fr_FR": "Patinage",
+            "it_IT": "Pattinaggio"
+        }
+    },
+    "sui_010301": {
+        "code": "sui_010301",
+        "parent": "sui_0103",
+        "labels": {
+            "en_US": "Inline skating",
+            "de_CH": "Inline-Skating",
+            "fr_FR": "Roller",
+            "it_IT": "Pattinaggio in linea"
+        }
+    },
+    "sui_010302": {
+        "code": "sui_010302",
+        "parent": "sui_0103",
+        "labels": {
+            "en_US": "Roller skis",
+            "de_CH": "Rollski",
+            "fr_FR": "Skis \u00e0 roulettes",
+            "it_IT": "Skiroll"
+        }
+    },
+    "sui_0110": {
+        "code": "sui_0110",
+        "parent": "sui_01",
+        "labels": {
+            "en_US": "Winter sports",
+            "de_CH": "Wintersport",
+            "fr_FR": "Sports d\u2019hiver",
+            "it_IT": "Sport invernali"
+        }
+    },
+    "sui_011001": {
+        "code": "sui_011001",
+        "parent": "sui_0110",
+        "labels": {
+            "en_US": "Bobsleighing",
+            "de_CH": "Bobfahren",
+            "fr_FR": "Bobsleighing",
+            "it_IT": "Bob"
+        }
+    },
+    "sui_011007": {
+        "code": "sui_011007",
+        "parent": "sui_0110",
+        "labels": {
+            "en_US": "Cross country",
+            "de_CH": "Langlaufen",
+            "fr_FR": "Ski de fond",
+            "it_IT": "Sci di fondo"
+        }
+    },
+    "sui_011002": {
+        "code": "sui_011002",
+        "parent": "sui_0110",
+        "labels": {
+            "en_US": "Curling",
+            "de_CH": "Curling",
+            "fr_FR": "Curling",
+            "it_IT": "Arricciatura"
+        }
+    },
+    "sui_011005": {
+        "code": "sui_011005",
+        "parent": "sui_0110",
+        "labels": {
+            "en_US": "Curling",
+            "de_CH": "Eisstockschiessen",
+            "fr_FR": "Curling",
+            "it_IT": "Arricciatura"
+        }
+    },
+    "sui_011006": {
+        "code": "sui_011006",
+        "parent": "sui_0110",
+        "labels": {
+            "en_US": "Freeriding",
+            "de_CH": "Freeriden",
+            "fr_FR": "Freeride",
+            "it_IT": "Freeride"
+        }
+    },
+    "sui_011003": {
+        "code": "sui_011003",
+        "parent": "sui_0110",
+        "labels": {
+            "en_US": "Ice fishing",
+            "de_CH": "Eisangeln",
+            "fr_FR": "P\u00eache sur glace",
+            "it_IT": "Pesca sul ghiaccio"
+        }
+    },
+    "sui_011021": {
+        "code": "sui_011021",
+        "parent": "sui_0110",
+        "labels": {
+            "en_US": "Ice hockey",
+            "de_CH": "Eishockey",
+            "fr_FR": "Hockey sur glace",
+            "it_IT": "Hockey su ghiaccio"
+        }
+    },
+    "sui_011004": {
+        "code": "sui_011004",
+        "parent": "sui_0110",
+        "labels": {
+            "en_US": "Ice skating",
+            "de_CH": "Eislaufen",
+            "fr_FR": "Patinage",
+            "it_IT": "Pattinaggio su ghiaccio"
+        }
+    },
+    "sui_011014": {
+        "code": "sui_011014",
+        "parent": "sui_0110",
+        "labels": {
+            "en_US": "Ski",
+            "de_CH": "Skitour",
+            "fr_FR": "Ski",
+            "it_IT": "Sci"
+        }
+    },
+    "sui_011019": {
+        "code": "sui_011019",
+        "parent": "sui_0110",
+        "labels": {
+            "en_US": "Ski jumping",
+            "de_CH": "Skispringen",
+            "fr_FR": "Saut \u00e0 ski",
+            "it_IT": "Salto con gli sci"
+        }
+    },
+    "sui_011012": {
+        "code": "sui_011012",
+        "parent": "sui_0110",
+        "labels": {
+            "en_US": "Skiing",
+            "de_CH": "Skifahren",
+            "fr_FR": "Ski",
+            "it_IT": "Sciare"
+        }
+    },
+    "sui_011013": {
+        "code": "sui_011013",
+        "parent": "sui_0110",
+        "labels": {
+            "en_US": "Skijoring",
+            "de_CH": "Skij\u00f6ring",
+            "fr_FR": "Skijoring",
+            "it_IT": "Skijoring"
+        }
+    },
+    "sui_011008": {
+        "code": "sui_011008",
+        "parent": "sui_0110",
+        "labels": {
+            "en_US": "Sleigh",
+            "de_CH": "Pferdeschlitten",
+            "fr_FR": "Tra\u00eeneau",
+            "it_IT": "Slitta"
+        }
+    },
+    "sui_011015": {
+        "code": "sui_011015",
+        "parent": "sui_0110",
+        "labels": {
+            "en_US": "Snowbike",
+            "de_CH": "Snowbike",
+            "fr_FR": "Motoneige",
+            "it_IT": "Snowbike"
+        }
+    },
+    "sui_011016": {
+        "code": "sui_011016",
+        "parent": "sui_0110",
+        "labels": {
+            "en_US": "Snowboarding",
+            "de_CH": "Snowboarden",
+            "fr_FR": "Snowboard",
+            "it_IT": "Snowboard"
+        }
+    },
+    "sui_011011": {
+        "code": "sui_011011",
+        "parent": "sui_0110",
+        "labels": {
+            "en_US": "Snowshoeing",
+            "de_CH": "Schneeschuhwandern",
+            "fr_FR": "Raquette",
+            "it_IT": "Racchette da neve"
+        }
+    },
+    "sui_011017": {
+        "code": "sui_011017",
+        "parent": "sui_0110",
+        "labels": {
+            "en_US": "Telemark",
+            "de_CH": "Telemark",
+            "fr_FR": "T\u00e9l\u00e9mark",
+            "it_IT": "Telemark"
+        }
+    },
+    "sui_011010": {
+        "code": "sui_011010",
+        "parent": "sui_0110",
+        "labels": {
+            "en_US": "Tobogganing",
+            "de_CH": "Schlitteln",
+            "fr_FR": "Luge",
+            "it_IT": "Slittino"
+        }
+    },
+    "sui_011009": {
+        "code": "sui_011009",
+        "parent": "sui_0110",
+        "labels": {
+            "en_US": "Tobogganing and bobsleigh",
+            "de_CH": "Rodel- und Bobsport",
+            "fr_FR": "Toboggan et bobsleigh",
+            "it_IT": "Slittino e bob"
+        }
+    },
+    "sui_011018": {
+        "code": "sui_011018",
+        "parent": "sui_0110",
+        "labels": {
+            "en_US": "Winter fun sports",
+            "de_CH": "Winter-Funsport",
+            "fr_FR": "Sports d\u2019hiver",
+            "it_IT": "Sport invernali divertenti"
+        }
+    },
+    "sui_011020": {
+        "code": "sui_011020",
+        "parent": "sui_0110",
+        "labels": {
+            "en_US": "Winter hiking",
+            "de_CH": "Winterwandern",
+            "fr_FR": "Randonn\u00e9e hivernale",
+            "it_IT": "Escursioni invernali"
+        }
+    },
+    "sui_02": {
+        "code": "sui_02",
+        "parent": "sui_root",
+        "labels": {
+            "en_US": "Culture",
+            "de_CH": "Kultur",
+            "fr_FR": "Culture",
+            "it_IT": "Cultura"
+        }
+    },
+    "sui_0202": {
+        "code": "sui_0202",
+        "parent": "sui_02",
+        "labels": {
+            "en_US": "Architecture",
+            "de_CH": "Architektur",
+            "fr_FR": "Architecture",
+            "it_IT": "Architettura"
+        }
+    },
+    "sui_0210": {
+        "code": "sui_0210",
+        "parent": "sui_02",
+        "labels": {
+            "en_US": "Art",
+            "de_CH": "Kunst",
+            "fr_FR": "BrW",
+            "it_IT": "Arte"
+        }
+    },
+    "sui_0219": {
+        "code": "sui_0219",
+        "parent": "sui_02",
+        "labels": {
+            "en_US": "Art in public space",
+            "de_CH": "Kunst im \u00f6ffentlichen Raum",
+            "fr_FR": "L\u2019art dans l\u2019espace public",
+            "it_IT": "Arte nello spazio pubblico"
+        }
+    },
+    "sui_0209": {
+        "code": "sui_0209",
+        "parent": "sui_02",
+        "labels": {
+            "en_US": "Cultural history",
+            "de_CH": "Kulturgeschichte",
+            "fr_FR": "Histoire culturelle",
+            "it_IT": "Storia culturale"
+        }
+    },
+    "sui_0221": {
+        "code": "sui_0221",
+        "parent": "sui_02",
+        "labels": {
+            "en_US": "Custom",
+            "de_CH": "Brauchtum",
+            "fr_FR": "Coutume",
+            "it_IT": "Costume"
+        }
+    },
+    "sui_0215": {
+        "code": "sui_0215",
+        "parent": "sui_02",
+        "labels": {
+            "en_US": "Dance",
+            "de_CH": "Tanzen",
+            "fr_FR": "Danser",
+            "it_IT": "Ballo"
+        }
+    },
+    "sui_0205": {
+        "code": "sui_0205",
+        "parent": "sui_02",
+        "labels": {
+            "en_US": "Design",
+            "de_CH": "Design",
+            "fr_FR": "Concevoir",
+            "it_IT": "Disegno"
+        }
+    },
+    "sui_0211": {
+        "code": "sui_0211",
+        "parent": "sui_02",
+        "labels": {
+            "en_US": "Literature",
+            "de_CH": "Literatur",
+            "fr_FR": "Litt\u00e9rature",
+            "it_IT": "Letteratura"
+        }
+    },
+    "sui_0220": {
+        "code": "sui_0220",
+        "parent": "sui_02",
+        "labels": {
+            "en_US": "Market",
+            "de_CH": "Markt",
+            "fr_FR": "March\u00e9",
+            "it_IT": "Mercato"
+        }
+    },
+    "sui_0206": {
+        "code": "sui_0206",
+        "parent": "sui_02",
+        "labels": {
+            "en_US": "Movie",
+            "de_CH": "Film",
+            "fr_FR": "Film",
+            "it_IT": "Film"
+        }
+    },
+    "sui_0213": {
+        "code": "sui_0213",
+        "parent": "sui_02",
+        "labels": {
+            "en_US": "Music",
+            "de_CH": "Musik",
+            "fr_FR": "Musique",
+            "it_IT": "Musica"
+        }
+    },
+    "sui_0214": {
+        "code": "sui_0214",
+        "parent": "sui_02",
+        "labels": {
+            "en_US": "Natural sciences",
+            "de_CH": "Naturwissenschaften",
+            "fr_FR": "Sciences naturelles",
+            "it_IT": "Scienze naturali"
+        }
+    },
+    "sui_0212": {
+        "code": "sui_0212",
+        "parent": "sui_02",
+        "labels": {
+            "en_US": "Paint",
+            "de_CH": "Malen",
+            "fr_FR": "Peinture",
+            "it_IT": "Dipingere"
+        }
+    },
+    "sui_0208": {
+        "code": "sui_0208",
+        "parent": "sui_02",
+        "labels": {
+            "en_US": "Photography",
+            "de_CH": "Fotografie",
+            "fr_FR": "Photographie",
+            "it_IT": "Fotografia"
+        }
+    },
+    "sui_0218": {
+        "code": "sui_0218",
+        "parent": "sui_02",
+        "labels": {
+            "en_US": "Spirituality",
+            "de_CH": "Spiritualit\u00e4t",
+            "fr_FR": "Spiritualit\u00e9",
+            "it_IT": "Spiritualit\u00e0"
+        }
+    },
+    "sui_021802": {
+        "code": "sui_021802",
+        "parent": "sui_0218",
+        "labels": {
+            "en_US": "Meditation",
+            "de_CH": "Meditation",
+            "fr_FR": "M\u00e9ditation",
+            "it_IT": "Meditazione"
+        }
+    },
+    "sui_021804": {
+        "code": "sui_021804",
+        "parent": "sui_0218",
+        "labels": {
+            "en_US": "Pilgrimage",
+            "de_CH": "Wallfahrt",
+            "fr_FR": "P\u00e8lerinage",
+            "it_IT": "Pellegrinaggio"
+        }
+    },
+    "sui_021803": {
+        "code": "sui_021803",
+        "parent": "sui_0218",
+        "labels": {
+            "en_US": "Procession",
+            "de_CH": "Prozession",
+            "fr_FR": "Cort\u00e8ge",
+            "it_IT": "Processione"
+        }
+    },
+    "sui_021801": {
+        "code": "sui_021801",
+        "parent": "sui_0218",
+        "labels": {
+            "en_US": "Service",
+            "de_CH": "Gottesdienst",
+            "fr_FR": "Service",
+            "it_IT": "Servizio"
+        }
+    },
+    "sui_0204": {
+        "code": "sui_0204",
+        "parent": "sui_02",
+        "labels": {
+            "en_US": "Stage",
+            "de_CH": "B\u00fchne",
+            "fr_FR": "\u00c9tape",
+            "it_IT": "Palco"
+        }
+    },
+    "sui_0203": {
+        "code": "sui_0203",
+        "parent": "sui_02",
+        "labels": {
+            "en_US": "Visual arts",
+            "de_CH": "Bildende Kunst",
+            "fr_FR": "Arts visuels",
+            "it_IT": "Arti visive"
+        }
+    },
+    "sui_06": {
+        "code": "sui_06",
+        "parent": "sui_root",
+        "labels": {
+            "en_US": "Nature",
+            "de_CH": "Natur",
+            "fr_FR": "Nature",
+            "it_IT": "Natura"
+        }
+    },
+    "sui_0604": {
+        "code": "sui_0604",
+        "parent": "sui_06",
+        "labels": {
+            "en_US": "Cultural landscape",
+            "de_CH": "Kulturlandschaft",
+            "fr_FR": "Paysage culturel",
+            "it_IT": "Paesaggio culturale"
+        }
+    },
+    "sui_0603": {
+        "code": "sui_0603",
+        "parent": "sui_06",
+        "labels": {
+            "en_US": "Fauna",
+            "de_CH": "Fauna",
+            "fr_FR": "Faune",
+            "it_IT": "Fauna"
+        }
+    },
+    "sui_0602": {
+        "code": "sui_0602",
+        "parent": "sui_06",
+        "labels": {
+            "en_US": "Flora",
+            "de_CH": "Flora",
+            "fr_FR": "Flore",
+            "it_IT": "Flora"
+        }
+    },
+    "sui_0601": {
+        "code": "sui_0601",
+        "parent": "sui_06",
+        "labels": {
+            "en_US": "Geology",
+            "de_CH": "Geologie",
+            "fr_FR": "G\u00e9ologie",
+            "it_IT": "Geologia"
+        }
+    },
+    "sui_0605": {
+        "code": "sui_0605",
+        "parent": "sui_06",
+        "labels": {
+            "en_US": "Landscape",
+            "de_CH": "Naturlandschaft",
+            "fr_FR": "Paysage",
+            "it_IT": "Paesaggio"
+        }
+    },
+    "sui_05": {
+        "code": "sui_05",
+        "parent": "sui_root",
+        "labels": {
+            "en_US": "Shopping",
+            "de_CH": "Einkaufen",
+            "fr_FR": "Achats",
+            "it_IT": "Compere"
+        }
+    },
+    "sui_0504": {
+        "code": "sui_0504",
+        "parent": "sui_05",
+        "labels": {
+            "en_US": "Clothing",
+            "de_CH": "Bekleidung",
+            "fr_FR": "V\u00eatement",
+            "it_IT": "Abbigliamento"
+        }
+    },
+    "sui_0505": {
+        "code": "sui_0505",
+        "parent": "sui_05",
+        "labels": {
+            "en_US": "Fashion",
+            "de_CH": "Mode",
+            "fr_FR": "Mode",
+            "it_IT": "Moda"
+        }
+    },
+    "sui_0502": {
+        "code": "sui_0502",
+        "parent": "sui_05",
+        "labels": {
+            "en_US": "Food",
+            "de_CH": "Lebensmittel",
+            "fr_FR": "Nourriture",
+            "it_IT": "Cibo"
+        }
+    },
+    "sui_0507": {
+        "code": "sui_0507",
+        "parent": "sui_05",
+        "labels": {
+            "en_US": "Producer",
+            "de_CH": "Produzent",
+            "fr_FR": "Producteur",
+            "it_IT": "Produttore"
+        }
+    },
+    "sui_0506": {
+        "code": "sui_0506",
+        "parent": "sui_05",
+        "labels": {
+            "en_US": "Regional products",
+            "de_CH": "Regionalprodukte",
+            "fr_FR": "Produits r\u00e9gionaux",
+            "it_IT": "Prodotti regionali"
+        }
+    },
+    "sui_0501": {
+        "code": "sui_0501",
+        "parent": "sui_05",
+        "labels": {
+            "en_US": "Retailers",
+            "de_CH": "Fachhandel",
+            "fr_FR": "D\u00e9taillants",
+            "it_IT": "Rivenditori"
+        }
+    },
+    "sui_0503": {
+        "code": "sui_0503",
+        "parent": "sui_05",
+        "labels": {
+            "en_US": "Souvenirs & Gifts",
+            "de_CH": "Souvenirs & Geschenke",
+            "fr_FR": "Souvenirs & Cadeaux",
+            "it_IT": "Souvenir & Regali"
+        }
+    },
+    "sui_03": {
+        "code": "sui_03",
+        "parent": "sui_root",
+        "labels": {
+            "en_US": "Society",
+            "de_CH": "Gesellschaft",
+            "fr_FR": "Soci\u00e9t\u00e9",
+            "it_IT": "Societ\u00e0"
+        }
+    },
+    "sui_0319": {
+        "code": "sui_0319",
+        "parent": "sui_03",
+        "labels": {
+            "en_US": "Auction",
+            "de_CH": "Auktion",
+            "fr_FR": "Vente aux ench\u00e8res",
+            "it_IT": "Asta"
+        }
+    },
+    "sui_0306": {
+        "code": "sui_0306",
+        "parent": "sui_03",
+        "labels": {
+            "en_US": "Care",
+            "de_CH": "Betreuung",
+            "fr_FR": "Soin",
+            "it_IT": "Cura"
+        }
+    },
+    "sui_0317": {
+        "code": "sui_0317",
+        "parent": "sui_03",
+        "labels": {
+            "en_US": "Clubs",
+            "de_CH": "Treff",
+            "fr_FR": "Tr\u00e8fle",
+            "it_IT": "Fiori"
+        }
+    },
+    "sui_0313": {
+        "code": "sui_0313",
+        "parent": "sui_03",
+        "labels": {
+            "en_US": "Congress",
+            "de_CH": "Kongress",
+            "fr_FR": "Congr\u00e8s",
+            "it_IT": "Congresso"
+        }
+    },
+    "sui_0304": {
+        "code": "sui_0304",
+        "parent": "sui_03",
+        "labels": {
+            "en_US": "Consultation",
+            "de_CH": "Beratung",
+            "fr_FR": "Consultation",
+            "it_IT": "Consultazione"
+        }
+    },
+    "sui_0307": {
+        "code": "sui_0307",
+        "parent": "sui_03",
+        "labels": {
+            "en_US": "Coworking",
+            "de_CH": "Coworking",
+            "fr_FR": "Coworking",
+            "it_IT": "Coworking"
+        }
+    },
+    "sui_0311": {
+        "code": "sui_0311",
+        "parent": "sui_03",
+        "labels": {
+            "en_US": "Craft",
+            "de_CH": "Handwerk",
+            "fr_FR": "M\u00e9tier",
+            "it_IT": "Mestiere"
+        }
+    },
+    "sui_0309": {
+        "code": "sui_0309",
+        "parent": "sui_03",
+        "labels": {
+            "en_US": "Disposal",
+            "de_CH": "Entsorgung",
+            "fr_FR": "Disposition",
+            "it_IT": "Disposizione"
+        }
+    },
+    "sui_0323": {
+        "code": "sui_0323",
+        "parent": "sui_03",
+        "labels": {
+            "en_US": "Industry",
+            "de_CH": "Gewerbe",
+            "fr_FR": "Industrie",
+            "it_IT": "Industria"
+        }
+    },
+    "sui_0321": {
+        "code": "sui_0321",
+        "parent": "sui_03",
+        "labels": {
+            "en_US": "Lectures",
+            "de_CH": "Vortr\u00e4ge",
+            "fr_FR": "Conf\u00e9rences",
+            "it_IT": "Conferenze"
+        }
+    },
+    "sui_0314": {
+        "code": "sui_0314",
+        "parent": "sui_03",
+        "labels": {
+            "en_US": "Measure",
+            "de_CH": "Messen",
+            "fr_FR": "Mesurer",
+            "it_IT": "Misura"
+        }
+    },
+    "sui_0320": {
+        "code": "sui_0320",
+        "parent": "sui_03",
+        "labels": {
+            "en_US": "Meeting",
+            "de_CH": "Versammlung",
+            "fr_FR": "R\u00e9union",
+            "it_IT": "Riunione"
+        }
+    },
+    "sui_0316": {
+        "code": "sui_0316",
+        "parent": "sui_03",
+        "labels": {
+            "en_US": "Networking",
+            "de_CH": "Networking",
+            "fr_FR": "R\u00e9seautage",
+            "it_IT": "Networking"
+        }
+    },
+    "sui_0305": {
+        "code": "sui_0305",
+        "parent": "sui_03",
+        "labels": {
+            "en_US": "Visits",
+            "de_CH": "Besichtigungen",
+            "fr_FR": "Visites",
+            "it_IT": "Visite"
+        }
+    },
+    "sui_0322": {
+        "code": "sui_0322",
+        "parent": "sui_03",
+        "labels": {
+            "en_US": "Workshops",
+            "de_CH": "Workshops",
+            "fr_FR": "Ateliers",
+            "it_IT": "Officine"
+        }
+    }
+}
