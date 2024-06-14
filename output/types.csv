@@ -63,7 +63,7 @@ TheaterEvent;Event;Theatre Event;Theateraufführung;Représentation théâtrale;
 TraditionalEvent;Event;Traditional Event;Traditionelle Veranstaltung;Événement traditionnel;Evento tradizionale
 VariousEvent;Event;Various Events;Verschiedene Veranstaltungen;Divers événements;Eventi vari
 VisualArtsEvent;Event;Visual Arts Event;Bildende Kunst Veranstaltung;Événement en arts visuels;Evento di Arti Visive
-Place;;Place;Ort und Sehenswürdigkeit;Endroit;Luogo
+Place;;Place;Ort;Endroit;Luogo
 Accommodation;Place;Accommodation;Unterkunft;Hébergement;Alloggio
 Apartment;Accommodation;Apartment;Wohnung;Appartement;Appartamento
 CampingPitch;Accommodation;Camping Pitch;Camping Platz;Emplacement de camping;Piazzola campeggio
@@ -85,7 +85,7 @@ Biotope;CivicStructure;Biotope;Biotop;Biotope;Biotopo
 BoatTerminal;CivicStructure;Boat Terminal;Bootsterminal;Terminal de bateaux;Terminal dei battelli
 Bunker;CivicStructure;Bunker;Bunker;Bunker;Bunker
 BusStation;CivicStructure;Bus Station;Bushaltestelle;Arrêt de bus;Stazione degli autobus
-BusStop;CivicStructure;Bus Stop;Bushaltestelle Stop;Arrêt de bus;Fermata dell'autobus
+BusStop;CivicStructure;Bus Stop;Bushaltestelle;Arrêt de bus;Fermata dell'autobus
 CableCarStation;CivicStructure;Cable Car Station;Seilbahnstation;Station de téléphérique;Stazione della funivia
 Cave;CivicStructure;Cave;Höhle;Grotte;Grotta
 Cemetery;CivicStructure;Cemetery;Friedhof;Cimetière;Cimitero
@@ -185,6 +185,7 @@ Vineyard;CivicStructure;Vineyard;Weinberg;Vignoble;Vigneto
 VisitorCenter;CivicStructure;Visitor Centre;Besucherzentrum;Centre de visiteurs;Centro visitatori
 WaysideCross;CivicStructure;Wayside Cross;Wegkreuz;Croix de chemin;Croce stradale
 Zoo;CivicStructure;Zoo;Zoo;Zoo;Zoo
+TransportationSystem;CivicStructure;Transportation system;Transportsystem;Système de transport;Sistema di trasporto
 Condition;Place;Condition;Bedingung;Condition;Condizione
 Closure;Condition;Closure;Schliessung;Fermeture;Chiusura
 CurrentCondition;Condition;Current Condition;Derzeitige Zustand;État actuel;Condizioni attuali
@@ -278,7 +279,7 @@ CrosscountryCenter;LocalBusiness;Cross-country Ski Centre;Langlaufzentrum;Centre
 ExerciseGym;LocalBusiness;Gym;Fitnessstudio;Salle de fitness;Palestra
 FitnessParkour;LocalBusiness;Fitness Parkour;Fitness-Parkour;Parcours de fitness;Percorso fitness
 FlightSchool;LocalBusiness;Flight School;Flugschule;École d'aviation;Scuola di volo
-GoKartTrack;LocalBusiness;Kart Track;Kartbahn;Piste de karting;Pista di kart
+Go-KartTrack;LocalBusiness;Kart Track;Kartbahn;Piste de karting;Pista di kart
 GolfCourse;LocalBusiness;Golf Course;Golfplatz;Terrain de golf;Campo da golf
 High-ropesCourse;LocalBusiness;Rope Park;Seilpark;Parc d'accrobranche;Parco avventura
 IceField;LocalBusiness;Ice Rink;Eisfeld;Patinoire;Pista di pattinaggio sul ghiaccio
@@ -317,7 +318,7 @@ ClothingStore;LocalBusiness;Clothing Store;Bekleidungsgeschäft;Magasin de vête
 ComputerStore;LocalBusiness;Computer Store;Computergeschäft;Magasin d'informatique;Negozio di computer
 ConvenienceStore;LocalBusiness;Convenience Store;Gemischtwarenladen;Épicerie;Minimarket
 DepartmentStore;LocalBusiness;Department Store;Warenhaus;Grand magasin;Grande magazzino
-EBikeService;LocalBusiness;E-Bike Service;E-Bike-Service;Service pour vélos électriques;Servizio e-bike
+E-Bike-Service;LocalBusiness;E-Bike Service;E-Bike-Service;Service pour vélos électriques;Servizio e-bike
 ElectronicStore;LocalBusiness;Electronics Store;Elektrofachgeschäft;Magasin d'électronique;Negozio di elettronica
 FarmShop;LocalBusiness;Farm Shop;Hofladen;Boutique à la ferme;Spaccio aziendale
 Florist;LocalBusiness;Florist;Florist;Fleuriste;Fiorista
@@ -367,7 +368,7 @@ IglooVillage;LodgingBusiness;Igloo Village;Iglu-Dorf;Village d'igloos;Villaggio 
 Motel;LodgingBusiness;Motel;Motel;Motel;Motel
 Mountainhut;LodgingBusiness;Mountain Hut;Berghütte;Refuge de montagne;Rifugio di montagna
 ManagedHut;LodgingBusiness;Catered Hut;Bewirtschaftete Hütte;Auberge de montagne;Rifugio gestito
-RescueHut;LodgingBusiness;Rescue Hut;Rettungshütte;Cabane de sauvetage;Capanna di salvataggio
+RescueHut;LodgingBusiness;Group Accommodation;Gruppenunterkunft;Logement pour groupes;Alloggio di gruppo
 SelfCateredHut;LodgingBusiness;Self-catering Hut;Selbstversorgerhütte;Cabane en autonomie;Rifugio con uso cucina
 Pension;LodgingBusiness;Guesthouse;Pension;Pension;Pensione
 Pitch;LodgingBusiness;Pitch;Stellplatz;Place de parking;Parcheggio

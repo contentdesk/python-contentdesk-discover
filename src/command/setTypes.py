@@ -96,10 +96,16 @@ def main():
 
     #setTypesInAkeneo(akeneoTypes)
 
-    # Save as csv with UTF-8 encoding
+    # Save as csv with UTF-8 encoding and replace "None" in every field with empty string
     with open("../../output/types.csv", "w", encoding='utf-8') as file:
         for code, body in akeneoTypes.items():
-            file.write(f"{code};{body['parent']};{body['labels']['en_US']};{body['labels']['de_CH']};{body['labels']['fr_FR']};{body['labels']['it_IT']}\n")
+            parent = body['parent'] if body['parent'] else ''
+            en = body['labels']['en_US'] if 'en_US' in body['labels'] else ''
+            de = body['labels']['de_CH'] if 'de_CH' in body['labels'] else ''
+            fr = body['labels']['fr_FR'] if 'fr_FR' in body['labels'] else ''
+            it = body['labels']['it_IT'] if 'it_IT' in body['labels'] else ''
+            file.write(f"{code};{parent};{en};{de};{fr};{it}\n")
+
 
 if __name__ == "__main__":
     main()
