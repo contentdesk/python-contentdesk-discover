@@ -44,3 +44,15 @@ def getTypesTree(language = 'en'):
 
     response = requests.request("GET", url, headers=headers, data=payload)
     return response.json()
+
+def getAmenityFeatures(language = 'en'):
+    url = f"{DISCOVER_HOST}/amenities"
+
+    payload = {}
+    headers = {
+        'Ocp-Apim-Subscription-Key': DISCOVER_SUBSCRIPTION_KEY,
+        'Accept-Language': language
+    }
+
+    response = requests.request("GET", url, headers=headers, data=payload)
+    return response.json()
