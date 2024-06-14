@@ -96,11 +96,10 @@ def main():
 
     #setTypesInAkeneo(akeneoTypes)
 
-    # Save as csv
-    with open("../../output/types.csv", "w") as file:
+    # Save as csv with UTF-8 encoding
+    with open("../../output/types.csv", "w", encoding='utf-8') as file:
         for code, body in akeneoTypes.items():
             file.write(f"{code};{body['parent']};{body['labels']['en_US']};{body['labels']['de_CH']};{body['labels']['fr_FR']};{body['labels']['it_IT']}\n")
-
 
 if __name__ == "__main__":
     main()
