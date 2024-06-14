@@ -18,28 +18,6 @@ def setAmenityFeatures(amenityFeatures, akeneoAmenityFeatures = {}, language = '
             akeneoAmenityFeatures[typ['propertyId']]["labels"][language] = typ['name']
             akeneoAmenityFeatures[typ['propertyId']]["additionalType"] = typ['additionalType']
 
-            if 'propertyId' in typ:
-                if typ['propertyId'] not in akeneoAmenityFeatures:
-                    akeneoAmenityFeatures[typ['propertyId']] = {}
-                akeneoAmenityFeatures[typ['propertyId']]["code"] = typ['additionalType']
-                akeneoAmenityFeatures[typ['propertyId']]["parent"] = parent
-                if 'labels' not in akeneoAmenityFeatures[typ['propertyId']]:
-                    akeneoAmenityFeatures[typ['propertyId']]["labels"] = {}
-                akeneoAmenityFeatures[typ['propertyId']]["labels"][language] = typ['name']
-                if 'types' in typ:
-                    setAmenityFeatures(typ['types'], akeneoAmenityFeatures, language, typ['propertyId'])
-            else:
-                if typ['propertyId'] not in akeneoAmenityFeatures:
-                    akeneoAmenityFeatures[typ['propertyId']] = {}
-                akeneoAmenityFeatures[typ['propertyId']]["code"] = typ['propertyId']
-                akeneoAmenityFeatures[typ['propertyId']]["parent"] = parent
-                if 'labels' not in akeneoAmenityFeatures[typ['propertyId']]:
-                    akeneoAmenityFeatures[typ['propertyId']]["labels"] = {}
-                akeneoAmenityFeatures[typ['propertyId']]["labels"][language] = typ['name']
-                if 'types' in typ:
-                    setAmenityFeatures(typ['types'], akeneoAmenityFeatures, language, typ['propertyId'])
-
-
 def main():
     amenityFeaturesEN = getAmenityFeatures('en')
     amenityFeaturesDE = getAmenityFeatures('de')
