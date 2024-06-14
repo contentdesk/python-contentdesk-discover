@@ -12,11 +12,15 @@ def setAmenityFeatures(amenityFeatures, akeneoAmenityFeatures = {}, language = '
             print(typ['propertyId'])
             print(typ['name'])
             if typ['propertyId'] not in akeneoAmenityFeatures:
-                    akeneoAmenityFeatures[typ['propertyId']] = {}
+                akeneoAmenityFeatures[typ['propertyId']] = {}
             akeneoAmenityFeatures[typ['propertyId']]["code"] = typ['propertyId']
-            akeneoAmenityFeatures[typ['propertyId']]["parent"] = None
+            if 'labels' not in akeneoAmenityFeatures[typ['propertyId']]:
+                akeneoAmenityFeatures[typ['propertyId']]["labels"] = {}
             akeneoAmenityFeatures[typ['propertyId']]["labels"][language] = typ['name']
-            akeneoAmenityFeatures[typ['propertyId']]["additionalType"] = typ['additionalType']
+            if 'additionalType' in typ:
+                akeneoAmenityFeatures[typ['propertyId']]["parent"] = typ['additionalType']
+
+    return akeneoAmenityFeatures
 
 def main():
     amenityFeaturesEN = getAmenityFeatures('en')
@@ -25,9 +29,9 @@ def main():
     amenityFeaturesIT = getAmenityFeatures('it')
 
     akeneoAmenityFeatures = setAmenityFeatures(amenityFeaturesEN)
-    #akeneoAmenityFeatures = setAmenityFeatures(amenityFeaturesDE, akeneoAmenityFeatures, 'de_DE')
-    #akeneoAmenityFeatures = setAmenityFeatures(amenityFeaturesFR, akeneoAmenityFeatures, 'fr_FR')
-    #akeneoAmenityFeatures = setAmenityFeatures(amenityFeaturesIT, akeneoAmenityFeatures, 'it_IT')
+    akeneoAmenityFeatures = setAmenityFeatures(amenityFeaturesDE, akeneoAmenityFeatures, 'de_DE')
+    akeneoAmenityFeatures = setAmenityFeatures(amenityFeaturesFR, akeneoAmenityFeatures, 'fr_FR')
+    akeneoAmenityFeatures = setAmenityFeatures(amenityFeaturesIT, akeneoAmenityFeatures, 'it_IT')
 
     # DEBUG
     with open("../../output/akeneoAmenityFeatures.json", "w") as file:
@@ -40,7 +44,7 @@ def main():
             de = body['labels']['de_DE'] if 'de_DE' in body['labels'] else ''
             fr = body['labels']['fr_FR'] if 'fr_FR' in body['labels'] else ''
             it = body['labels']['it_IT'] if 'it_IT' in body['labels'] else ''
-            file.write(f"{code},{en},{de},{fr},{it}\n")
+            file.write(f"{code};{en};{de};{fr};{it}\n")
 
 if __name__ == "__main__":
     main()
