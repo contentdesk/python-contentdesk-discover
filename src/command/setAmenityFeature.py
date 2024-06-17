@@ -33,6 +33,9 @@ def main():
     akeneoAmenityFeatures = setAmenityFeatures(amenityFeaturesFR, akeneoAmenityFeatures, 'fr_FR')
     akeneoAmenityFeatures = setAmenityFeatures(amenityFeaturesIT, akeneoAmenityFeatures, 'it_IT')
 
+    # replace "-" with "_" in key fields
+    akeneoAmenityFeatures = {k.replace("-", "_"): v for k, v in akeneoAmenityFeatures.items()}
+
     # DEBUG
     with open("../../output/akeneoAmenityFeatures.json", "w") as file:
         json.dump(akeneoAmenityFeatures, file)
