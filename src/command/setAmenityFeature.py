@@ -19,6 +19,8 @@ def setAmenityFeatures(amenityFeatures, akeneoAmenityFeatures = {}, language = '
             akeneoAmenityFeatures[typ['propertyId']]["labels"][language] = typ['name']
             if 'additionalType' in typ:
                 akeneoAmenityFeatures[typ['propertyId']]["parent"] = typ['additionalType']
+            if 'valueType' in typ:
+                akeneoAmenityFeatures[typ['propertyId']]["valueType"] = typ['valueType']
 
     return akeneoAmenityFeatures
 
@@ -47,7 +49,9 @@ def main():
             de = body['labels']['de_DE'] if 'de_DE' in body['labels'] else ''
             fr = body['labels']['fr_FR'] if 'fr_FR' in body['labels'] else ''
             it = body['labels']['it_IT'] if 'it_IT' in body['labels'] else ''
-            file.write(f"{code};{en};{de};{fr};{it}\n")
+            parent = body['parent'] if 'parent' in body else ''
+            valueType = body['valueType'] if 'valueType' in body else ''
+            file.write(f"{code};{en};{de};{fr};{it};{valueType};{parent}\n")
 
 if __name__ == "__main__":
     main()
