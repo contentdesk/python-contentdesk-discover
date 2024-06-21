@@ -90,6 +90,10 @@ def main():
     akeneoTypes = setTypes(typesFR, akeneoTypes, 'fr_FR')
     akeneoTypes = setTypes(typesIT, akeneoTypes, 'it_IT')
 
+
+    # replace "-" with "" in key fields
+    akeneoTypes = {k.replace("-", ""): v for k, v in akeneoTypes.items()}
+
     # DEBUG
     with open("../../output/types.json", "w") as file:
         json.dump(akeneoTypes, file)
