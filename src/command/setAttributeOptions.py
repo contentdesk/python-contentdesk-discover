@@ -55,19 +55,19 @@ def patchAttributeOptions(code, attribute, body):
     return response
 
 def setAttributeOptionsAkeneo(attributeOptions, attribute, akeneo):
-    for attributOption in attributeOptions:
-        print("Attribute: ", attributOption['attribute'])
-        print("Code: ", attributOption['code'])
-        code = str(attributOption['code'])
+    for code, body in attributeOptions.items():
+        print(body)
+        print("Attribute: ", body['attribute'])
+        print("Code: ", body['code'])
+        code = str(body['code'])
         body = {
-            "code": str(attributOption['code']),
-            "attribute": attributOption['attribute'],
-            "sort_order": attributOption['sort_order'],
+            "code": str(body['code']),
+            "attribute": body['attribute'],
             "labels": {
-                "en_US": attributOption['labels.en_US'],
-                "de_CH": attributOption['labels.de_CH'],
-                "fr_FR": attributOption['labels.fr_FR'],
-                "it_IT": attributOption['labels.it_IT'],
+                "en_US": body['labels']['en_US'],
+                "de_CH": body['labels']['de_CH'],
+                "fr_FR": body['labels']['fr_FR'],
+                "it_IT": body['labels']['it_IT'],
             }
         }
         try:
