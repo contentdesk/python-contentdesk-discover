@@ -55,6 +55,7 @@ def patchAttributeOptions(code, attribute, body):
     return response
 
 def setAttributeOptionsAkeneo(attributeOptions, attribute, akeneo):
+    i = 0
     for code, body in attributeOptions.items():
         print(body)
         print("Attribute: ", body['attribute'])
@@ -63,6 +64,7 @@ def setAttributeOptionsAkeneo(attributeOptions, attribute, akeneo):
         body = {
             "code": str(body['code']),
             "attribute": body['attribute'],
+            "sort_order": i,
             "labels": {
                 "en_US": body['labels']['en_US'],
                 "de_CH": body['labels']['de_CH'],
@@ -70,6 +72,7 @@ def setAttributeOptionsAkeneo(attributeOptions, attribute, akeneo):
                 "it_IT": body['labels']['it_IT'],
             }
         }
+        print ("Body: ", body)
         try:
             response = akeneo.patchAttributOptionsByCode(code, attribute, body)
             print("Response: ", response)
@@ -79,6 +82,8 @@ def setAttributeOptionsAkeneo(attributeOptions, attribute, akeneo):
             print("Error: ", e)
             print("patch Family: ", code)
             print("Response: ", response)
+            
+        i += 1
 
 def main():
     environments = cliArguments.getEnvironment(sys)
