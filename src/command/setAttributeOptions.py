@@ -3,9 +3,12 @@ import sys
 sys.path.append("..")
 
 from service.discover import getCategoryTree
+import service.cliArguments as cliArguments
+from service.loadEnv import loadEnv
 from akeneo.akeneo import Akeneo
 from os import getenv
 from dotenv import find_dotenv, load_dotenv
+
 load_dotenv(find_dotenv())
 
 AKENEO_HOST = getenv('AKENEO_HOST')
@@ -61,13 +64,23 @@ def patchAttributeOptions(code, attribute, body):
         print("Response: ", response)
     return response
 
-def setAttributeOptionsAkeneo(akeneoCategories, attribute):
+def setAttributeOptionsAkeneo(akeneoCategories, attribute, akeneo):
     for code, body in akeneoCategories.items():
         print("Code: ", code)
         print("Body: ", body)
-        response = patchAttributeOptions(code, attribute, body)
+        #response = patchAttributeOptions(code, attribute, body)
+        try:
+            response = akeneo.patchAttributOptionsByCode(code, attribute, body)
+            print("Response: ", response)
+        except Exception as e:
+            print("Error: ", e)
+            print("patch Family: ", code)
+            print("Response: ", response)
 
 def main():
+    environments = cliArguments.getEnvironment(sys)
+    arguments = cliArguments.getArguments(sys)
+    
     category = 'sui_root'
     categoriesEN = getCategoryTree(category, 'en')
     categoriesDE = getCategoryTree(category, 'de')
@@ -90,7 +103,11 @@ def main():
         json.dump(akeneoAttributeOptions, file)
 
     print("PATCH ATTRIBUTE OPTIONS")
-    setAttributeOptionsAkeneo(akeneoAttributeOptions, attribute)
+    for environment in environments:
+        print(f"Environment: {environment}")
+        targetCon = loadEnv(environment)
+        target = Akeneo(targetCon["host"], targetCon["clientId"], targetCon["secret"], targetCon["user"], targetCon["passwd"])
+        setAttributeOptionsAkeneo(akeneoAttributeOptions, attribute, target)
 
 if __name__ == "__main__":
     main()
