@@ -1,21 +1,11 @@
 import json
+from akeneo.akeneo import Akeneo
 import sys
 sys.path.append("..")
 
 from service.discover import getCategoryTree
 import service.cliArguments as cliArguments
 from service.loadEnv import loadEnv
-from akeneo.akeneo import Akeneo
-from os import getenv
-from dotenv import find_dotenv, load_dotenv
-
-load_dotenv(find_dotenv())
-
-AKENEO_HOST = getenv('AKENEO_HOST')
-AKENEO_CLIENT_ID = getenv('AKENEO_CLIENT_ID')
-AKENEO_CLIENT_SECRET = getenv('AKENEO_CLIENT_SECRET')
-AKENEO_USERNAME = getenv('AKENEO_USERNAME')
-AKENEO_PASSWORD = getenv('AKENEO_PASSWORD')
 
 def setAttributeOptions(options, attribute, akeneoAttirbuteOptions = {}, language = 'en_US'):
     if isinstance(options, list):
@@ -107,6 +97,7 @@ def main():
         print(f"Environment: {environment}")
         targetCon = loadEnv(environment)
         target = Akeneo(targetCon["host"], targetCon["clientId"], targetCon["secret"], targetCon["user"], targetCon["passwd"])
+        print(target)
         setAttributeOptionsAkeneo(akeneoAttributeOptions, attribute, target)
 
 if __name__ == "__main__":
