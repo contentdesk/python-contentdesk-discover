@@ -54,14 +54,27 @@ def patchAttributeOptions(code, attribute, body):
         print("Response: ", response)
     return response
 
-def setAttributeOptionsAkeneo(akeneoCategories, attribute, akeneo):
-    for code, body in akeneoCategories.items():
-        print("Code: ", code)
-        print("Body: ", body)
-        #response = patchAttributeOptions(code, attribute, body)
+def setAttributeOptionsAkeneo(attributeOptions, attribute, akeneo):
+    for attributOption in attributeOptions:
+        print("Attribute: ", attributOption['attribute'])
+        print("Code: ", attributOption['code'])
+        code = str(attributOption['code'])
+        body = {
+            "code": str(attributOption['code']),
+            "attribute": attributOption['attribute'],
+            "sort_order": attributOption['sort_order'],
+            "labels": {
+                "en_US": attributOption['labels.en_US'],
+                "de_CH": attributOption['labels.de_CH'],
+                "fr_FR": attributOption['labels.fr_FR'],
+                "it_IT": attributOption['labels.it_IT'],
+            }
+        }
         try:
             response = akeneo.patchAttributOptionsByCode(code, attribute, body)
             print("Response: ", response)
+            print(response.status_code)
+            print(response.json())
         except Exception as e:
             print("Error: ", e)
             print("patch Family: ", code)
