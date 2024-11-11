@@ -20,10 +20,8 @@ AudioObject;MediaObject;Audio Object;Audio-Objekt;Objet audio;Oggetto audio
 ImageObject;MediaObject;Image Object;Bild-Objekt;Image objet;Oggetto Immagine
 VideoObject;MediaObject;Video Object;Video-Objekt;Video objet;Oggetto video
 Event;;Event;Veranstaltung;Événement;Evento
-AdultEvent;Event;Adult Event;Veranstaltung für Erwachsene;Événement pour adultes;Evento per adulti
 ArtsAndCraftsEvent;Event;Arts and Crafts Exhibition;Kunsthandwerksausstellung;Exposition d'art et d'artisanat;Esposizione di artigianato
 BusinessEvent;Event;Business Event;Geschäftsveranstaltung;Événement d'affaires;Evento aziendale
-ChildrensEvent;Event;Childrens Event;Kinderveranstaltung;Événement pour enfants;Evento per bambini
 CinemaScreening;Event;Cinema Screening;Kinovorführung;Projection de cinéma;Proiezione cinematografica
 ComedyEvent;Event;Comedy Event;Comedy-Veranstaltung;Événement humoristique;Evento comico
 CommunicationEvent;Event;Communication Event;Kommunikationsveranstaltung;Événement de communication;Evento di comunicazione
@@ -69,13 +67,18 @@ Apartment;Accommodation;Apartment;Wohnung;Appartement;Appartamento
 CampingPitch;Accommodation;Camping Pitch;Camping Platz;Emplacement de camping;Piazzola campeggio
 House;Accommodation;House;Haus;Maison;Casa
 Room;Accommodation;Room;Zimmer;Chambre;Stanza
+Dormitory;Accommodation;Dormitory;Mehrbettzimmer;Dortoir;Dormitorio
 HotelRoom;Accommodation;Hotel Room;Hotelzimmer;Chambre d'hôtel;Camera d'hotel
+DoubleRoom;Accommodation;Double room;Doppelzimmer;Chambre double;Camera doppia
+FamilyRoom;Accommodation;Family room;Familienzimmer;Chambre familiale;Camera familiare
+SingleRoom;Accommodation;Single room;Einzelzimmer;Chambre simple;Camera singola
 MeetingRoom;Accommodation;Meeting Room;Besprechungsraum;Salle de réunion;Sala riunioni
 Suite;Accommodation;Suite;Suite;Suite;Suite
 CivicStructure;Place;Public Facility;Öffentliche Anlage/Einrichtung;Établissement public;Struttura pubbliche
 Alp;CivicStructure;Alp;Alm;Alpage;Alpe
 NaturePark;CivicStructure;Nature park;Naturpark;Parc naturel;Parco naturale
 Airport;CivicStructure;Airport;Flughafen;Aéroport;Aeroporto
+AnimalPark;CivicStructure;Animal park;Tierpark;Parc animalier;Parco degli animali
 Aquarium;CivicStructure;Aquarium;Aquarium;Aquarium;Acquario
 ArtObject;CivicStructure;Art Object;Kunstobjekt;Objet d'art;Oggetto d'arte
 ATM;CivicStructure;ATM;Geldautomat;Distributeur automatique de billets;Bancomat
@@ -84,15 +87,13 @@ Beach;CivicStructure;Beach;Strand;Plage;Spiaggia
 Biotope;CivicStructure;Biotope;Biotop;Biotope;Biotopo
 BoatTerminal;CivicStructure;Boat Terminal;Bootsterminal;Terminal de bateaux;Terminal dei battelli
 Bunker;CivicStructure;Bunker;Bunker;Bunker;Bunker
-BusStation;CivicStructure;Bus Station;Bushaltestelle;Arrêt de bus;Stazione degli autobus
 BusStop;CivicStructure;Bus Stop;Bushaltestelle;Arrêt de bus;Fermata dell'autobus
-CableCarStation;CivicStructure;Cable Car Station;Seilbahnstation;Station de téléphérique;Stazione della funivia
 Cave;CivicStructure;Cave;Höhle;Grotte;Grotta
 Cemetery;CivicStructure;Cemetery;Friedhof;Cimetière;Cimitero
 CityHall;CivicStructure;Town Hall;Rathaus;Hôtel de ville;Municipio
 ClubHouse;CivicStructure;Club House;Vereinsheim;Club-house;Club house
-CogwheelTrainStation;CivicStructure;Rack Railway Station;Zahnradbahnstation;Gare de train à crémaillère;Stazione dei treni a cremagliera
 ConcertHall;CivicStructure;Concert Hall;Konzertsaal;Salle de concert;Sala concerti
+CongressCenter;CivicStructure;Congress center;Kongresszentrum;Centre de congrès;Centro Congressi
 Court;CivicStructure;Court;Gericht;Cour;Tribunale
 Crematorium;CivicStructure;Crematorium;Krematorium;Crématorium;Crematorio
 CulturalCentre;CivicStructure;Cultural Centre;Kulturzentrum;Centre culturel;Centro culturale
@@ -103,10 +104,9 @@ Farm;CivicStructure;Farm;Bauernhof;Ferme;Fattoria
 Ferry;CivicStructure;Ferry;Fähre;Bac;Traghetto
 Fireplace;CivicStructure;Fireplace;Feuerstelle;Cheminée;Camino
 FireStation;CivicStructure;Fire Station;Feuerwehrstation;Caserne de pompiers;Stazione dei pompieri
-FootBridge;CivicStructure;Foot bridge;Fußbrücke;Passerelle piétonne;Ponte pedonale
+FootBridge;CivicStructure;Foot bridge;Fussbrücke;Passerelle piétonne;Ponte pedonale
 Forest;CivicStructure;Forest;Wald;Forêt;Foresta
 Forsthaus;CivicStructure;Forester's Lodge;Forsthaus;Maison forestière;Casa forestale
-FunicularStation;CivicStructure;Funicular;Standseilbahn;Funiculaire;Funicolare
 Gallery;CivicStructure;Gallery;Galerie;Galerie;Galleria
 Garden;CivicStructure;Garden;Garten;Jardin;Giardino
 GlacierGarden;CivicStructure;Glacier Garden;Gletschergarten;Jardin des glaciers;Giardino glaciale
@@ -125,11 +125,6 @@ Military;CivicStructure;Military;Militär;Militaire;Militare
 Mill;CivicStructure;Mill;Mühle;Moulin;Mulino
 Mine;CivicStructure;Mine;Mine;Mine;Miniera
 MountainRescue;CivicStructure;Mountain Rescue;Bergrettung;Sauvetage en montagne;Soccorso alpino
-MountainStation;CivicStructure;Mountain Station;Bergstation;Station de montagne;Stazione di montagna
-AerialCableway;CivicStructure;Aerial Cableway;Luftseilbahn;Téléphérique;Funivia
-Gondola;CivicStructure;Gondola;Gondel;Gondole;Gondola
-RackRailway;CivicStructure;Rack Railway;Zahnradbahn;Chemin de fer à crémaillère;Ferrovia a cremagliera
-SkiLift;CivicStructure;Ski Lift;Skilift;Téléski;Impianto di risalita
 Museum;CivicStructure;Museum;Museum;Musée;Museo
 MusicVenue;CivicStructure;Music Venue;Musikstätte;Lieu de musique;Sala di musica
 Observatory;CivicStructure;Observatory;Observatorium;Observatoire;Osservatorio
@@ -159,8 +154,6 @@ SaltCave;CivicStructure;Salt Cave;Salzhöhle;Grotte de sel;Grotta di sale
 Shelter;CivicStructure;Shelter;Schutz;Abri;Riparo
 Sluice;CivicStructure;Lock;Schleuse;Écluse;Chiusa
 Street;CivicStructure;Street;Strasse;Rue;Via
-SubwayStation;CivicStructure;Subway Station;U-Bahnstation;Station de métro;Stazione della metropolitana
-TbarLift;CivicStructure;Drag Lift;Schlepplift;Remonte-pente;Sollevatore con barra a T
 TaxiStand;CivicStructure;Taxi Stand;Taxistand;Station de taxi;Posteggio dei taxi
 Theatre;CivicStructure;Theatre;Theater;Théâtre;Teatro
 TouristAttraction;CivicStructure;Tourist Attraction;Touristenattraktion;Attraction touristique;Attrazione turistica
@@ -179,6 +172,12 @@ Square;CivicStructure;Town Square;Dorfplatz;Place de village;Piazza
 StalactiteCave;CivicStructure;Stalactite Cave;Tropfsteinhöhle;Grotte de stalactites et stalagmites;Grotta con stalattiti e stalagmiti
 Viewpoint;CivicStructure;Viewpoint;Aussichtspunkt;Point de vue;Belvedere
 WaysideShrine;CivicStructure;Wayside Shrine;Bildstock;Calvaire;Edicola
+TransportationSystemStation;CivicStructure;Transportsystem station;Transportsystemstation;Station du système de transport;Stazione del sistema di trasporto
+BusStation;CivicStructure;Bus Station;Bushaltestelle;Arrêt de bus;Stazione degli autobus
+CableCarStation;CivicStructure;Cable Car Station;Seilbahnstation;Station de téléphérique;Stazione della funivia
+CogwheelTrainStation;CivicStructure;Rack Railway Station;Zahnradbahnstation;Gare de train à crémaillère;Stazione dei treni a cremagliera
+FunicularStation;CivicStructure;Funicular;Standseilbahn;Funiculaire;Funicolare
+SubwayStation;CivicStructure;Subway Station;U-Bahnstation;Station de métro;Stazione della metropolitana
 TrainStation;CivicStructure;Train Station;Bahnhof;Gare;Stazione ferroviaria
 TramStation;CivicStructure;Tram Stop;Tramhaltestelle;Arrêt de tramway;Fermata del tram
 Vineyard;CivicStructure;Vineyard;Weinberg;Vignoble;Vigneto
@@ -186,6 +185,16 @@ VisitorCenter;CivicStructure;Visitor Centre;Besucherzentrum;Centre de visiteurs;
 WaysideCross;CivicStructure;Wayside Cross;Wegkreuz;Croix de chemin;Croce stradale
 Zoo;CivicStructure;Zoo;Zoo;Zoo;Zoo
 TransportationSystem;CivicStructure;Transportation system;Transportsystem;Système de transport;Sistema di trasporto
+SkiLift;TransportationSystem;Ski Lift;Skilift;Téléski;Impianto di risalita
+ButtonLift;TransportationSystem;Button lift;Button Lift;Button lift;Button lift
+CableCar;TransportationSystem;Cable car;Seilbahn;Téléphérique;Funivia
+ChairLift;TransportationSystem;Chair lift;Sessellift;Télésiège;Seggiovia
+Funicular;TransportationSystem;Funicular;Standseilbahn;Funiculaire;Funicolare
+MagicCarpet;TransportationSystem;Magic carpet;Förderband;Tapis roulant;Nastro trasportatore
+PracticeLift;TransportationSystem;Practice lift;Übungslift;Practice lift;Practice lift
+RackRailway;TransportationSystem;Rack Railway;Zahnradbahn;Chemin de fer à crémaillère;Ferrovia a cremagliera
+RopeTow;TransportationSystem;Rope tow;Schleppseil;Corde de remorquage;Fune da traino
+TBarLift;TransportationSystem;Drag Lift;Schlepplift;Remonte-pente;Sollevatore con barra a T
 Condition;Place;Condition;Bedingung;Condition;Condizione
 Closure;Condition;Closure;Schliessung;Fermeture;Chiusura
 CurrentCondition;Condition;Current Condition;Derzeitige Zustand;État actuel;Condizioni attuali
@@ -199,13 +208,12 @@ Bistro;FoodEstablishment;Bistro;Bistro;Bistro;Bistro
 Brewery;FoodEstablishment;Brewery;Brauerei;Brasserie;Birrificio
 CafeOrCoffeeShop;FoodEstablishment;Coffee Shop;Café;Café;Caffetteria
 Confectionery;FoodEstablishment;Patisserie;Konditorei;Pâtisserie;Confetteria
+Dairy;FoodEstablishment;Dairy;Molkerei;Laiterie;Caseificio
 Distillery;FoodEstablishment;Distillery;Brennerei;Distillerie;Distilleria
 FastFoodRestaurant;FoodEstablishment;Fast Food Restaurant;Fast-Food-Restaurant;Fast food;Ristorante fast food
-Gelateria;FoodEstablishment;Ice Cream Parlour;Gelateria;Glacier;Gelateria
 Grotto;FoodEstablishment;Grotto;Grotto;Grotte;Grotta
 IceCreamShop;FoodEstablishment;Ice Cream Shop;Eisdiele;Magasin de crème glacée;Gelateria
 Imbiss;FoodEstablishment;Snack Stand;Imbissstand;Stand de restauration rapide;Chiosco di street food
-MountainDairy;FoodEstablishment;Mountain Dairy;Bergmolkerei;Laiterie de montagne;Caseificio di montagna
 MountainRestaurant;FoodEstablishment;Mountain Restaurant;Bergrestaurant;Restaurant de montagne;Ristorante di montagna
 Pizzeria;FoodEstablishment;Pizzeria;Pizzeria;Pizzeria;Pizzeria
 Restaurant;FoodEstablishment;Restaurant;Restaurant;Restaurant;Ristorante
@@ -220,6 +228,7 @@ AutoRepair;LocalBusiness;Auto Repair;Autoreparatur;Réparation automobile;Ripara
 GasStation;LocalBusiness;Fuel Station;Tankstelle;Station-service;Benzinaio
 MotorcycleDealer;LocalBusiness;Motorcycle Dealer;Motorradhändler;Concessionnaire de motos;Concessionario moto
 MotorcycleRepair;LocalBusiness;Motorcycle Repair;Motorrad Reparatur;Réparation de moto;Riparazione Moto
+BikeSchool;LocalBusiness;Bike School;Bikeschule;École de vélo;Scuola di bici
 ChildCare;LocalBusiness;Childcare;Kinderbetreuung;Garde d'enfants;Servizio per l'infanzia
 Circus;LocalBusiness;Circus;Zirkus;Cirque;Circo
 Corporation;LocalBusiness;Corporation;Unternehmen;Société;Società
@@ -259,15 +268,16 @@ Dentist;LocalBusiness;Dentist;Zahnarzt;Dentiste;Dentista
 Doctor;LocalBusiness;Doctor;Arzt;Médecin;Dottore
 MedicalClinic;LocalBusiness;Hospital;Krankenhaus;Hôpital;Clinica medica
 Pharmacy;LocalBusiness;Pharmacy;Apotheke;Pharmacie;Farmacia
+MountainSchool;LocalBusiness;Mountain School;Bergschule;École de montagne;Scuola di montagna
 ProfessionalService;LocalBusiness;Professional Service;Professioneller Service;Service professionnel;Servizio professionale
 Railway;LocalBusiness;Railway;Eisenbahn;Chemin de fer;Ferrovia
 RetirementAndNursingHome;LocalBusiness;Retirement and Nursing Home;Alters- und Pflegeheim;Maison de retraite et de soins infirmiers;Casa di riposo e di cura
 Sauna;LocalBusiness;Sauna;Sauna;Sauna;Sauna
 ShoppingCenter;LocalBusiness;Shopping Center;Einkaufszentrum;Centre commercial;Centro commerciale
+SkiSchool;LocalBusiness;Ski School;Skischule;École de ski;Scuola sci
 SportsActivityLocation;LocalBusiness;Sports Facility;Sportanlage;Installation sportive;Impianto sportivo
 AdventurePoolOrAquaPark;LocalBusiness;Aqua Park;Wasserpark;Parc aquatique;Parco acquatico
 BikePark;LocalBusiness;Bike Park;Bikepark;Parc à vélos;Parco biciclette
-BikeSchool;LocalBusiness;Bike School;Bikeschule;École de vélo;Scuola di bici
 Billard;LocalBusiness;Billards;Billard;Billard;Billardo
 BMXFacility;LocalBusiness;BMX-Facility;BMX-Anlage;Installation de BMX;Struttura per BMX
 BocciaField;LocalBusiness;Boccia Court;Boccia-Feld;Terrain de boccia;Campo di bocce
@@ -285,8 +295,6 @@ HighropesCourse;LocalBusiness;Rope Park;Seilpark;Parc d'accrobranche;Parco avven
 IceField;LocalBusiness;Ice Rink;Eisfeld;Patinoire;Pista di pattinaggio sul ghiaccio
 IceRink;LocalBusiness;Ice Rink;Eisbahn;Patinoire;Pista di ghiaccio
 MinigolfCourse;LocalBusiness;Miniature Golf Course;Minigolfanlage;Parcours de minigolf;Campo da minigolf
-MountainSchool;LocalBusiness;Mountain School;Bergschule;École de montagne;Scuola di montagna
-NatureTrail;LocalBusiness;Nature Trail;Naturlehrpfad;Sentier nature;Sentiero natura
 ParaglidingSite;LocalBusiness;Paragliding Site;Gleitschirmflugplatz;Terrain de parapente;Campo di parapendio
 PublicSwimmingPool;LocalBusiness;Outdoor Pool;Freibad;Piscine publique;Piscina pubblica
 IndoorPool;LocalBusiness;Indoor Swimming Pool;Hallenbad;Piscine couverte;Piscina coperta
@@ -296,11 +304,9 @@ Ropepark;LocalBusiness;Rope park;Seilpark;Parc accrobranche;Parco avventura
 SkatingRink;LocalBusiness;Skating Rink;Eisbahn;Patinoire;Pista di pattinaggio
 SkiJumpPlace;LocalBusiness;Ski Jump Place;Skischanzenplatz;Place de saut à ski;Posto per il salto con gli sci
 SkiResort;LocalBusiness;Ski Resort;Skigebiet;Station de ski;Area sciistica
-SkiSchool;LocalBusiness;Ski School;Skischule;École de ski;Scuola sci
 SnowPark;LocalBusiness;Snow Park;Schneepark;Parc à neige;Parco neve
 SportHall;LocalBusiness;Sport Hall;Sporthalle;Salle de sport;Palazzetto dello sport
 SportsClub;LocalBusiness;Sports Club;Sportclub;Club sportif;Club sportivo
-Stadion;LocalBusiness;Stadium;Stadion;Stade;Stadio
 StadiumOrArena;LocalBusiness;Stadium/Arena;Stadion/Arena;Stade/arène;Stadio/arena
 SummerTobogganTrack;LocalBusiness;Summer Toboggan Track;Sommerrodelbahn;Piste de luge d'été;Pista estiva per slittini
 TennisComplex;LocalBusiness;Tennis Facility;Tennisanlage;Centre de tennis;Impianto di tennis
@@ -355,9 +361,7 @@ LodgingBusiness;LocalBusiness;Accommodation Establishment;Beherbergungsbetrieb;S
 Agrotourism;LodgingBusiness;Agrotourism;Agrotourismus;Agrotourisme;Agriturismo
 BedAndBreakfast;LodgingBusiness;Bed and Breakfast;Bed and Breakfast;Chambre d'hôtes;Bed and breakfast
 Campground;LodgingBusiness;Camping Ground;Campingplatz;Camping;Campeggio
-CountryInn;LodgingBusiness;CountryInn;CountryInn;PaysInn;CountryInn
 FarmLodging;LodgingBusiness;Farm Accommodation;Unterkunft auf dem Bauernhof;Hébergement à la ferme;Alloggio in fattoria
-Garni;LodgingBusiness;Bed and Breakfast Hotel;Garni-Hotel;Hôtel garni;Hotel garni
 GroupAccommodation;LodgingBusiness;Group Accommodation;Gruppenunterkunft;Hébergement de groupe;Alloggio per gruppi
 GuestHouse;LodgingBusiness;Guest House;Gasthaus;Maison d'hôtes;Affittacamere
 HolidayApartment;LodgingBusiness;Holiday Apartment;Ferienwohnung;Appartement de vacances;Appartamento vacanze
@@ -402,11 +406,8 @@ TownScape;Place;town scape;OrtsBild;paysage urbain;paesaggio urbano
 Tour;Place;Tour;Tour;Tour;Tour
 Longdistance;Tour;Long-distance Tour;Langstreckentour;Tour longue distance;Tour a lunga distanza
 Route;Tour;Route;Route;Route;Percorso
-Boatstour;Tour;Boat Tour;Bootstour;Tour en bateau;Giro in barca
-FairytaleTour;Tour;Fairy Tale Trail;Märchenweg;Sentier des contes de fées;Sentiero delle fiabe
 GlacierTour;Tour;Glacier Tour;Gletschertour;Excursion sur glacier;Escursione sul ghiacciaio
 HighTour;Tour;Alpine Tour;Hochtour;Tour en haute montagne;Tour alpino
-Icetour;Tour;Ice Tour;Eistour;Excursion sur glace;Tour sul ghiaccio
 MotorisedTours;Tour;Motorised Tour;Motorisierte Tour;Circuit motorisés;Tour motorizzato
 Bustour;Tour;Bus Tour;Bus-Tour;Tour en bus;Tour in autobus
 Cartour;Tour;Car Tour;Autotour;Tour en voiture;Tour in auto
@@ -418,16 +419,28 @@ Traintour;Tour;Train Tour;Zugtour;Tour en train;Tour in treno
 ThemeTrail;Tour;Theme Trail;Themenweg;Sentier thématique;Percorso tematico
 ViaFerrata;Tour;Via Ferrata;Klettersteig;Via ferrata;Via ferrata
 Way;Tour;Way;Weg;Route;Tour
+BikeTrail;Tour;Bike trail;Bike Trail;Bike trail;Bike trail
+CrossCountry;Tour;Crosscountry slope;Langlaufloipe;Piste de ski de fond;Pista da fondo
+HikingTrail;Tour;Hiking trail;Wanderweg;Sentiers de randonnée;Sentiero
+NatureTrail;Tour;Nature Trail;Naturlehrpfad;Sentier nature;Sentiero natura
+SkiRoute;Tour;Ski routes;Tourenski Route;Ski routes;Ski routes
+SkiSlope;Tour;Ski slope;Skipiste;Piste de ski;Pista da sci
+SnowshoeTrail;Tour;Snowshoe trail;Schneeschuhwanderweg;Sentier de randonnée en raquettes;Sentiero per ciaspolate
+TobogganRun;Tour;Toboggan run;Schlittelpiste;Piste de luge;Pista per slittini
+WinterHiking;Tour;Winterhiking trail;Winterwanderweg;Sentier de randonnée hivernale;Sentiero escursionistico invernale
 Webcam;Place;Webcam;Webcam;Webcam;Webcam
 LiveVideo;Webcam;Live Video;Live-Video;Vidéo en direct;Video in diretta
 StaticWebcam;Webcam;Static Webcam;Statische Webcam;Webcam statique;Webcam statica
 WebLink;Webcam;WebLink;WebLink;WebLink;WebLink
 Product;;Product;Produkt;Produit;Prodotto
 Adventure;Product;Adventure;Abenteuer;Aventure;Avventura
+ApartmentOffer;Product;Apartment offer;Wohnung Angebot;Appartement offre;Offerta Appartamento
 Beverage;Product;Beverage;Getränk;Boisson;Bevanda
+CampingPitchOffer;Product;CampingPitch offer;CampingStellplatz Angebot;Offre Emplacement Camping;Offerta Piazzola Campeggio
 CityTour;Product;City Tour;Stadtrundfahrt;Visite de la ville;Tour della città
 Course;Product;Course;Kurs;Cours;Corso
 CrossCountryTicket;Product;Cross-country ski pass;Langlaufpass;Forfait de ski de fond;Skipass per lo sci di fondo
+Donation;Product;Donation;Spende;Don;Donazione
 EventTicket;Product;Event Ticket;Veranstaltungs-Ticket;Billet d'événement;Biglietto evento
 Experience;Product;Experience;Erlebnis;Expérience;Esperienza
 Fashion;Product;Fashion;Mode;Mode;Moda
@@ -436,18 +449,27 @@ Clothing;Product;Clothing;Kleidung;Vêtement;Abbigliamento
 Food;Product;Food;Nahrungsmittel;Aliment;Cibo
 GuestCard;Product;Guest Card;Gästekarte;Carte d'hôte;Carta ospiti
 IndividualProduct;Product;Individual Product;Individuelles Produkt;Produit individuel;Prodotto individuale
+Membership;Product;Membership;Mitgliedschaft;Affiliation;Affiliazione
+Merchandise;Product;Merchandise;Merchandiseartikel;Article de marchandise;Articolo di merce
 NonFood;Product;Non-Food;Nicht-Lebensmittel;Non alimentaire;Non alimentare
 Offer;Product;Offer;Angebot;Offre;Offerta
-AggregateOffer;Product;Aggregate Offer;Aggregat-Angebot;Offre globale;Offerta aggregata
-OfferForLease;Product;Leasing Deal;Angebot zum Mieten;Offre de location;Offerta in locazione
-OfferForPurchase;Product;Purchase Deal;Angebot zum Kauf;Offre de vente;Offerta d'acquisto
+Package;Product;Package;Package;Package;Package
 ProductCollection;Product;Product Collection;Produkt-Kollektion;Collection de produits;Collezione di prodotti
 ProductGroup;Product;Product Group;Produktgruppe;Groupe de produits;Gruppo di prodotti
 Rental;Product;Rental;Verleih;Location;Noleggio
+RoomOffer;Product;Room offer;Zimmer Angebot;Offre de chambre;Offerta camera
+DormitoryOffer;Product;Dormitory offer;Mehrbettzimmer Angebot;Offre dortoir;Offerta dormitorio
+HotelRoomOffer;Product;Hotelroom offer;Hotelzimmer Angebot;Offre de chambre d'hôtel;Offerta camera d'albergo
+DoubleRoomOffer;Product;Doubleroom offer;Doppelzimmer Angebot;Offre chambre double;Offerta camera doppia
+FamilyRoomOffer;Product;Familyroom offer;Familienzimmer Angebot;Offre chambre familiale;Offerta camera famiglia
+SingleRoomOffer;Product;Singleroom offer;Einzelzimmer Angebot;Offre chambre simple;Offerta Camera Singola
+MeetingRoomOffer;Product;Meetingroom offer;Sitzungszimmer Angebot;Offre Salle de réunion;Offerta Meetingroom
+StayHelper;Product;Stay;Aufenthalt;Rester;Restare
 Services;Product;Services;Dienstleistungen;Services;Servizi
 SkiTicket;Product;Ski Ticket;Ski-Ticket;Billet de ski;Skipass
 SomeProducts;Product;Some Products;Einige Produkte;Quelques produits;Alcuni prodotti
 Sportsgood;Product;Sports Article;Sportartikel;Article de sport;Articolo sportivo
+SuiteOffer;Product;Suite offer;Suite Angebot;Suite offre;Suite offerta
 TableReservation;Product;Table reservation;Tischreservation;Réservation de table;Prenotazione tavolo
 Ticket;Product;Ticket;Fahrkarte;Billet;Biglietto
 Transport;Product;Transport;Verkehr;Transport;Trasporto
@@ -462,7 +484,7 @@ food;AmenityFeature;Food;Essen;Nourriture;Cibo
 breakfast;AmenityFeature;Breakfast;Frühstück;Petit déjeuner;Colazione
 general;Tag;General;Allgemein;Allgemein;Allgemein
 location;AmenityFeature;Location;Ort;Emplacement;Ubicazione
-outdoor;AmenityFeature;Outdoor facilities;Außenanlagen;Aménagements extérieurs;Strutture all'aperto
+outdoor;AmenityFeature;Outdoor facilities;Aussenanlagen;Aménagements extérieurs;Strutture all'aperto
 security;AmenityFeature;Safety and security;Sicherheit und Schutz;Sûreté et sécurité;Sicurezza e protezione
 sport;AmenityFeature;Sport and freetime;Sport und Freizeit;Sport et loisirs;Sport e tempo libero
 ski;AmenityFeature;Ski;Ski;Ski;Sci
@@ -475,11 +497,17 @@ family;AmenityFeature;Family services;Dienstleistungen für Familien;Services à
 furnishing;AmenityFeature;Furnishing;Ausstattung;Meublant;Arredamento
 building;AmenityFeature;Building;Gebäude;Bâtiment;Edificio
 media;AmenityFeature;Media;Medien;Média;Media
-view;AmenityFeature;Outdoor and view;Außenbereich und Aussicht;Extérieur et vue;All'aperto e vista
+view;AmenityFeature;Outdoor and view;Aussenbereich und Aussicht;Extérieur et vue;All'aperto e vista
+PlaceFeature;AmenityFeature;Place feature;Platzausstattungsmerkmal;Caractéristique du lieu;Caratteristica del luogo
+pool;AmenityFeature;Swimming pool;Schwimmbad;Piscine;Piscina
+swimming;AmenityFeature;Swimming;Schwimmen;Natation;Nuoto
+transport;Tag;Transport;Verkehr;Verkehr;Verkehr
 Tag;;Tag;Tag;Tag;Tag
 campaign;Tag;Campaign;Kampagne;Kampagne;Kampagne
 content;Tag;Content;Inhalt;Inhalt;Inhalt
 accessibility;Tag;Accessibility;Zugang;Zugang;Zugang
+accesssitios;Tag;Accessibility information Sitios;Informationen zur Zugänglichkeit Sitios;Informationen zur Zugänglichkeit Sitios;Informationen zur Zugänglichkeit Sitios
+accesssitioshs;Tag;Accessibility information Sitios HotellerieSuisse;Informationen zur Zugänglichkeit Sitios HotellerieSuisse;Informationen zur Zugänglichkeit Sitios HotellerieSuisse;Informationen zur Zugänglichkeit Sitios HotellerieSuisse
 accomodation;Tag;Accomodation;Übernachten;Übernachten;Übernachten
 areascope;Tag;Area scope;Bereichsumfang;Bereichsumfang;Bereichsumfang
 atmosphere;Tag;Atmosphere;Stimmung;Stimmung;Stimmung
@@ -501,6 +529,7 @@ locatedat;Tag;Located;Gelegen;Gelegen;Gelegen
 market;Tag;Market;Markt;Markt;Markt
 music;Tag;Music;Musik;Musik;Musik
 parking;Tag;Parking;Parkmöglichkeiten;Parkmöglichkeiten;Parkmöglichkeiten
+pricerange;Tag;Price range;Preisspanne;Preisspanne;Preisspanne
 proposed;Tag;Proposed;Empfohlen;Empfohlen;Empfohlen
 reduction;Tag;Reduction;Reduktionen-Rabatte;Reduktionen-Rabatte;Reduktionen-Rabatte
 region;Tag;Region;Region;Region;Region
@@ -514,7 +543,6 @@ swissness;Tag;Swissness;Swissness;Swissness;Swissness
 tourismregion;Tag;Tourism region;Tourismusregion;Tourismusregion;Tourismusregion
 tourismzone;Tag;Tourism zone;Tourismuszone;Tourismuszone;Tourismuszone
 trail;Tag;Trail;Wanderrouten Eigenschaften;Wanderrouten Eigenschaften;Wanderrouten Eigenschaften
-transport;Tag;Transport;Verkehr;Verkehr;Verkehr
 weatherconditions;Tag;Weather conditions;Wetterverhältnisse;Wetterverhältnisse;Wetterverhältnisse
 weekdays;Tag;Weekdays;Wochentage;Wochentage;Wochentage
 image;Tag;Image;Image;Image;Image
