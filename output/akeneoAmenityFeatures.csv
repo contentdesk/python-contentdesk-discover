@@ -22,6 +22,7 @@ bathroom_telephoneinthebathroom;Telephone in the bathroom;Telefon im Badezimmer;
 bathroom_toilet;toilet;Toilette;toilette;gabinetto;boolean;bathroom
 bathroom_toothbrush;Toothbrush;Zahnbürste;Brosse à dents;Spazzolino;boolean;bathroom
 bathroom_towels;Towels;Badetücher;Serviette de bain;Asciugamani;boolean;bathroom
+bathroom_towelsrental;Towels rental;Vermietung von Handtüchern;Location de serviettes;Noleggio asciugamani;boolean;bathroom
 bathroom_vanitymirror;Vanity mirror;Kosmetikspiegel;Miroir de courtoisie;Specchio cosmetico;boolean;bathroom
 bathroom_wheelchairAccessibleBathroom;Wheelchair-accessible bathroom;Rollstuhlgerechtes Badezimmer;Salle de bain accessible en fauteuil roulant;Bagno accessibile con sedia a rotelle;boolean;bathroom
 bathroom_whirlpoolbath;Whirlpool bath;Whirlpool;Bain à remous;Vasca idromassaggio;boolean;bathroom
@@ -93,23 +94,40 @@ entertainment_tablefootball;Tablefootball;Tischfussball;Babyfoot;Calcio balilla;
 entertainment_theatrehall;Theatre hall;Theatersaal;Salle de théâtre;Sala teatrale;boolean;entertainment
 entertainment_tourdesk;Tour desk;Tour Desk;Bureau d’excursions;Banco;boolean;entertainment
 entertainment_tvroom;TV room;TV-Raum;Salle de télévision;Sala TV;boolean;entertainment
+entertainment_waterslides;Water slides;Wasserrutschen;Toboggans aquatiques;Scivoli d'acqua;boolean;entertainment
+entertainment_waterslidesmaxlength;Maximum length of the water slides;Maximale Länge der Wasserrutschen;Longueur maximale des toboggans aquatiques;Lunghezza massima degli scivoli d'acqua;number;entertainment
+entertainment_waterslidesnumber;Number of water slides;Anzahl der Wasserrutschen;Nombre de toboggans aquatiques;Numero di scivoli d'acqua;number;entertainment
+events_apero;Seating Aperitif (number of people);Bestuhlung Apéro (Anzahl Pers.);Sièges Apéritif (nombre de personnes);Aperitivo (numero di persone);number;events
 events_areaInm2;Area in m2;Fläche in m2;Surface en m2;Superficie in m2;number;events
-events_banquetparticipantsMinMax;Banquet participants;Bankettteilnehmer;Participants au banquet;Partecipanti al banchetto;numberrange;events
+events_areaInm2TotalEventArea;Total area event area;Gesamtfläche Veranstaltungsbereich;Superficie totale de l'événement;Area totale dell'evento;number;events
+events_banquetRectangular;Seating Banquet rectangular (number of people);Bestuhlung Bankett rechteckig (Anzahl Pers.);Sièges Banquet rectangulaire (nombre de personnes);Banchetti rettangolare (numero di persone);number;events
+events_banquetRound;Seating Banquet round (number of people);Bestuhlung Bankett rund (Anzahl Pers.);Sièges Banquet cercle (nombre de personnes);Banchetti cerchio (numero di persone);numberrange;events
+events_beamer;Beamer/Screen;Beamer/Screen;Beamer/Screen;Beamer/Screen;boolean;events
+events_block;Seating Block (number of people);Bestuhlung Block (Anzahl Pers.);Sièges Bloc (nombre de personnes);Blocco (numero di persone);number;events
 events_businesscentre;Business centre;Business-Center;Centre d’affaires;Centro d'affari;boolean;events
-events_concertparticipantsMinMax;Concert participants;Konzertteilnehmer;Participants aux concerts;Partecipanti al concerto;numberrange;events
+events_concertTheater;Seating Concert/theater (number of people);Bestuhlung Konzert/Theater (Anzahl Pers.);Sièges Concert/théâtre (nombre de personnes);Concerto/teatro (numero di persone);numberrange;events
 events_conferenceroom;Conference room;Konferenzraum;Salle de conférence;Sala conferenze;boolean;events
 events_conventionservices;Convention services;Convention Services;Services de congrès;Servizi congressuali;boolean;events
 events_coworkingspace;Co-working space;Co-Working-Space;Espace de co-working;Spazio di co-working;boolean;events
+events_daylight;Daylight;Tageslicht;Lumière du jour;Luce del giorno;boolean;events
 events_flipchartandpens;Flip chart and pens;Flipchart und Stifte;Paperboard et stylos;Lavagna a fogli mobili e penne;boolean;events
+events_hotelBuyout;Hotel Buyout;Hotel Buyout;Hotel Buyout;Hotel Buyout;boolean;events
 events_meetingroomEquipment;Meeting room equipment;Ausstattung des Tagungsraums;Equipement de la salle de réunion;Attrezzature per sale riunioni;boolean;events
 events_microphone;Microphone;Mikrofon;Microphone;Microfono;boolean;events
+events_numberOfMeetingRooms;Number of rooms Meetings & Convention;Anzahl Räume Meetings & Convention;Nombre de salles Meetings & Convention;Numero di stanze Meetings & Convention
+34 / 5.000
+Numero di sale Meetings & Convention;number;events
+events_numberOfPersonTotalEventArea;Total number of people for entire event area;Gesamtanzahl Personen für gesamten Veranstaltungsbereich;Nombre total de personnes pour toute la zone de l'événement;Numero totale di persone per l'intera area dell'evento;number;events
 events_photocopier;Photocopier;Fotokopierer;Photocopieur;Fotocopiatrice;boolean;events
-events_projector;Projector;Projektor;Projecteur;Proiettore;boolean;events
-events_roomHeight;Room height;Raumhöhe;Hauteur de la pièce;Altezza della stanza;boolean;events
+events_roomHeight;Room height;Raumhöhe;Hauteur de la pièce;Altezza della stanza;number;events
 events_secretarialservice;Secretarial service;Sekretariatsservice;Service de secrétariat;Servizio di segreteria;boolean;events
-events_seminarparticipantsMinMax;Seminar participants;Seminarteilnehmer;Participants au séminaire;Partecipanti al seminario;numberrange;events
+events_seminar;Seating Seminar (number of people);Bestuhlung Seminar  (Anzahl Pers.);Sièges Séminaire (nombre de personnes);Seminario (numero di persone);numberrange;events
+events_simultaneousSystem;Simultaneous system;Simultananlage;Système simultané;Sistema simultaneo;boolean;events
+events_specialvenue;Unique locations;Einzigartige Lokalitäten;Emplacements uniques;Luogo speciale;boolean;events
+events_symbolicceremony;Symbolic ceremony possible in the hotel;Symbolische Zeremonie im Hotel möglich;Cérémonie symbolique possible à l'hôtel;Cerimonia simbolica possibile in hotel;boolean;events
 events_translationservices;Translation services;Übersetzungsdienstleistungen;Services de traduction;Servizi di traduzione;boolean;events
-events_weddingservices;Wedding services;Dienstleistungen für Hochzeiten;Services de mariage;Servizi per matrimoni;boolean;events
+events_ushape;Seating U-shape (number of people);Bestuhlung U-Form (Anzahl Pers.);Sièges en forme de U (nombre de personnes);A forma di U (numero di persone);number;events
+events_weddingHotel;Weddings possible in the hotel;Hochzeiten im Hotel möglich;Mariages possibles à l'hôtel;Matrimoni possibili in hotel;boolean;events
 family_babysafetygates;Baby safety gates;Sicherheitsgitter für Babys;Barrières de sécurité pour bébés;Cancelletti di sicurezza per bambini;boolean;family
 family_boardgamespuzzles;Board games/puzzles;Brettspiele/Puzzles;Jeux de société/puzzles;Giochi da tavolo/puzzle;boolean;family
 family_booksdvdsormusicforchildren;Books, DVDs or music for children;Bücher, DVDs oder Musik für Kinder;Livres, DVD ou musique pour enfants;Libri, DVD o musica per bambini;boolean;family
@@ -192,6 +210,7 @@ furnishing_backgroundmusic;Background music;Hintergrundmusik;Musique de fond;Mus
 furnishing_barbecuearea;Barbecue area;Grillplatz;Espace barbecue;Area barbecue;boolean;furnishing
 furnishing_bathroom;Bathroom;Badezimmer;Salle de Bains;Stanza da bagno;boolean;furnishing
 furnishing_carpetedfloor;Carpeted floor;Teppichboden;Moquette au sol;Pavimento in moquette;boolean;furnishing
+furnishing_changingcubicles;Changing rooms;Umkleidekabinen;Cabines de change;Cabine di cambio;boolean;furnishing
 furnishing_cleaningproducts;Cleaning products;Reinigungsmittel;Produits d’entretien;Prodotti per la pulizia;boolean;furnishing
 furnishing_clothesrack;Clothes rack;Kleiderständer;Portemanteau;Appendiabiti;boolean;furnishing
 furnishing_communalterrace;Communal terrace;Gemeinschaftsterrasse;Terrasse commune;Terrazza comune;boolean;furnishing
@@ -225,7 +244,7 @@ furnishing_poolshared;Pool (shared);Pool (gemeinsam genutzt);Piscine (partagée)
 furnishing_roofterrace;Roof terrace;Dachterrasse;Toit;Terrazza sul tetto;boolean;furnishing
 furnishing_roomcabinsafe;Room/Cabin safe;Zimmer-/Kabinensafe;Coffre-fort de la chambre/cabine;Cassaforte in camera/cabina;boolean;furnishing
 furnishing_sittingarea;Sitting area;Sitzecke;Coin salon;Salottino;boolean;furnishing
-furnishing_sizeinsqm;Size in sqm;Größe in m²;Taille en m²;Dimensione in mq;number;furnishing
+furnishing_sizeinsqm;Size in sqm;Grösse in m²;Taille en m²;Dimensione in mq;number;furnishing
 furnishing_smokingrooms;Smoking rooms;Raucherzimmer;Chambres fumeurs;Camere fumatori;boolean;furnishing
 furnishing_socketnearthebed;Socket near the bed;Steckdose in der Nähe des Bettes;Prise près du lit;Presa vicino al letto;boolean;furnishing
 furnishing_sofa;Sofa;Sofa;Canapé;Sofà;boolean;furnishing
@@ -274,6 +293,8 @@ general_lounge;Lounge;Lounge;Salon;Salotto;boolean;general
 general_medicalassistance;Medical assistance;Medizinische Hilfe;Assistance médicale;Assistenza medica;boolean;general
 general_multilingualstaff;Multilingual staff;Mehrsprachiges Personal;Personnel multilingue;Personale multilingue;boolean;general
 general_outdoorfurniture;Outdoor furniture;Gartenmöbel;Mobilier d’extérieur;Mobili da esterno;boolean;general
+general_parking;Parking;Parken;Parking;Parcheggio;boolean;general
+general_parkinglots;Number of parking lots;Anzahl Parkplätze;Nombre d'aires de stationnement;Numero di parcheggi;number;general
 general_pcstation;PC station;PC-Station;Station PC;Postazione PC;boolean;general
 general_precheckin;Pre-check-in;Pre-check-in;Pre-check-in;Pre-check-in;boolean;general
 general_publicwashrooms;Public washrooms;Öffentliche Waschräume;Toilettes publiques;Bagni pubblici;boolean;general
@@ -319,6 +340,8 @@ location_distancetouristcenter;Distance tourist center;Entfernung touristisches 
 location_distancetrainstation;Distance train station;Entfernung Bahnhof;Distance gare;Distanza stazione ferroviaria;number;location
 location_livelylocation;Lively location;Belebte Lage;Emplacement animé;Posizione vivace;boolean;location
 location_locatedonamainroad;Located on a main road;Das Hotel liegt an einer Hauptstrasse;Situé sur une route principale;Situato su una strada principale;boolean;location
+location_neariver;Near river;In der Nähe des Flusses;Près de la rivière;Vicino al fiume;boolean;location
+location_nearlake;Near lake;In der Nähe des Sees;Près du lac;Vicino al lago;boolean;location
 location_oldtown;Old town;Altstadt;Vieille ville;Città vecchia;boolean;location
 location_outside;Remote;Abgelegen;Éloigné;Remoto;boolean;location
 location_quietlocation;Quiet location;Ruhige Lage;Endroit calme;Posizione tranquilla;boolean;location
@@ -340,18 +363,49 @@ media_smarttv;Smart TV;Smart-TV;Téléviseur intelligent;Televisore intelligente
 media_streamingservicelikenetflix;Streaming service (like Netflix);Streaming-Dienst (wie Netflix);Service de streaming (comme Netflix);Servizio di streaming (come Netflix);boolean;media
 media_telephone;Telephone;Telefon;Téléphone;Telefono;boolean;media
 media_tv;TV;TV;TÉLÉ;TV;boolean;media
+outdoor_camping;Camping;Camping;Camping;Campeggio;boolean;outdoor
 outdoor_changingrooms;Changing rooms;Umkleidekabinen;Vestiaires;Spogliatoi;boolean;outdoor
 outdoor_deckChairs;Deckchair;Liegestuhl;Chaise longue;Sedia a sdraio;boolean;outdoor
+outdoor_deckchairsrental;Deckchair rental;Vermietung von Liegestühlen;Location de chaises longues;Noleggio di sedie a sdraio;boolean;outdoor
 outdoor_garden;Garden;Garten;Jardin;Giardino;boolean;outdoor
 outdoor_gazebopavillon;Gazebo/Pavillon;Pavillon;Gazebo/Pavillon;Gazebo/Padiglione;boolean;outdoor
+outdoor_nudityzone;Nudity zone;Nacktheitszone;Zone de nudité;Zona di nudità;boolean;outdoor
 outdoor_parasolsatthepool;Parasols at the pool;Sonnenschirme am Pool;Parasols à la piscine;Ombrelloni in piscina;boolean;outdoor
 outdoor_poolbar;Pool bar;Poolbar;Bar de la piscine;Bar a bordo piscina;boolean;outdoor
+outdoor_sandybeach;Sand beach;Sandstrand;Plage de sable;Spiaggia di sabbia;boolean;outdoor
+outdoor_shadowarea;Shadow area;Schattenbereich;Zone d'ombre;Area d'ombra;boolean;outdoor
 outdoor_sunbathingarea;Sunbathing area;Liegewiese;Bain de soleil;Area prendisole;boolean;outdoor
 outdoor_sunloungersatthepool;Sun loungers at the pool;Liegestühle am Pool;Chaises longues à la piscine;Lettini prendisole in piscina;boolean;outdoor
 outdoor_sunterrace;Sun terrace;Sonnenterrasse;Terrasse;Terrazza soleggiata;boolean;outdoor
 outdoor_terracebalcony;Terrace/Balcony;Terrasse/Balkon;Terrasse/Balcon;Terrazza/Balcone;boolean;outdoor
 outdoor_waterpark;Water park;Wasserpark;Parc aquatique;Parco acquatico;boolean;outdoor
 outdoor_waterslide;Waterslide;Wasserrutsche;Glissade d’eau;Acquascivolo;boolean;outdoor
+pool_coldwater;Cold water pool;Kaltwasserbecken;Piscine d'eau froide;Piscina con acqua fredda;boolean;pool
+pool_depthminmax;Pool depth;Tiefe des Pools;Profondeur du bassin;Profondità della piscina;number;pool
+pool_divingplatform;Diving platform;Sprungturm;Plate-forme de plongée;Piattaforma di immersione;boolean;pool
+pool_divingplatform10m;Diving platform (10m);Sprungturm (10m);Plate-forme de plongée (10m);Piattaforma per immersione (10m);number;pool
+pool_divingplatform1m;Diving platform (1m);Sprungturm (1m);Plate-forme de plongée (1m);Piattaforma per immersione (1m);number;pool
+pool_divingplatform2m;Diving platform (2m);Sprungturm (2m);Plate-forme de plongée (2m);Piattaforma per immersione (2m);number;pool
+pool_divingplatform3m;Diving platform (3m);Sprungturm (3m);Plate-forme de plongée (3m);Piattaforma per immersione (3m);number;pool
+pool_divingplatform5m;Diving platform (5m);Sprungturm (5m);Plate-forme de plongée (5m);Piattaforma per immersione (5m);number;pool
+pool_flow;Pool with flow;Pool mit Strömung;Piscine à courant;Piscina con flusso;boolean;pool
+pool_indoor;Indoor swimming pool;Hallenschwimmbad;Piscine couverte;Piscina coperta;boolean;pool
+pool_lenghtminmax;Pool length;Länge des Beckens;Longueur de la piscine;Lunghezza della piscina;numberrange;pool
+pool_massage;Massage pool;Massage Pool;Piscine de massage;Piscina per massaggi;boolean;pool
+pool_mensonly;Swimming pool for men only;Schwimmbad nur für Männer;Piscine réservée aux hommes;Piscina per soli uomini;boolean;pool
+pool_number;Number of swimming pools;Anzahl der Schwimmbecken;Nombre de piscines;Numero di piscine;number;pool
+pool_openair;Outdoor swimming pool;Freibad;Piscine extérieure;Piscina all'aperto;boolean;pool
+pool_paddling;Paddling pool;Planschbecken;Pataugeoire;Piscina per bambini;boolean;pool
+pool_paddlingnumber;Number of paddling pool;Anzahl Planschbecken;Nombre de pataugeoires;Numero di piscine per bambini;number;pool
+pool_saltwater;Salt water pool;Salzwasserbecken;Piscine d'eau salée;Piscina con acqua salata;boolean;pool
+pool_swimminglanes;Swimming lanes;Schwimmbahnen;Couloirs de natation;Corsie di nuoto;boolean;pool
+pool_thermal;Thermal spring pool;Thermalwasserbecken;Piscine thermale;Piscina termale;boolean;pool
+pool_thermalindoor;Indoor thermal spring pool;Thermalhallenbad;Piscine thermale intérieure;Piscina termale coperta;boolean;pool
+pool_thermalopenair;Outdoor thermal spring pool;Thermalfreibad;Piscine thermale extérieure;Piscina termale all'aperto;boolean;pool
+pool_watertoys;Water toys;Wasserspielzeuge;Jouets d'eau;Giochi d'acqua;boolean;pool
+pool_wave;Wave pool;Wellenbad;Piscine à vagues;Piscina a onde;boolean;pool
+pool_whirl;Whirlpool;Whirlpool;Bain à remous;Idromassaggio;boolean;pool
+pool_womensonly;Swimming pool for women only;Schwimmbad nur für Frauen;Piscine réservée aux femmes;Piscina per sole donne;boolean;pool
 security_accessibleInteriorCorridor;Main entrance accessible through interior corridor;Haupteingang durch Innenkorridor erreichbar;Entrée principale accessible par le couloir intérieur;Ingresso principale accessibile attraverso il corridoio interno;boolean;security
 security_airpurifiers;Air purifiers;Luftreiniger;Purificateurs d’air;Purificatori d'aria;boolean;security
 security_alarmswithstrobelights;Alarms with strobe lights;Alarme mit Stroboskoplicht;Alarmes avec lumières stroboscopiques;Allarmi con luci stroboscopiche;boolean;security
@@ -364,7 +418,7 @@ security_balconiesAccessibleNeighboringrooms;Room balconies accessible via neigh
 security_carbonmonoxidedetector;Carbon monoxide detector;Kohlenmonoxid-Detektor;Détecteur de monoxyde de carbone;Rilevatore di monossido di carbonio;boolean;security
 security_carbonmonoxideprotectiondevice;Carbon monoxide protection device;Kohlenmonoxid-Schutzvorrichtung;Dispositif de protection contre le monoxyde de carbone;Dispositivo di protezione contro il monossido di carbonio;boolean;security
 security_carbonmonoxidesources;Carbon monoxide sources;Kohlenmonoxid-Quellen;Sources de monoxyde de carbone;Fonti di monossido di carbonio;boolean;security
-security_chlorineContentMeasurements;Regular chlorine content measurements;Regelmäßige Messungen des Chlorgehalts;Mesures régulières de la teneur en chlore;Misurazioni regolari del contenuto di cloro;boolean;security
+security_chlorineContentMeasurements;Regular chlorine content measurements;Regelmässige Messungen des Chlorgehalts;Mesures régulières de la teneur en chlore;Misurazioni regolari del contenuto di cloro;boolean;security
 security_compliancewithfireregulations;Compliance with fire regulations;Einhaltung der Brandschutzvorschriften;Respect de la réglementation incendie;Conformità alle normative antincendio;boolean;security
 security_doorspy;Door Spy;Türspion;Espion de porte;Spia della porta;boolean;security
 security_electricroomkeysystem;Electric room key system;Elektronisches Zimmerschlüsselsystem;Système de clé de chambre électrique;Sistema elettrico di chiavi della camera;boolean;security
@@ -392,6 +446,7 @@ security_hourssecurityservice;24 hours security service;24-Stunden-Sicherheitsdi
 security_isocertification;ISO14001 certification;ISO14001 Zertifizierung;Certification ISO14001;ISO14001 certificazione;boolean;security
 security_issuanceofkeycopies;Employee for issuance of key copies;Mitarbeiter für die Ausstellung von Schlüsselkopien;Employé pour la délivrance des copies clés;Dipendente per l'emissione delle copie delle chiavi;boolean;security
 security_legalrailingheight;Legal railing height on balcony respected (100cm);Gesetzliche Geländerhöhe auf dem Balkon eingehalten (100cm);Hauteur légale du garde-corps sur balcon respectée (100cm);Altezza ringhiera legale sul balcone rispettata (100 cm);boolean;security
+security_lifeguard;Lifeguard;Rettungsschwimmer;Sauveteur;Bagnino;boolean;security
 security_loggingSecurityIncidents;Logging of security incidents;Protokollierung von Sicherheitsvorfällen;Journalisation des incidents de sécurité;Registrazione degli incidenti di sicurezza;boolean;security
 security_openingwindows;Possible to open windows;Öffnen von Fenstern möglich;Ouverture des fenêtres possible;Possibilità di apertura delle finestre;boolean;security
 security_parkingareapatrolled;Parking area patrolled;Parkplatz patrouilliert;Aire de stationnement patrouillée;Parcheggio sorvegliato;boolean;security
@@ -399,11 +454,11 @@ security_parkingareawellilluminated;Parking area well illuminated;Parkplatz gut 
 security_proofoffireprotection;Proof of fire protection;Nachweis des Brandschutzes;Preuve de protection contre l’incendie;Prova di protezione antincendio;boolean;security
 security_publicaddresssystem;Public address system;Lautsprecheranlage;Système de sonorisation;Sistema di diffusione sonora;boolean;security
 security_publicliabilityinsurance;Public liability insurance;Betriebshaftpflichtversicherung;Assurance responsabilité civile;Assicurazione di responsabilità civile;boolean;security
-security_regularevacuationexercises;Regular evacuation exercises;Regelmäßige Evakuierungsübungen;Exercices d’évacuation réguliers;Esercitazioni regolari di evacuazione;boolean;security
-security_regularfunctionaltestsfirealarm;Regular functional tests Fire alarm;Regelmäßige Funktionsprüfungen Feueralarm;Tests fonctionnels réguliers Alarme incendie;Test funzionali regolari Allarme antincendio;boolean;security
-security_regularhygienetraining;Regular hygiene training;Regelmäßige Hygieneschulungen;Formation régulière à l’hygiène;Formazione regolare sull'igiene;boolean;security
-security_regularlegionellasampling;Regular legionella sampling;Regelmäßige Legionellen-Probenahme;Prélèvements réguliers de légionelles;Campionamento regolare della legionella;boolean;security
-security_regulartemperaturechecks;Regular temperature checks;Regelmäßige Temperaturkontrollen;Contrôles réguliers de la température;Controlli regolari della temperatura;boolean;security
+security_regularevacuationexercises;Regular evacuation exercises;Regelmässige Evakuierungsübungen;Exercices d’évacuation réguliers;Esercitazioni regolari di evacuazione;boolean;security
+security_regularfunctionaltestsfirealarm;Regular functional tests Fire alarm;Regelmässige Funktionsprüfungen Feueralarm;Tests fonctionnels réguliers Alarme incendie;Test funzionali regolari Allarme antincendio;boolean;security
+security_regularhygienetraining;Regular hygiene training;Regelmässige Hygieneschulungen;Formation régulière à l’hygiène;Formazione regolare sull'igiene;boolean;security
+security_regularlegionellasampling;Regular legionella sampling;Regelmässige Legionellen-Probenahme;Prélèvements réguliers de légionelles;Campionamento regolare della legionella;boolean;security
+security_regulartemperaturechecks;Regular temperature checks;Regelmässige Temperaturkontrollen;Contrôles réguliers de la température;Controlli regolari della temperatura;boolean;security
 security_rescueequipmentbythepool;Rescue equipment by the pool;Rettungsausrüstung am Pool;Matériel de sauvetage au bord de la piscine;Attrezzatura di salvataggio a bordo piscina;boolean;security
 security_restrictedaccesstothefloor;Restricted access to the floor;Eingeschränkter Zugang zur Etage;Accès restreint à l’étage;Accesso limitato al piano;boolean;security
 security_roomOutsideMainbuilding;Rooms/units outside the main building;Zimmer/Wohneinheiten ausserhalb des Hauptgebäudes;Chambres/unités à l’extérieur du bâtiment principal;Camere/unità abitative esterne all'edificio principale;boolean;security
@@ -442,7 +497,7 @@ ski_skitours;Ski tour offer;Skitourenangebot;Offre de randonnées à ski;Offerta
 sport_aerobics;Aerobic offer;Aerobic Angebot;Offre aérobic;L'aerobica offre;boolean;sport
 sport_airhockey;Air hockey offer;Airhockey Angebot;Offre air hockey;Offerte per l'air hockey;boolean;sport
 sport_aquafit;Aquafit offer;Aquafit Angebot;Aquafit offer;Offerte Aquafit;boolean;sport
-sport_archery;Archery offer;Bogenschießen Angebot;Offre de tir à l'arc;Tiro con l'arco;boolean;sport
+sport_archery;Archery offer;Bogenschiessen Angebot;Offre de tir à l'arc;Tiro con l'arco;boolean;sport
 sport_artificialicerink;Artificial ice rink;Kunsteisbahn in der Nähe;Patinoire artificielle;Pista di pattinaggio su ghiaccio artificiale;boolean;sport
 sport_badminton;Badminton offer;Badminton Angebot;Offre de badminton;Offerta badminton;boolean;sport
 sport_basketball;Basketball offer;Basketball Angebot;Offre de basket-ball;Offerta di pallacanestro;boolean;sport
@@ -496,6 +551,7 @@ sport_snowboarding;Snowboarding;Snowboarden;Planche à neige;Snowboard (Snowboar
 sport_snowshoehiking;Snowshoe hiking;Schneeschuhwandern;Randonnée en raquettes;Escursioni con le racchette da neve;boolean;sport
 sport_sportsgroundhall;Sports ground/hall;Sportplatz/Sporthalle;Terrain de sport/salle de sport;Campo sportivo/palazzetto;boolean;sport
 sport_squash;Squash;Squash;Squash;Squash;boolean;sport
+sport_suprental;SUP boards rental;SUP-Board Verleih;Location de planches SUP;Noleggio di tavole da SUP;boolean;sport
 sport_tablefootball;Table football;Tischfussball;Baby-foot;Calcio balilla;boolean;sport
 sport_tabletennis;Table tennis;Tischtennis;Ping-pong;Ping-pong;boolean;sport
 sport_taichi;Tai-Chi;Tai-Chi;Le Tai-Chi;Tai-Chi;boolean;sport
@@ -533,6 +589,10 @@ sustainability_regionalBeverages;Regional beverages;Regionale Getränke;Boissons
 sustainability_regionalsuppliers;Regional suppliers;Regionale Lieferanten;Fournisseurs régionaux;Fornitori regionali;boolean;sustainability
 sustainability_renewableEnergy;Renewable energy;Erneuerbare Energie;Energie renouvelable;Energia rinnovabile;boolean;sustainability
 sustainability_seasonalandLocalFood;seasonal and local food;Saisonale und lokale Küche;Cuisine de saison et locale;Cibo stagionale e locale;boolean;sustainability
+swimming_lake;Lake;See;Lac;Lago;boolean;swimming
+swimming_river;River;Fluss;Le fleuve;Fiume;boolean;swimming
+swimming_suitrental;Swimsuit rental;Verleih von Badeanzügen;Location de maillots de bain;Noleggio costumi da bagno;boolean;swimming
+transport_publictransport;Public transport;Öffentliche Verkehrsmittel;Transports publics;Trasporto pubblico;boolean;transport
 view_balcony;Balcony;Balkon;Balcon;Balcone;boolean;view
 view_balconyorterrace;Balcony or terrace;Balkon oder Terrasse;Balcon ou terrasse;Balcone o terrazzo;boolean;view
 view_gardenview;Garden view;Blick auf den Garten;Vue sur le jardin;Vista giardino;boolean;view
@@ -550,7 +610,7 @@ view_viewofthegolfcourse;View of the golf course;Blick auf den Golfplatz;Vue sur
 view_viewofthepark;View of the park;Blick in den Park;Vue sur le parc;Veduta del parco;boolean;view
 view_viewofthepool;View of the pool;Blick auf den Pool;Vue sur la piscine;Vista sulla piscina;boolean;view
 view_viewoftheslopes;View of the slopes;Blick auf die Piste;Vue sur les pistes;Vista sulle piste;boolean;view
-view_viewontothestreet;View onto the street;Blick auf die Straße;Vue sur la rue;Vista sulla strada;boolean;view
+view_viewontothestreet;View onto the street;Blick auf die Strasse;Vue sur la rue;Vista sulla strada;boolean;view
 wellness_acupressure;Acupressure;Akupressur;Acupression;Agopressione;boolean;wellness
 wellness_acupuncture;Acupuncture;Akupunktur;Acupuncture;Agopuntura;boolean;wellness
 wellness_adventurepool;Adventure pool;Erlebnisbad;Piscine d’aventure;Piscina avventura;boolean;wellness
