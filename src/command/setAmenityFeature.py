@@ -1,4 +1,6 @@
 import json
+import os
+from datetime import datetime
 import sys
 sys.path.append("..")
 
@@ -37,13 +39,19 @@ def main():
 
     # replace "-" with "_" in key fields
     akeneoAmenityFeatures = {k.replace("-", "_"): v for k, v in akeneoAmenityFeatures.items()}
+    
+    current_datetime = datetime.now().strftime("%Y-%m-%d %H-%M-%S")
+    str_current_datetime = str(current_datetime)
 
     # DEBUG
-    with open("../../output/akeneoAmenityFeatures.json", "w") as file:
+    if not os.path.exists("../../output/discover/AmenityFeatures/"+str_current_datetime):
+        os.makedirs("../../output/discover/AmenityFeatures/"+str_current_datetime)
+    
+    with open("../../output/discover/AmenityFeatures/"+str_current_datetime+"/akeneoAmenityFeatures.json", "w") as file:
         json.dump(akeneoAmenityFeatures, file)
 
     # Save as csv with UTF-8 encoding and replace "None" in every field with empty string
-    with open("../../output/akeneoAmenityFeatures.csv", "w", encoding='utf-8') as file:
+    with open("../../output/discover/AmenityFeatures/"+str_current_datetime+"/akeneoAmenityFeatures.csv", "w", encoding='utf-8') as file:
         for code, body in akeneoAmenityFeatures.items():
             en = body['labels']['en_US'] if 'en_US' in body['labels'] else ''
             de = body['labels']['de_DE'] if 'de_DE' in body['labels'] else ''
