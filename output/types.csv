@@ -31,7 +31,7 @@ DanceEvent;Event;Dance Event;Tanzveranstaltung;Événement de danse;Evento di da
 DeliveryEvent;Event;Delivery Event;Lieferereignis;Événement de livraison;Evento di consegna
 EducationEvent;Event;Educational Event;Bildungsveranstaltung;Événement éducatif;Evento educativo
 eSports;Event;eSports;eSports;eSports;eSports
-EventSeries;Event;Event Series;Veranstaltungsreihe;Série d'événements;Serie di eventi
+EventSeries;Event;Event series;Veranstaltungsreihe;Série d'événements;Serie di eventi
 ExhibitionEvent;Event;Exhibition;Ausstellung;Exposition;Mostra
 Fair;Event;Fair;Messeveranstaltung;Événement de salon;Evento fieristico
 Festival;Event;Festival;Festival;Festival;Festival
@@ -82,6 +82,7 @@ AnimalPark;CivicStructure;Animal park;Tierpark;Parc animalier;Parco degli animal
 Aquarium;CivicStructure;Aquarium;Aquarium;Aquarium;Acquario
 ArtObject;CivicStructure;Art Object;Kunstobjekt;Objet d'art;Oggetto d'arte
 ATM;CivicStructure;ATM;Geldautomat;Distributeur automatique de billets;Bancomat
+AvalancheTrainingCenter;CivicStructure;Avalanche Training Center;Lawinen-Trainingszentrum;Centre de formation aux avalanches;Centro di formazione sulle valanghe
 BathingSpot;CivicStructure;Bathing Spot;Badestelle;Lieu de baignade;Luogo di balneazione
 Beach;CivicStructure;Beach;Strand;Plage;Spiaggia
 Biotope;CivicStructure;Biotope;Biotop;Biotope;Biotopo
@@ -99,6 +100,10 @@ Crematorium;CivicStructure;Crematorium;Krematorium;Crématorium;Crematorio
 CulturalCentre;CivicStructure;Cultural Centre;Kulturzentrum;Centre culturel;Centro culturale
 DamOrWeir;CivicStructure;Dam;Damm;Barrage;Diga
 EducationalOrganization;CivicStructure;Educational Institution;Bildungseinrichtung;Organisation éducative;Organizzazione educativa
+CollegeOrUniversity;CivicStructure;College/University;Hochschule/Universität;Collège/Université;College/Università
+HighSchool;CivicStructure;High School;Gymnasium/Sekundarschule;Lycée;Scuola superiore
+Preschool;CivicStructure;Preschool;Vorschule;Préscolaire;Scuola materna
+PrimarySchool;CivicStructure;Primary School;Grundschule;École primaire;Scuola primaria
 EventVenue;CivicStructure;Event Venue;Veranstaltungsort;Lieu de l'événement;Location per eventi
 Farm;CivicStructure;Farm;Bauernhof;Ferme;Fattoria
 Ferry;CivicStructure;Ferry;Fähre;Bac;Traghetto
@@ -176,7 +181,7 @@ TransportationSystemStation;CivicStructure;Transportsystem station;Transportsyst
 BusStation;CivicStructure;Bus Station;Busbahnhof;Gare routière;Stazione degli autobus
 CableCarStation;CivicStructure;Cable Car Station;Seilbahnstation;Station de téléphérique;Stazione della funivia
 CogwheelTrainStation;CivicStructure;Rack Railway Station;Zahnradbahnstation;Gare de train à crémaillère;Stazione dei treni a cremagliera
-FunicularStation;CivicStructure;Funicular station;Seilbahnstation;Station du funiculaire;Stazione della funicolare
+FunicularStation;CivicStructure;Funicular station;Standseilbahnstation;Station du funiculaire;Stazione della funicolare
 SubwayStation;CivicStructure;Subway Station;U-Bahnstation;Station de métro;Stazione della metropolitana
 TrainStation;CivicStructure;Train Station;Bahnhof;Gare;Stazione ferroviaria
 TramStation;CivicStructure;Tram Stop;Tramhaltestelle;Arrêt de tramway;Fermata del tram
@@ -251,6 +256,7 @@ DancePlace;LocalBusiness;Dance Place;Tanzplatz;Lieu de danse;Luogo di danza
 EscapeRoom;LocalBusiness;Escape Room;Escape Room;Escape Room;Escape Room
 NightClub;LocalBusiness;Night Club;Nachtclub;Boîte de nuit;Discoteca
 FinancialService;LocalBusiness;Financial Service;Finanzdienstleistung;Services financiers;Servizi finanziari
+BankOrCreditUnion;LocalBusiness;Bank/CreditUnion;Bank/Kreditinstitut;Banque/établissement de crédit;Banca/istituto di credito
 GovernmentOffice;LocalBusiness;Local Authority;Gemeindeverwaltung;Bureau du gouvernement;Ufficio governativo
 PostOffice;LocalBusiness;Post Office;Postfiliale;Bureau de poste;Ufficio postale
 HealthAndBeautyBusiness;LocalBusiness;Wellness and Beauty Salon;Wellness- und Kosmetiksalon;Salon de bien-être et de beauté;Salone di bellezza e benessere
@@ -312,6 +318,7 @@ WinterTobogganTrack;LocalBusiness;Winter Toboggan Track;Winterrodelbahn;Piste de
 YachtClub;LocalBusiness;Yacht Club;Jachtclub;Club nautique;Yatch club
 Store;LocalBusiness;Store;Geschäft;Boutique;Negozio
 AutoPartsStore;LocalBusiness;Auto Parts Store;Autoteile-Shop;Magasin de pièces automobiles;Negozio ricambi auto
+BeautySalon;LocalBusiness;Beauty Salon;Schönheitssalon;Salon de beauté;Salone di bellezza
 BikeRental;LocalBusiness;Bike Rental;Fahrradverleih;Location de vélos;Noleggio biciclette
 BikeService;LocalBusiness;Bike Service;Fahrradservice;Service de vélos;Servizio di assistenza per biciclette
 BikeStore;LocalBusiness;Bike Store;Bike-Shop;Magasin de vélos;Negozio di biciclette
@@ -342,11 +349,17 @@ MusicStore;LocalBusiness;Music Store;Musikgeschäft;Magasin de musique;Negozio d
 OfficeEquipmentStore;LocalBusiness;Stationery Store;Papeterie;Papeterie;Cartoleria
 Opticians;LocalBusiness;Opticians;Optiker;Opticien;Ottico
 OutletStore;LocalBusiness;Outlet Store;Outlet;Magasin d'usine;Negozio outlet
+PastryShop;LocalBusiness;Pastry Shop;Konditorei;Pâtisserie;Pasticceria
+PawnShop;LocalBusiness;Pawn Shop;Pfandhaus;Prêteur sur gage;Banco dei pegni
 Perfumery;LocalBusiness;Perfumery;Parfümerie;Parfumerie;Profumeria
+PetStore;LocalBusiness;Pet Store;Zoohandlung;Animalerie;Negozio di animali
+ShoeStore;LocalBusiness;Shoe Store;Schuhgeschäft;Magasin de chaussures;Negozio di scarpe
 Smith;LocalBusiness;Smith;Schmied;Forgeronne;Fabbro
 SnowsportRental;LocalBusiness;Snowsport Rental;Schneesportverleih;Location de sports de neige;Noleggio sport sulla neve
 SportingGoodsStore;LocalBusiness;Sports Shop;Sportgeschäft;Magasin de sport;Negozio di sport
+Stationery;LocalBusiness;Stationery;Papeterie;Papeterie;Cartoleria
 TobaccoShop;LocalBusiness;Tobacco Shop;Tabak Laden;Boutique de tabac;Tabaccheria
+ToyStore;LocalBusiness;Toy Store;Spielwarenladen;Magasin de jouets;Negozio di giocattoli
 WatersportRental;LocalBusiness;Watersport Rental;Wassersportverleih;Location de sports nautiques;Noleggio di sport acquatici
 WholesaleStore;LocalBusiness;Wholesale Store;Grosshandelsgeschäft;Magasin de gros;Negozio all'ingrosso
 ThermalSpa;LocalBusiness;Thermal Spa;Therme;Thermes;Terme
@@ -527,6 +540,8 @@ market;Tag;Market type;Markt-Typ;Markt-Typ;Markt-Typ
 music;Tag;Music;Musik;Musik;Musik
 parking;Tag;Parking;Parkmöglichkeiten;Parkmöglichkeiten;Parkmöglichkeiten
 pricerange;Tag;Price range;Preisspanne;Preisspanne;Preisspanne
+pricerangeeventpackage;Tag;Price range Conference and event packages without overnight stay;Preisspanne Konferenz- und Veranstaltungspauschalen ohne Übernachtung;Preisspanne Konferenz- und Veranstaltungspauschalen ohne Übernachtung;Preisspanne Konferenz- und Veranstaltungspauschalen ohne Übernachtung
+pricerangeeventpackageovernight;Tag;Price range Conference and event packages including overnight stay;Preisspanne Konferenz- und Veranstaltungspauschalen mit Übernachtung;Preisspanne Konferenz- und Veranstaltungspauschalen mit Übernachtung;Preisspanne Konferenz- und Veranstaltungspauschalen mit Übernachtung
 proposed;Tag;Proposed;Empfohlen;Empfohlen;Empfohlen
 reduction;Tag;Reduction;Reduktionen-Rabatte;Reduktionen-Rabatte;Reduktionen-Rabatte
 region;Tag;Region;Region;Region;Region
@@ -553,3 +568,8 @@ imagesaisonality;Tag;Image Saisonality;Bild Saisonalität;Bild Saisonalität;Bil
 imagesport;Tag;Image Sport;Bild Sportaktivitäten;Bild Sportaktivitäten;Bild Sportaktivitäten
 imagewellness;Tag;Image wellness area;Bild Wellness Bereich;Bild Wellness Bereich;Bild Wellness Bereich
 profile;Tag;Profile;Profil;Profil;Profil
+profileculture;Tag;Profile Culture;Profil Kultur;Profil Kultur;Profil Kultur
+profileenjoyment;Tag;Profile Enjoyment;Profil Genuss;Profil Genuss;Profil Genuss
+profilefun;Tag;Profile Fun;Profil Spass;Profil Spass;Profil Spass
+profilerelaxation;Tag;Profile Relaxation;Profil Entspannung;Profil Entspannung;Profil Entspannung
+profilesport;Tag;Profile Sport;Profil Sport;Profil Sport;Profil Sport
