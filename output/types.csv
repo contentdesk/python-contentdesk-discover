@@ -18,6 +18,7 @@ Article;CreativeWork;Article;Artikel;Article;Articolo
 MediaObject;CreativeWork;Media Object;Medienobjekt;Mediaobjet;Oggetto multimediale
 AudioObject;MediaObject;Audio Object;Audio-Objekt;Objet audio;Oggetto audio
 ImageObject;MediaObject;Image Object;Bild-Objekt;Image objet;Oggetto Immagine
+Logo;ImageObject;Logo;Logo;Logo;Logo
 VideoObject;MediaObject;Video Object;Video-Objekt;Video objet;Oggetto video
 Event;;Event;Veranstaltung;Événement;Evento
 ArtsAndCraftsEvent;Event;Arts and Crafts Exhibition;Kunsthandwerksausstellung;Exposition d'art et d'artisanat;Esposizione di artigianato
@@ -203,6 +204,7 @@ TBarLift;TransportationSystem;Drag Lift;Schlepplift;Remonte-pente;Sollevatore co
 Condition;Place;Condition;Bedingung;Condition;Condizione
 Closure;Condition;Closure;Schliessung;Fermeture;Chiusura
 CurrentCondition;Condition;Current Condition;Derzeitige Zustand;État actuel;Condizioni attuali
+Detour;Condition;Detour;Umleitung;Détour;Deviazione
 Notice;Condition;Notice;Notiz;Remarquer;Avviso
 LocalBusiness;Place;Leisure/Service;Freizeit/Dienstleistung;Loisirs/services;Tempo libero/servizio
 FoodEstablishment;LocalBusiness;Gastronomy;Gastronomie;Gastronomie;Gastronomia
