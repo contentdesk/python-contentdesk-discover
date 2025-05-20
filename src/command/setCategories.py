@@ -75,6 +75,12 @@ def main():
     categoriesDE = getCategoryTree(category, 'de')
     categoriesFR = getCategoryTree(category, 'fr')
     categoriesIT = getCategoryTree(category, 'it')
+    
+    # DEBUG
+    with open("../../output/categoriesEN.json", "w") as file:
+        json.dump(categoriesEN, file)
+    with open("../../output/categoriesDE.json", "w") as file:
+        json.dump(categoriesDE, file)
 
     akeneoCategories = setCategories(categoriesEN)
     akeneoCategories = setCategories(categoriesDE, None, akeneoCategories, 'de_CH')
@@ -82,10 +88,14 @@ def main():
     akeneoCategories = setCategories(categoriesIT, None, akeneoCategories, 'it_IT')
 
     # DEBUG
-    #with open("../../output/akeneoCategories.json", "w") as file:
-    #    json.dump(akeneoCategories, file)
+    with open("../../output/categories.json", "w") as file:
+        json.dump(akeneoCategories, file)
+    
+    # DEBUG
+    with open("../../output/akeneoCategories.json", "w") as file:
+        json.dump(akeneoCategories, file)
 
-    setCategoriesInAkeneo(akeneoCategories)
+    #setCategoriesInAkeneo(akeneoCategories)
 
 if __name__ == "__main__":
     main()
