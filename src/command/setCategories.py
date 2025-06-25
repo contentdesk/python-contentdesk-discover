@@ -88,7 +88,7 @@ def main():
     akeneoCategories = setCategories(categoriesIT, None, akeneoCategories, 'it_IT')
 
     # DEBUG
-    with open("../../output/categories.json", "w") as file:
+    with open("../../output/category.json", "w") as file:
         json.dump(akeneoCategories, file)
     
     # DEBUG

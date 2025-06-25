@@ -114,8 +114,10 @@ events_flipchartandpens;Flip chart and pens;Flipchart und Stifte;Paperboard et s
 events_hotelBuyout;Hotel Buyout;Hotel Buyout;Hotel Buyout;Hotel Buyout;boolean;events
 events_meetingroomEquipment;Meeting room equipment;Ausstattung des Tagungsraums;Equipement de la salle de réunion;Attrezzature per sale riunioni;boolean;events
 events_microphone;Microphone;Mikrofon;Microphone;Microfono;boolean;events
-events_numberOfMeetingRooms;Number of rooms Meetings & Convention;Anzahl Räume Meetings & Convention;Nombre de salles Meetings & Convention;Numero di stanze Meetings & Convention
-34 / 5.000
+events_numberOfMeetingRooms;Number of rooms Meetings & Convention;Anzahl Räume Meetings & Convention;Nombre de salles Meetings & Convention;Numero di stanze Meetings & Convention
+
+34 / 5.000
+
 Numero di sale Meetings & Convention;number;events
 events_numberOfPersonTotalEventArea;Total number of people for entire event area;Gesamtanzahl Personen für gesamten Veranstaltungsbereich;Nombre total de personnes pour toute la zone de l'événement;Numero totale di persone per l'intera area dell'evento;number;events
 events_photocopier;Photocopier;Fotokopierer;Photocopieur;Fotocopiatrice;boolean;events
@@ -131,7 +133,7 @@ events_weddingHotel;Weddings possible in the hotel;Hochzeiten im Hotel möglich;
 family_babysafetygates;Baby safety gates;Sicherheitsgitter für Babys;Barrières de sécurité pour bébés;Cancelletti di sicurezza per bambini;boolean;family
 family_boardgamespuzzles;Board games/puzzles;Brettspiele/Puzzles;Jeux de société/puzzles;Giochi da tavolo/puzzle;boolean;family
 family_booksdvdsormusicforchildren;Books, DVDs or music for children;Bücher, DVDs oder Musik für Kinder;Livres, DVD ou musique pour enfants;Libri, DVD o musica per bambini;boolean;family
-family_childrens'cribs;Childrens' cribs;Kinderbetten;Berceaux pour enfants;Culle per bambini;boolean;family
+family_childrenscribs;Childrens' cribs;Kinderbetten;Berceaux pour enfants;Culle per bambini;boolean;family
 family_childsafetysocketcovers;Child safety socket covers;Steckdosen-Kindersicherung;Couvercles de prises de sécurité pour enfants;Coperchi per prese di sicurezza per bambini;boolean;family
 food_alcoholfreedrinks;Alcohol-free drinks;Alkoholfreie Getränke;Boissons sans alcool;Bevande analcoliche;boolean;food
 food_alcoholicdrinks;Alcoholic drinks;Alkoholische Getränke;Boissons alcoolisées;Bevande alcoliche;boolean;food
