@@ -68,13 +68,19 @@ Apartment;Accommodation;Apartment;Wohnung;Appartement;Appartamento
 CampingPitch;Accommodation;Camping Pitch;Camping Platz;Emplacement de camping;Piazzola campeggio
 House;Accommodation;House;Haus;Maison;Casa
 Room;Accommodation;Room;Zimmer;Chambre;Stanza
+Appartment;Accommodation;Appartment;Ferienwohnung;Appartment;Appartamento
 Dormitory;Accommodation;Dormitory;Mehrbettzimmer;Dortoir;Dormitorio
 HotelRoom;Accommodation;Hotel Room;Hotelzimmer;Chambre d'hôtel;Camera d'hotel
+12BedRoom;Accommodation;12-bed room;12-Bett Zimmer;Chambre à 12 lits;Camera da 12 letti
+6BedRoom;Accommodation;6-bed room;6-Bett Zimmer;Chambre à 6 lits;Camera da 6 letti
+8BedRoom;Accommodation;8-bed room;8-Bett Zimmer;Chambre à 8 lits;Camera da 8 letti
 DoubleRoom;Accommodation;Double room;Doppelzimmer;Chambre double;Camera doppia
 FamilyRoom;Accommodation;Family room;Familienzimmer;Chambre familiale;Camera familiare
+QuadrupleRoom;Accommodation;Quadruple room;Vierbettzimmer;Chambre à 4 lits;Camera da 4 letti
 SingleRoom;Accommodation;Single room;Einzelzimmer;Chambre simple;Camera singola
-MeetingRoom;Accommodation;Meeting Room;Besprechungsraum;Salle de réunion;Sala riunioni
 Suite;Accommodation;Suite;Suite;Suite;Suite
+TripleRoom;Accommodation;Triple room;Dreibettzimmer;Chambre triple;Camera tripla
+MeetingRoom;Accommodation;Meeting Room;Besprechungsraum;Salle de réunion;Sala riunioni
 CivicStructure;Place;Public Facility;Öffentliche Anlage/Einrichtung;Établissement public;Struttura pubbliche
 Alp;CivicStructure;Alp;Alm;Alpage;Alpe
 NaturePark;CivicStructure;Nature park;Naturpark;Parc naturel;Parco naturale
@@ -241,6 +247,7 @@ Circus;LocalBusiness;Circus;Zirkus;Cirque;Circo
 Corporation;LocalBusiness;Corporation;Unternehmen;Société;Società
 HotelGroup;LocalBusiness;Hotel group;Hotelkette;Groupe hôtelier;Gruppo alberghiero
 CourseOrganizer;LocalBusiness;Course Organiser;Kursveranstalter;Organisateur de cours;Organizzatore del corso
+CoworkingSpace;LocalBusiness;CoworkingSpace;CoworkingSpace;CoworkingSpace;CoworkingSpace
 DryCleaningOrLaundry;LocalBusiness;Dry Cleaning;Chemische Reinigung;Nettoyage à sec;Lavaggio a secco
 EChargingStation;LocalBusiness;E-charging station;E-Ladestation;Station de recharge électrique;Stazione di ricarica elettrica
 EBikeChargingStation;LocalBusiness;E-bike charging station;E-bike Ladestation;Station de recharge pour vélos électriques;Stazione di ricarica per biciclette elettriche
@@ -265,6 +272,7 @@ HealthAndBeautyBusiness;LocalBusiness;Wellness and Beauty Salon;Wellness- und Ko
 DaySpa;LocalBusiness;Day Spa;Spa;Spa;Spa
 HairSalon;LocalBusiness;Hair Salon;Coiffeur;Coiffeur;Parrucchiere
 HealthClub;LocalBusiness;Health Club;Gesundheitsclub;Club de santé;Centro benessere
+MassageStudio;LocalBusiness;Massage studio;Massage Studio;Studio de massage;Studio di massaggi
 NailSalon;LocalBusiness;NailSalon;Nagelstudio;NailSalon;NailSalon
 Solarium;LocalBusiness;Solarium;Solarium;Solarium;Solarium
 HomeAndConstructionBusiness;LocalBusiness;Craft business;Handwerksbetrieb;Entreprise artisanale;Impresa artigianale
@@ -409,6 +417,7 @@ Spring;Place;Spring;Frühling;Source;Primavera
 Waterfall;Place;Waterfall;Wasserfall;Cascade;Cascata
 Canyon;Place;Canyon;Schlucht;Gorge;Gola
 Continent;Place;Continent;Kontinent;Continent;Continente
+Glacier;Place;Glacier;Gletscher;Glacier;Ghiacciaio
 Island;Place;Island;Insel;Île;Isola
 Mountain;Place;Mountain;Berg;Montagne;Montagna
 MountainPeak;Place;Mountain Summit;Berggipfel;Sommet de montagne;Cima di montagna
@@ -431,9 +440,11 @@ TrainTour;Tour;Train Tour;Zugtour;Tour en train;Tour in treno
 ThemeTrail;Tour;Theme Trail;Themenweg;Sentier thématique;Percorso tematico
 ViaFerrata;Tour;Via Ferrata;Klettersteig;Via ferrata;Via ferrata
 Way;Tour;Way;Weg;Route;Tour
+AlpineHikingtrail;Tour;Alpine hiking trail;Alpinwanderweg;Sentier de randonnée alpin;Sentiero escursionistico alpino
 BikeTrail;Tour;Bike trail;Bike Trail;Bike trail;Bike trail
 CrossCountry;Tour;Crosscountry slope;Langlaufloipe;Piste de ski de fond;Pista da fondo
-HikingTrail;Tour;Hiking trail;Wanderweg;Sentiers de randonnée;Sentiero
+HikingTrail;Tour;Hiking trail;Wanderweg;Sentier de randonnée;Sentiero
+MountainHikingtrail;Tour;Mountain hiking trail;Bergwanderweg;Sentier de randonnée en montagne;Sentiero escursionistico di montagna
 NatureTrail;Tour;Nature Trail;Naturlehrpfad;Sentier nature;Sentiero natura
 SkiRoute;Tour;Ski routes;Tourenski Route;Ski routes;Ski routes
 SkiSlope;Tour;Ski slope;Skipiste;Piste de ski;Pista da sci
@@ -476,6 +487,7 @@ DoubleRoomOffer;Product;Doubleroom offer;Doppelzimmer Angebot;Offre chambre doub
 FamilyRoomOffer;Product;Familyroom offer;Familienzimmer Angebot;Offre chambre familiale;Offerta camera famiglia
 SingleRoomOffer;Product;Singleroom offer;Einzelzimmer Angebot;Offre chambre simple;Offerta Camera Singola
 MeetingRoomOffer;Product;Meetingroom offer;Sitzungszimmer Angebot;Offre Salle de réunion;Offerta Meetingroom
+PrivateDormitoryOffer;Product;Private dormitory offer;Privates Mehrbettzimmer Angebot;Offre dortoir privé;Offerta dormitorio privato
 StayHelper;Product;Stay;Aufenthalt;Rester;Restare
 Services;Product;Services;Dienstleistungen;Services;Servizi
 SkiTicket;Product;Ski Ticket;Ski-Ticket;Billet de ski;Skipass
@@ -489,12 +501,14 @@ Vouchers;Product;Vouchers;Gutscheine;Bons;Buoni
 Wellness;Product;Wellness;Wellness;Bien-être;Benessere
 AmenityFeature;;Amenity feature;Ausstattungsmerkmal;Caractéristique d'agrément;Funzionalità di servizio
 LodgingBusinessFeature;AmenityFeature;Lodging business feature;Unterkunftsausstattungsmerkmal;Fonctionnalité d'hébergement;Caratteristica aziendale di alloggio
+bed;AmenityFeature;Bedtype;Bettentyp;Type de lit;Tipo di letto
 characteristics;AmenityFeature;Characteristics;Charaktereigenschaften;Caractéristiques;Caratteristiche
 entertainment;AmenityFeature;Entertainment and lifestyle;Unterhaltung und Lifestyle;Divertissement et style de vie;Intrattenimento e stile di vita
 events;AmenityFeature;Conference and events;Konferenzen und Veranstaltungen;Conférence et événements;Convegni ed eventi
 food;AmenityFeature;Food;Essen;Nourriture;Cibo
 breakfast;AmenityFeature;Breakfast;Frühstück;Petit déjeuner;Colazione
 general;Tag;General;Allgemein;Allgemein;Allgemein
+building;AmenityFeature;Building;Gebäude;Bâtiment;Edificio
 location;AmenityFeature;Location;Standort;Emplacement;Ubicazione
 outdoor;AmenityFeature;Outdoor facilities;Aussenanlagen;Aménagements extérieurs;Strutture all'aperto
 security;AmenityFeature;Safety and security;Sicherheit und Schutz;Sûreté et sécurité;Sicurezza e protezione
@@ -504,10 +518,7 @@ sustainability;AmenityFeature;Sustainability;Nachhaltigkeit;Durabilité;Sostenib
 wellness;AmenityFeature;Wellness services;Wellness-Dienstleistungen;Services de bien-être;Servizi benessere
 AccommodationFeature;AmenityFeature;Accommodation feature;Zimmerausstattungsmerkmal;Caractéristique d'hébergement;Caratteristica dell'alloggio
 bathroom;AmenityFeature;Bathroom;Badezimmer;Salle de Bains;Stanza da bagno
-bed;AmenityFeature;Bedtype;Bettentyp;Type de lit;Tipo di letto
-family;AmenityFeature;Family services;Dienstleistungen für Familien;Services à la famille;Servizi per famiglie
 furnishing;AmenityFeature;Furnishing;Ausstattung;Meublant;Arredamento
-building;AmenityFeature;Building;Gebäude;Bâtiment;Edificio
 media;AmenityFeature;Media;Medien;Média;Media
 view;AmenityFeature;Outdoor and view;Aussenbereich und Aussicht;Extérieur et vue;All'aperto e vista
 PlaceFeature;AmenityFeature;Place feature;Platzausstattungsmerkmal;Caractéristique du lieu;Caratteristica del luogo
