@@ -1,0 +1,31 @@
+{
+  "currentPage": 1,
+  "resultsPerPage": 10,
+  "filters": "type ne 'Partner' and type ne 'Project' and type ne 'Tag' and type ne 'Category' and type ne 'Award' and type ne 'AdministrativeArea' and not combinedTypeTree/any(type: type eq 'Thing|CreativeWork|MediaObject')",
+  "orderBy": "name/de asc",
+  "facets": [
+    { "name": "combinedTypeTree", "count": 1000, "scope": "all" },
+    { "name": "categoryTree", "count": 1000, "scope": "all" },
+    { "name": "datasource", "count": 1000, "scope": "all" },
+    { "name": "sourcePartner", "count": 1000, "scope": "all" }
+  ],
+  "combinedTypeTree": [
+    "Thing|Place|LocalBusiness|LodgingBusiness|HolidayApartment",
+    "Thing|Place|LocalBusiness|LodgingBusiness|GroupAccommodation",
+    "Thing|Place|LocalBusiness|LodgingBusiness|Mountainhut|SelfCateredHut",
+    "Thing|Place|LocalBusiness|LodgingBusiness|Hotel",
+    "Thing|Place|LocalBusiness|LodgingBusiness|HolidayHouse",
+    "Thing|Place|LocalBusiness|LodgingBusiness|IglooVillage",
+    "Thing|Place|LocalBusiness|LodgingBusiness|BedAndBreakfast",
+    "Thing|Place|LocalBusiness|LodgingBusiness|Agrotourism",
+    "Thing|Place|LocalBusiness|LodgingBusiness|Campground",
+    "Thing|Place|LocalBusiness|LodgingBusiness|GuestHouse",
+    "Thing|Place|LocalBusiness|LodgingBusiness|PrivateRoom",
+    "Thing|Place|LocalBusiness|LodgingBusiness|Hostel",
+    "Thing|Place|LocalBusiness|LodgingBusiness|Motel"
+  ],
+  "project": ["vgl-web"],
+  "publish": "true",
+  "hasSimilarVertexes": {},
+  "facetOrderBy": "desc"
+}
