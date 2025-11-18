@@ -96,6 +96,15 @@ def main():
         json.dump(akeneoCategories, file)
 
     #setCategoriesInAkeneo(akeneoCategories)
+    # Save as csv with UTF-8 encoding and replace "None" in every field with empty string
+    with open("../../output/categories.csv", "w", encoding='utf-8') as file:
+        for code, body in akeneoCategories.items():
+            parent = body['parent'] if body['parent'] else ''
+            en = body['labels']['en_US'] if 'en_US' in body['labels'] else ''
+            de = body['labels']['de_CH'] if 'de_CH' in body['labels'] else ''
+            fr = body['labels']['fr_FR'] if 'fr_FR' in body['labels'] else ''
+            it = body['labels']['it_IT'] if 'it_IT' in body['labels'] else ''
+            file.write(f"{code};{parent};{en};{de};{fr};{it}\n")
 
 if __name__ == "__main__":
     main()

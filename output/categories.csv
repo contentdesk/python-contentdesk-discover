@@ -1,0 +1,187 @@
+sui_root;;topic SUI;Themen-SUI;Thème SUI;Tema SUI
+sui_01;sui_root;Activities;Aktivitäten;Activités;Attività
+sui_0111;sui_01;Air sports;Luftsport;Sports aériens;Sport aerei
+sui_011103;sui_0111;Hang gliding;Drachenfliegen;Deltaplane;Deltaplano
+sui_011104;sui_0111;Hot air balloon flying;Heissluftballonfliegen;Vol en montgolfière;Volo in mongolfiera
+sui_011101;sui_0111;Paragliding;Gleitschirmfliegen;Parapente;Parapendio
+sui_011102;sui_0111;Skydiving;Fallschirmspringen;Parachutisme;Paracadutismo
+sui_0109;sui_01;Aquatics;Wassersport;Natation;Sport acquatico
+sui_010904;sui_0109;Canoeing;Kanufahren;Canoé;Canoismo
+sui_010901;sui_0109;Canyoning;Canyoning;Canyoning;Canyoning
+sui_010913;sui_0109;Dive;Tauchen;Plonger;Tuffarsi
+sui_010902;sui_0109;Fish;Fischen;Poisson;Pesce
+sui_010903;sui_0109;Kayaking;Kajakfahren;Kayak;Kayak
+sui_010915;sui_0109;Kitesurfing;Kitesurfen;Kitesurf;Kitesurf
+sui_010916;sui_0109;Pedalos;Pedalos;Pédalos;Pedalò
+sui_010905;sui_0109;Rafting;Rafting;Rafting;Fluitazione
+sui_010906;sui_0109;Row;Rudern;Ramer;Fila
+sui_010908;sui_0109;Sail;Segeln;Voile;Vela
+sui_010911;sui_0109;SUPStandUpPaddling;SUPStandUpPaddling;SUPStandUpPaddling;SUPStandUpPaddling
+sui_010912;sui_0109;Surfing;Surfen;Surf;Surf
+sui_010907;sui_0109;Swim;Schwimmen;Nager;Nuotare
+sui_010914;sui_0109;Waterskiing & Wakeboard;Wasserski & Wakeboard;Ski nautique & Wakeboard;Sci nautico & Wakeboard
+sui_010917;sui_0109;Windsurfing;Windsurfen;Planche à voile;Windsurf
+sui_0116;sui_01;Athletics;Leichtathletik;Athlétisme;Atletica
+sui_0108;sui_01;Ball sports;Ballsport;Sports de balle;Sport con la palla
+sui_010813;sui_0108;American football;American Football;Football américain;Football americano
+sui_010801;sui_0108;Badminton;Badminton;Badminton;Badminton
+sui_010814;sui_0108;Baseball;Baseball;Base-ball;Baseball
+sui_010815;sui_0108;Basketball;Basketball;Basket-ball;Pallacanestro
+sui_010802;sui_0108;Beach volleyball;Beachvolleyball;Beach-volley;Beach volley
+sui_010803;sui_0108;Billiards;Billard;Billard;Biliardo
+sui_010804;sui_0108;Bocce;Boccia;Lyonnaises;Bocce
+sui_010817;sui_0108;Floorball;Unihockey;Floorball;Floorball
+sui_010805;sui_0108;Football;Fussball;Football;Calcio
+sui_010806;sui_0108;Gulf;Golf;Golfe;Golfo
+sui_010807;sui_0108;Handball;Handball;Handball;Pallamano
+sui_010809;sui_0108;Miniature golf;Minigolf;Golf miniature;Minigolf
+sui_010808;sui_0108;Skittles;Kegeln;Skittles;Birillo
+sui_010810;sui_0108;Squash;Squash;Courge;Schiacciare
+sui_010816;sui_0108;Table tennis;Tischtennis;Ping-pong;Ping-pong
+sui_010811;sui_0108;Tennis;Tennis;Tennis;Tennis
+sui_010812;sui_0108;Volleyball;Volleyball;Volley-ball;Pallavolo
+sui_0104;sui_01;Climbing;Klettersport;Escalade;Arrampicata
+sui_010401;sui_0104;Bouldering;Bouldern;Bloc;Bouldering
+sui_010403;sui_0104;Climb;Klettern;Grimper;Arrampicarsi
+sui_010402;sui_0104;Ice climbing;Eisklettern;Escalade sur glace;Arrampicata su ghiaccio
+sui_010404;sui_0104;Sport climbing;Sportklettern;Escalade sportive;Arrampicata sportiva
+sui_0102;sui_01;Cycling;Velofahren;Cyclisme;Ciclismo
+sui_010203;sui_0102;Bicycle;Fahrrad;Bicyclette;Bicicletta
+sui_010201;sui_0102;E-Bike;E-Bike;Vélo électrique;E-Bike
+sui_010202;sui_0102;E-mountain bike;E-Mountainbike;Vélo de montagne électrique;E-mountain bike
+sui_010204;sui_0102;Gravel bike;Gravelbike;Vélo de gravier;Bici gravel
+sui_010205;sui_0102;Mountain bike;Mountainbike;VTT;Rampichino
+sui_010207;sui_0102;Racer;Rennrad;Coureur;Corridore
+sui_0117;sui_01;Dance;Tanzen;Danser;Ballo
+sui_0115;sui_01;Dog sports;Hundesport;Sports canins;Sport per cani
+sui_0114;sui_01;Equitation;Reitsport;Équitation;Equitazione
+sui_011401;sui_0114;Ride;Reiten;Chevaucher;Cavalcare
+sui_0107;sui_01;Fitness;Fitness;Aptitude;Idoneità
+sui_010701;sui_0107;Aerobics;Aerobic;Aérobic;Aerobica
+sui_010702;sui_0107;Biathlon;Biathlon;Biathlon;Biathlon
+sui_010703;sui_0107;Fitness training;Fitnesstraining;Entraînement physique;Allenamento fitness
+sui_010705;sui_0107;Pilates;Pilates;Pilates;Pilates
+sui_010706;sui_0107;Spinning;Spinning;Filage;Filatura
+sui_010707;sui_0107;Triathlon;Triathlon;Triathlon;Triathlon
+sui_010709;sui_0107;Wellness;Wellness;Bien-être;Benessere
+sui_010708;sui_0107;Yoga;Yoga;Yoga;Yoga
+sui_0105;sui_01;Fun Sports;Fun-Sport;Sports amusants;Sport divertenti
+sui_010502;sui_0105;Bungee jumping;Bungee-Jumping;Saut;Bungee jumping
+sui_010519;sui_0105;Mountain cart;Mountaincart;Chariot de montagne;Carrello da montagna
+sui_010520;sui_0105;Scooter;Trottinett;Trottinette;Monopattino
+sui_010516;sui_0105;Ski jumping;Skispringen;Saut à ski;Salto con gli sci
+sui_010518;sui_0105;Summer tobogganing;Sommerrodeln;Luge d’été;Slittino estivo
+sui_0106;sui_01;Martial arts;Kampfsport;Arts martiaux;Arti marziali
+sui_010604;sui_0106;Boxing;Boxen;Boxe;Boxe
+sui_010601;sui_0106;Endurance training;Ausdauertraining;Entraînement d’endurance;Allenamento di resistenza
+sui_010605;sui_0106;Fencing;Fechten;Escrime;Scherma
+sui_010603;sui_0106;Qi Gong;Qi Gong;Qi Gong;Qi Gong
+sui_010602;sui_0106;Strength training;Krafttraining;Entraînement en force;Allenamento della forza
+sui_010607;sui_0106;Swing;Schwingen;Balançoire;Altalena
+sui_010608;sui_0106;Tai Chi;Tai Chi;Tai Chi;Tai Chi
+sui_010606;sui_0106;Wrestle;Ringen;Lutter;Lottare
+sui_0113;sui_01;Motorsports;Motorsport;Sport automobile;Sport motoristici
+sui_011302;sui_0113;Go-cart;Go-Kart;Kart;Carrello
+sui_011301;sui_0113;Karting;Kartfahren;Karting;Karting
+sui_0101;sui_01;On foot;Zu Fuss;À pied;A piedi
+sui_010104;sui_0101;Geocaching;Geocaching;Géocaching;Geocaching
+sui_010105;sui_0101;Jog;Joggen;Faire du jogging;Spintarella
+sui_010113;sui_0101;Long-distance hiking;Weitwandern;Randonnée de longue distance;Escursioni a lunga distanza
+sui_010106;sui_0101;Marathon running;Marathonlaufen;Marathon;Maratona
+sui_010114;sui_0101;Mountaineering;Bergsteigen;Alpinisme;Alpinismo
+sui_010108;sui_0101;Orienteering;Orientierungslaufen;Orientation;Orienteering
+sui_010109;sui_0101;Pilgrimage;Pilgern;Pèlerinage;Pellegrinaggio
+sui_010107;sui_0101;Pole walking;Nordic walking;Marche à la perche;Pole walking
+sui_010110;sui_0101;Stroll;Spazieren;Promenade;Passeggiare
+sui_010111;sui_0101;Trail running;Trailrunning;Course en sentier;Trail running
+sui_010112;sui_0101;Wander;Wandern;Errer;Vagabondare
+sui_0112;sui_01;Shooting sports;Schiesssport;Sports de tir;Sport di tiro
+sui_011201;sui_0112;Archery;Bogenschiessen;Archerie;Tiro con l'arco
+sui_011202;sui_0112;Shoot;Schiessen;Tirer;Sparare
+sui_0103;sui_01;Skating;Skaten;Patinage;Pattinaggio
+sui_010301;sui_0103;Inline skating;Inline-Skating;Roller;Pattinaggio in linea
+sui_010302;sui_0103;Roller skis;Rollski;Skis à roulettes;Skiroll
+sui_0110;sui_01;Winter sports;Wintersport;Sports d’hiver;Sport invernali
+sui_011001;sui_0110;Bobsleighing;Bobfahren;Bobsleighing;Bob
+sui_011007;sui_0110;Cross country;Langlaufen;Ski de fond;Sci di fondo
+sui_011002;sui_0110;Curling;Curling;Curling;Arricciatura
+sui_011005;sui_0110;Curling;Eisstockschiessen;Curling;Arricciatura
+sui_011006;sui_0110;Freeriding;Freeriden;Freeride;Freeride
+sui_011003;sui_0110;Ice fishing;Eisangeln;Pêche sur glace;Pesca sul ghiaccio
+sui_011021;sui_0110;Ice hockey;Eishockey;Hockey sur glace;Hockey su ghiaccio
+sui_011004;sui_0110;Ice skating;Eislaufen;Patinage;Pattinaggio su ghiaccio
+sui_011014;sui_0110;Ski;Skitour;Ski;Sci
+sui_011019;sui_0110;Ski jumping;Skispringen;Saut à ski;Salto con gli sci
+sui_011012;sui_0110;Skiing;Skifahren;Ski;Sciare
+sui_011013;sui_0110;Skijoring;Skijöring;Skijoring;Skijoring
+sui_011008;sui_0110;Sleigh;Pferdeschlitten;Traîneau;Slitta
+sui_011015;sui_0110;Snowbike;Snowbike;Motoneige;Snowbike
+sui_011016;sui_0110;Snowboarding;Snowboarden;Snowboard;Snowboard
+sui_011011;sui_0110;Snowshoeing;Schneeschuhwandern;Raquette;Racchette da neve
+sui_011017;sui_0110;Telemark;Telemark;Télémark;Telemark
+sui_011010;sui_0110;Tobogganing;Schlitteln;Luge;Slittino
+sui_011009;sui_0110;Tobogganing and bobsleigh;Rodel- und Bobsport;Toboggan et bobsleigh;Slittino e bob
+sui_011018;sui_0110;Winter fun sports;Winter-Funsport;Sports d’hiver;Sport invernali divertenti
+sui_011020;sui_0110;Winter hiking;Winterwandern;Randonnée hivernale;Escursioni invernali
+sui_02;sui_root;Culture;Kultur;Culture;Cultura
+sui_0202;sui_02;Architecture;Architektur;Architecture;Architettura
+sui_0210;sui_02;Art;Kunst;BrW;Arte
+sui_0219;sui_02;Art in public space;Kunst im öffentlichen Raum;L’art dans l’espace public;Arte nello spazio pubblico
+sui_0209;sui_02;Cultural history;Kulturgeschichte;Histoire culturelle;Storia culturale
+sui_0221;sui_02;Custom;Brauchtum;Coutume;Costume
+sui_0215;sui_02;Dance;Tanzen;Danser;Ballo
+sui_0205;sui_02;Design;Design;Concevoir;Disegno
+sui_0211;sui_02;Literature;Literatur;Littérature;Letteratura
+sui_0220;sui_02;Market;Markt;Marché;Mercato
+sui_0206;sui_02;Movie;Film;Film;Film
+sui_0213;sui_02;Music;Musik;Musique;Musica
+sui_0214;sui_02;Natural sciences;Naturwissenschaften;Sciences naturelles;Scienze naturali
+sui_0212;sui_02;Paint;Malen;Peinture;Dipingere
+sui_0208;sui_02;Photography;Fotografie;Photographie;Fotografia
+sui_0218;sui_02;Spirituality;Spiritualität;Spiritualité;Spiritualità
+sui_021802;sui_0218;Meditation;Meditation;Méditation;Meditazione
+sui_021804;sui_0218;Pilgrimage;Wallfahrt;Pèlerinage;Pellegrinaggio
+sui_021803;sui_0218;Procession;Prozession;Cortège;Processione
+sui_021801;sui_0218;Service;Gottesdienst;Service;Servizio
+sui_0204;sui_02;Stage;Bühne;Étape;Palco
+sui_0203;sui_02;Visual arts;Bildende Kunst;Arts visuels;Arti visive
+sui_06;sui_root;Nature;Natur;Nature;Natura
+sui_0604;sui_06;Cultural landscape;Kulturlandschaft;Paysage culturel;Paesaggio culturale
+sui_0603;sui_06;Fauna;Fauna;Faune;Fauna
+sui_0602;sui_06;Flora;Flora;Flore;Flora
+sui_0601;sui_06;Geology;Geologie;Géologie;Geologia
+sui_0605;sui_06;Landscape;Naturlandschaft;Paysage;Paesaggio
+sui_05;sui_root;Shopping;Einkaufen;Achats;Compere
+sui_0504;sui_05;Clothing;Bekleidung;Vêtement;Abbigliamento
+sui_0505;sui_05;Fashion;Mode;Mode;Moda
+sui_0502;sui_05;Food;Lebensmittel;Nourriture;Cibo
+sui_0507;sui_05;Producer;Produzent;Producteur;Produttore
+sui_0506;sui_05;Regional products;Regionalprodukte;Produits régionaux;Prodotti regionali
+sui_0501;sui_05;Retailers;Fachhandel;Détaillants;Rivenditori
+sui_0503;sui_05;Souvenirs & Gifts;Souvenirs & Geschenke;Souvenirs & Cadeaux;Souvenir & Regali
+sui_03;sui_root;Society;Gesellschaft;Société;Società
+sui_0319;sui_03;Auction;Auktion;Vente aux enchères;Asta
+sui_0306;sui_03;Care;Betreuung;Soin;Cura
+sui_0330;sui_03;Christmas;Weihnachtsfeier;Noël;Natale
+sui_0317;sui_03;Clubs;Treff;Trèfle;Fiori
+sui_0324;sui_03;Company event;Firmenevent;Evénement d’entreprise;Evento aziendale
+sui_0331;sui_03;Concert;Konzert;Concert;Concerto
+sui_0313;sui_03;Congress/Conference/Meeting;Kongress/Konferenz/Tagung;Congrès;Congresso/Conferenza/Riunione
+sui_0304;sui_03;Consultation;Beratung;Consultation;Consultazione
+sui_0307;sui_03;Coworking;Coworking;Coworking;Coworking
+sui_0311;sui_03;Craft;Handwerk;Métier;Mestiere
+sui_0333;sui_03;Cultural event;Kulturelle Veranstaltung;Evénement culturel;Evento culturale
+sui_0309;sui_03;Disposal;Entsorgung;Disposition;Disposizione
+sui_0332;sui_03;Exhibition/Vernissage;Ausstellung/Vernissage;Exposition/Vernissage;Mostra/Vernissage
+sui_0326;sui_03;Hybrid event;Hybrider Event;Événement hybride;Evento ibrido
+sui_0323;sui_03;Industry;Gewerbe;Industrie;Industria
+sui_0321;sui_03;Lectures;Vorträge;Conférences;Conferenze
+sui_0314;sui_03;Measure;Messen;Mesurer;Misura
+sui_0320;sui_03;Meeting;Versammlung;Réunion;Riunione
+sui_0327;sui_03;Meeting;Meeting;Réunion;Riunione
+sui_0316;sui_03;Networking;Networking;Réseautage;Networking
+sui_0328;sui_03;Private event;Privater Anlass;Événement privé;Evento privato
+sui_0329;sui_03;Team Event;Teamevent;Épreuve par équipe;Evento di squadra
+sui_0305;sui_03;Visits;Besichtigungen;Visites;Visite
+sui_0325;sui_03;Wedding;Hochzeit;Mariage;Matrimonio
+sui_0322;sui_03;Workshops/Seminar;Workshops/Seminar;Ateliers;Workshop/Seminari
