@@ -1,92 +1,27 @@
 {
-    "name": "VGL Erlebnisse",
-    "description": "VGL Erlebnisse Objekte",
-    "scheduleStrategy": "EveryHour",
+    "name": "VGL Erlebnisse - Natur",
+    "description": "VGL Erlebnisse - Natur Objekte",
+    "scheduleStrategy": "Daily",
     "searchRequest": {
             "project": [
                 "{{project}}"
             ],
             "facets": [
                 {
-                    "name": "containedInPlace/id",
-                    "responseName": "Ferienregion",
-                    "selectValues": [
-                        "osm_1683140",
-                        "plz_8865_0",
-                        "plz_8867_0",
-                        "plz_8868_0",
-                        "plz_8752_0",
-                        "plz_8753_0",
-                        "plz_8757_0",
-                        "plz_8758_0",
-                        "plz_8874_0",
-                        "plz_8866_0",
-                        "plz_8754_0",
-                        "plz_8750_0",
-                        "plz_8750_2",
-                        "plz_8750_3",
-                        "plz_8755_0",
-                        "plz_8767_0",
-                        "plz_8765_0",
-                        "plz_8766_0",
-                        "plz_8784_0",
-                        "plz_8783_0",
-                        "plz_8751_0",
-                        "plz_6465_0",
-                        "plz_6464_0",
-                        "plz_8772_0",
-                        "plz_8774_0",
-                        "plz_8775_1",
-                        "plz_8775_2",
-                        "plz_8777_0",
-                        "plz_8777_2",
-                        "plz_8782_0",
-                        "plz_8756_0",
-                        "plz_8762_0",
-                        "plz_8762_2",
-                        "plz_8762_3",
-                        "plz_8773_0"
-                    ]
-                },
-                {
-                    "name": "categoryTree"
-                },
-                {
-                    "name": "combinedTypeTree"
-                },
-                {
                     "name": "leafType",
                     "orderBy": "name",
                     "orderDirection": "asc"
                 },
                 {
-                    "name": "type",
+                    "name": "season"
+                },
+                {
+                    "name": "priceRange",
                     "orderBy": "name",
                     "orderDirection": "asc"
                 },
                 {
-                    "name": "tag",
-                    "additionalType": ["seasonality"],
-                    "responseNames": {
-                        "de": "Saison",
-                        "en": "Seasonality"
-                    }
-                },
-                {
-                    "name": "openingHoursSpecification/dayOfWeek",
-                    "responseName": "Öffnungszeiten"
-                },
-                {
-                    "name": "campaignTag",
-                    "responseName": "Weitere Angaben",
-                    "selectValues": [
-                        "vgl_label-kinderregion",
-                        "vgl_label-gl-gutschein",
-                        "vgl_label-unesco",
-                        "vgl_label-glarnerlandpass"
-                    ],
-                    "orderBy": "name",
-                    "orderDirection": "asc"
+                    "name": "openingHoursSpecification/dayOfWeek"
                 }
             ],
             "leafType": [
@@ -119,9 +54,7 @@
                 "NaturalMonument",
                 "Volcano",
                 "Flora",
-                "LocalBusiness",
                 "Alp",
-                "LocalBusiness",
                 "Bisse",
                 "Zoo",
                 "Bridge",
@@ -137,7 +70,6 @@
                 "ProtectedArea",
                 "ObservationTower",
                 "Fauna",
-                "LocalBusiness",
                 "Fireplace",
                 "Viewpoint",
                 "ArchaeologicalSite",
@@ -146,7 +78,6 @@
                 "PedestrianArea",
                 "TownScape",
                 "Square",
-                "LocalBusiness",
                 "Street",
                 "Mine",
                 "Military",
@@ -217,8 +148,6 @@
                 "AnimalShelter",
                 "DryCleaningOrLaundry",
                 "ChildCare",
-                "LocalBusiness",
-                "LocalBusiness",
                 "HairSalon",
                 "Services",
                 "CourseOrganizer",
@@ -232,7 +161,6 @@
                 "Cemetery",
                 "Lighthouse",
                 "HomeAndConstructionBusiness",
-                "LocalBusiness",
                 "ITFirm",
                 "Mill",
                 "Forsthaus",
@@ -252,7 +180,6 @@
                 "ConvenienceStore",
                 "DepartmentStore",
                 "BookStore",
-                "LocalBusiness",
                 "HardwareStore",
                 "ComputerStore",
                 "HobbyShop",
@@ -279,15 +206,12 @@
                 "Confectionery",
                 "LiquorStore",
                 "Bakery",
-                "LocalBusiness",
                 "Dairy",
                 "ClothingStore",
                 "MensClothingStore",
                 "Fashion",
                 "Accessoires",
                 "Clothing",
-                "LocalBusiness",
-                "LocalBusiness",
                 "Market",
                 "FarmShop",
                 "WatersportRental",
@@ -308,7 +232,6 @@
                 "HealthAndBeautyBusiness",
                 "Solarium",
                 "Wellness",
-                "LocalBusiness",
                 "BikePark",
                 "BikeSchool",
                 "BMX-Facility",
@@ -355,8 +278,6 @@
                 "ArtGallery",
                 "DamOrWeir",
                 "CityTour",
-                "LocalBusiness",
-                "LocalBusiness",
                 "IndustrialMonument",
                 "Monument",
                 "Ruin",
