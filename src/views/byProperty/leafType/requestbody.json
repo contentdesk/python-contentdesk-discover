@@ -1,0 +1,172 @@
+{
+    "name": "VGL Erlebnisse",
+    "description": "VGL Erlebnisse Objekte",
+    "scheduleStrategy": "EveryHour",
+    "searchRequest": {
+            "project": [
+                "{{project}}"
+            ],
+            "facets": [
+                {
+                    "name": "containedInPlace/id",
+                    "responseName": "Ferienregion",
+                    "selectValues": [
+                        "osm_1683140",
+                        "plz_8865_0",
+                        "plz_8867_0",
+                        "plz_8868_0",
+                        "plz_8752_0",
+                        "plz_8753_0",
+                        "plz_8757_0",
+                        "plz_8758_0",
+                        "plz_8874_0",
+                        "plz_8866_0",
+                        "plz_8754_0",
+                        "plz_8750_0",
+                        "plz_8750_2",
+                        "plz_8750_3",
+                        "plz_8755_0",
+                        "plz_8767_0",
+                        "plz_8765_0",
+                        "plz_8766_0",
+                        "plz_8784_0",
+                        "plz_8783_0",
+                        "plz_8751_0",
+                        "plz_6465_0",
+                        "plz_6464_0",
+                        "plz_8772_0",
+                        "plz_8774_0",
+                        "plz_8775_1",
+                        "plz_8775_2",
+                        "plz_8777_0",
+                        "plz_8777_2",
+                        "plz_8782_0",
+                        "plz_8756_0",
+                        "plz_8762_0",
+                        "plz_8762_2",
+                        "plz_8762_3",
+                        "plz_8773_0"
+                    ]
+                },
+                {
+                    "name": "categoryTree"
+                },
+                {
+                    "name": "combinedTypeTree"
+                },
+                {
+                    "name": "leafType",
+                    "orderBy": "name",
+                    "orderDirection": "asc"
+                },
+                {
+                    "name": "type",
+                    "orderBy": "name",
+                    "orderDirection": "asc"
+                },
+                {
+                    "name": "tag",
+                    "additionalType": ["seasonality"],
+                    "responseNames": {
+                        "de": "Saison",
+                        "en": "Seasonality"
+                    }
+                },
+                {
+                    "name": "openingHoursSpecification/dayOfWeek",
+                    "responseName": "Öffnungszeiten"
+                },
+                {
+                    "name": "campaignTag",
+                    "responseName": "Weitere Angaben",
+                    "selectValues": [
+                        "vgl_label-kinderregion",
+                        "vgl_label-gl-gutschein",
+                        "vgl_label-unesco",
+                        "vgl_label-glarnerlandpass"
+                    ],
+                    "orderBy": "name",
+                    "orderDirection": "asc"
+                }
+            ],
+            "leafType": [
+                "BodyofWater",
+                "Canal",
+                "LakeBodyOfWater",
+                "Moor",
+                "OceanBodyOfWater",
+                "DamOrWeir",
+                "Pond",
+                "Sluice",
+                "Reservoir",
+                "RiverBodyOfWater",
+                "SeaBodyOfWater",
+                "Biotope",
+                "Spring",
+                "Waterfall"
+            ],
+            "combinedTypeTree": [
+                "Thing|Place|LocalBusiness|Store",
+                "Thing|Place|LocalBusiness|SportsActivityLocation",
+                "Thing|Place|LocalBusiness|EntertainmentBusiness",
+                "Thing|Place|LocalBusiness|EChargingStation",
+                "Thing|Place|LocalBusiness|HealthAndBeautyBusiness",
+                "Thing|Place|LocalBusiness|SkiResort",
+                "Thing|Place|LocalBusiness|TouristInformationCenter",
+                "Thing|Place|LocalBusiness|MedicalBusiness",
+                "Thing|Place|LocalBusiness|AutomotiveBusiness",
+                "Thing|Place|LocalBusiness|SkiSchool",
+                "Thing|Place|LocalBusiness|HomeAndConstructionBusiness",
+                "Thing|Place|LocalBusiness|ShoppingCenter",
+                "Thing|Place|LocalBusiness|MountainSchool",
+                "Thing|Place|LocalBusiness|Railway",
+                "Thing|Place|LocalBusiness|Sauna",
+                "Thing|Place|LocalBusiness|GovernmentOffice",
+                "Thing|Place|LocalBusiness|Library",
+                "Thing|Place|LocalBusiness|Corporation",
+                "Thing|Place|LocalBusiness|CourseOrganizer",
+                "Thing|Place|LocalBusiness|FinancialService",
+                "Thing|Place|LocalBusiness|BikeSchool",
+                "Thing|Place|LocalBusiness|Circus",
+                "Thing|Place|LocalBusiness|ThermalSpa",
+                "Thing|Place|LocalBusiness|TravelAgency",
+                "Thing|Place|LocalBusiness|ChildCare",
+                "Thing|Place|CivicStructure|TouristAttraction",
+                "Thing|Place|CivicStructure|AdministrativeArea",
+                "Thing|Place|CivicStructure|TransportationSystem",
+                "Thing|Place|CivicStructure|Forest",
+                "Thing|Place|CivicStructure|Museum",
+                "Thing|Place|CivicStructure|Market",
+                "Thing|Place|CivicStructure|PlaceOfWorship",
+                "Thing|Place|CivicStructure|EventVenue",
+                "Thing|Place|CivicStructure|TransportationSystemStation",
+                "Thing|Place|CivicStructure|BathingSpot",
+                "Thing|Place|CivicStructure|TaxiStand",
+                "Thing|Place|CivicStructure|BusStop",
+                "Thing|Place|CivicStructure|MusicVenue",
+                "Thing|Place|CivicStructure|RecyclingPoint",
+                "Thing|Place|CivicStructure|EducationalOrganization",
+                "Thing|Place|CivicStructure|Gallery",
+                "Thing|Place|CivicStructure|HerbGarden",
+                "Thing|Place|CivicStructure|InfoPoint",
+                "Thing|Place|CivicStructure|ParkingFacility",
+                "Thing|Place|CivicStructure|Theatre",
+                "Thing|Place|CivicStructure|VisitorCenter",
+                "Thing|Place|CivicStructure|Airport",
+                "Thing|Place|CivicStructure|Beach",
+                "Thing|Place|CivicStructure|Biotope",
+                "Thing|Place|CivicStructure|BoatTerminal",
+                "Thing|Place|CivicStructure|CulturalCentre",
+                "Thing|Place|CivicStructure|Farm",
+                "Thing|Place|CivicStructure|Harbour",
+                "Thing|Place|CivicStructure|Mill",
+                "Thing|Place|CivicStructure|PublicToilet",
+                "Thing|Place|CivicStructure|Sbahn",
+                "Thing|Place|Landform",
+                "Thing|Place|LandmarkOrHistoricalBuilding",
+                "Thing|Place|Flora",
+                "Thing|Place|ArchaeologicalSite",
+                "Thing|Event|GuidedTour"
+            ]
+    }
+}
