@@ -52,39 +52,131 @@
                     ]
                 },
                 {
-                    "name": "categoryTree"
-                },
-                {
-                    "name": "combinedTypeTree"
+                    "name": "leafType",
+                    "responseNames": {
+                        "de": "Gewässer",
+                        "en": "waters"
+                    },
+                    "orderBy": "name",
+                    "orderDirection": "asc",
+                    "selectValues": [
+                        "BodyofWater",
+                        "Canal",
+                        "LakeBodyOfWater",
+                        "Moor",
+                        "OceanBodyOfWater",
+                        "DamOrWeir",
+                        "Pond",
+                        "Sluice",
+                        "Reservoir",
+                        "RiverBodyOfWater",
+                        "SeaBodyOfWater",
+                        "Biotope",
+                        "Spring",
+                        "Waterfall"
+                    ]
                 },
                 {
                     "name": "leafType",
+                    "responseNames": {
+                        "de": "Gelände",
+                        "en": "terrain"
+                    },
                     "orderBy": "name",
-                    "orderDirection": "asc"
+                    "orderDirection": "asc",
+                    "selectValues": [
+                        "Canyon",
+                        "Continent",
+                        "SaltCave",
+                        "StalactiteCave",
+                        "Cave",
+                        "WaysideCross",
+                        "Island",
+                        "GlacierGarden",
+                        "FootBridge",
+                        "Mountain",
+                        "MountainPeak",
+                        "NaturalMonument",
+                        "Volcano"
+                    ]
                 },
                 {
-                    "name": "type",
+                    "name": "leafType",
+                    "responseNames": {
+                        "de": "Grünfläche",
+                        "en": "green area"
+                    },
                     "orderBy": "name",
-                    "orderDirection": "asc"
+                    "orderDirection": "asc",
+                    "selectValues": [
+                        "Flora",
+                        "Alp",
+                        "Bisse",
+                        "Zoo",
+                        "Bridge",
+                        "Forest",
+                        "Park",
+                        "AlpsPass",
+                        "PicnicArea",
+                        "HerbGarden",
+                        "NaturePark",
+                        "Garden",
+                        "NatureReserve",
+                        "AnimalPark",
+                        "ProtectedArea"
+                    ]
+                },
+                {
+                    "name": "leafType",
+                    "responseNames": {
+                        "de": "Fauna",
+                        "en": "fauna"
+                    },
+                    "orderBy": "name",
+                    "orderDirection": "asc",
+                    "selectValues": [
+                        "ObservationTower",
+                        "Fauna"
+                    ]
+                },
+                {
+                    "name": "leafType",
+                    "responseNames": {
+                        "de": "Region",
+                        "en": "region"
+                    },
+                    "orderBy": "name",
+                    "orderDirection": "asc",
+                    "selectValues": [
+                        "Fireplace",
+                        "Viewpoint",
+                        "ArchaeologicalSite",
+                        "HistoricSite",
+                        "LandmarkOrHistoricalBuilding",
+                        "PedestrianArea",
+                        "TownScape",
+                        "Square",
+                        "Street",
+                        "Mine",
+                        "Military",
+                        "City",
+                        "Country",
+                        "District",
+                        "MountainArea",
+                        "State"
+                    ]
                 },
                 {
                     "name": "tag",
                     "additionalType": ["seasonality"],
                     "responseNames": {
-                        "de": "Saison",
+                        "de": "Saisonalität",
                         "en": "Seasonality"
                     }
                 },
                 {
-                    "name": "openingHoursSpecification/dayOfWeek",
-                    "responseNames": {
-                        "de": "Öffnungszeiten",
-                        "en": "opening hours"
-                    }
-                },
-                {
                     "name": "campaignTag",
-                    "responseName": "Weitere Angaben",
+                    "responseName": "Weitere Filter",
                     "selectValues": [
                         "vgl_label-kinderregion",
                         "vgl_label-gl-gutschein",
@@ -120,15 +212,12 @@
                 "Island",
                 "GlacierGarden",
                 "FootBridge",
-                "LocalBusiness",
                 "Mountain",
                 "MountainPeak",
                 "NaturalMonument",
                 "Volcano",
                 "Flora",
-                "LocalBusiness",
                 "Alp",
-                "LocalBusiness",
                 "Bisse",
                 "Zoo",
                 "Bridge",
@@ -144,7 +233,6 @@
                 "ProtectedArea",
                 "ObservationTower",
                 "Fauna",
-                "LocalBusiness",
                 "Fireplace",
                 "Viewpoint",
                 "ArchaeologicalSite",
@@ -153,7 +241,6 @@
                 "PedestrianArea",
                 "TownScape",
                 "Square",
-                "LocalBusiness",
                 "Street",
                 "Mine",
                 "Military",
