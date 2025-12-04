@@ -112,28 +112,12 @@
                     ]
                 },
                 {
-                    "name": "openingHoursSpecification/dayOfWeek",
+                    "name": "tag",
                     "responseNames": {
-                        "de": "Öffnungszeiten",
-                        "en": "opening hours"
-                    }
-                },
-                {
-                    "name": "award",    
-                    "selectValues": [
-                        "stb_level-1",
-                        "stb_level-2",
-                        "stb_level-3"
-                        ],
-                    "orderBy": "name",
-                    "orderDirection": "asc"
-                },
-                {
-                    "name": "amenityFeature",
-                    "orderBy": "name",
-                    "orderDirection": "asc",
-                    "count": 1000,
-                    "scope": "all"
+                        "de": "Saisonalität",
+                        "en": "Seasonality"
+                    },
+                    "additionalType": ["seasonality"]
                 },
                 {
                     "name": "tag",
@@ -145,7 +129,7 @@
                 },
                 {
                     "name": "campaignTag",
-                    "responseName": "Weitere Angaben",
+                    "responseName": "Weitere Filter",
                     "selectValues": [
                         "vgl_label-kinderregion",
                         "vgl_label-gl-gutschein",
