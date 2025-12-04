@@ -1,0 +1,210 @@
+{
+    "name": "VGL Erlebnisse - Einkaufen & Vermietung",
+    "description": "VGL Erlebnisse - Einkaufen & Vermietung Objekte",
+    "scheduleStrategy": "Daily",
+    "searchRequest": {
+            "project": [
+                "{{project}}"
+            ],
+            "facets": [
+                {
+                    "name": "containedInPlace/id",
+                    "responseNames": {
+                        "de": "Ferienregion",
+                        "en": "vacation area"
+                    },
+                    "selectValues": [
+                        "osm_1683140",
+                        "plz_8865_0",
+                        "plz_8867_0",
+                        "plz_8868_0",
+                        "plz_8752_0",
+                        "plz_8753_0",
+                        "plz_8757_0",
+                        "plz_8758_0",
+                        "plz_8874_0",
+                        "plz_8866_0",
+                        "plz_8754_0",
+                        "plz_8750_0",
+                        "plz_8750_2",
+                        "plz_8750_3",
+                        "plz_8755_0",
+                        "plz_8767_0",
+                        "plz_8765_0",
+                        "plz_8766_0",
+                        "plz_8784_0",
+                        "plz_8783_0",
+                        "plz_8751_0",
+                        "plz_6465_0",
+                        "plz_6464_0",
+                        "plz_8772_0",
+                        "plz_8774_0",
+                        "plz_8775_1",
+                        "plz_8775_2",
+                        "plz_8777_0",
+                        "plz_8777_2",
+                        "plz_8782_0",
+                        "plz_8756_0",
+                        "plz_8762_0",
+                        "plz_8762_2",
+                        "plz_8762_3",
+                        "plz_8773_0"
+                    ]
+                },
+                {
+                    "name": "leafType",
+                    "responseNames": {
+                        "de": "Einkaufszentrum und Märkte",
+                        "en": "shopping center and markets"
+                    },
+                    "orderBy": "name",
+                    "orderDirection": "asc",
+                    "selectValues": [
+                        "ShoppingCenter",
+                        "WholesaleStore",
+                        "GroceryStore",
+                        "ConvenienceStore",
+                        "DepartmentStore",
+                        "Market",
+                        "FarmShop"
+                    ]
+                },
+                {
+                    "name": "leafType",
+                    "responseNames": {
+                        "de": "Fachgeschäfte",
+                        "en": "specialty stores"
+                    },
+                    "orderBy": "name",
+                    "orderDirection": "asc",
+                    "selectValues": [
+                        "BookStore",
+                        "HardwareStore",
+                        "ComputerStore",
+                        "HobbyShop",
+                        "TobaccoShop",
+                        "Perfumery",
+                        "OutletStore",
+                        "OfficeEquipmentStore",
+                        "FurnitureStore",
+                        "JewelryStore",
+                        "Opticians",
+                        "MovieRentalStore",
+                        "Forge",
+                        "MobilePhoneStore",
+                        "GardenStore",
+                        "NonFood",
+                        "MusicStore",
+                        "Florist",
+                        "HomeGoodsStore",
+                        "ElectronicsStore",
+                        "SportingGoodsStore",
+                        "ClothingStore",
+                        "MensClothingStore",
+                        "Fashion",
+                        "Accessoires",
+                        "Clothing"
+                    ]
+                },
+                {
+                    "name": "leafType",
+                    "responseNames": {
+                        "de": "Lebensmittelgeschäfte",
+                        "en": "food stores"
+                    },
+                    "orderBy": "name",
+                    "orderDirection": "asc",
+                    "selectValues": [
+                        "ButcherShop",
+                        "Kiosk",
+                        "SpiritsStore",
+                        "IceCreamShop",
+                        "Confectionery",
+                        "LiquorStore",
+                        "Bakery",
+                        "Dairy"
+                    ]
+                },
+                {
+                    "name": "leafType",
+                    "responseNames": {
+                        "de": "Verleih",
+                        "en": "rental"
+                    },
+                    "orderBy": "name",
+                    "orderDirection": "asc",
+                    "selectValues": [
+                        "WatersportRental",
+                        "WintersportRental",
+                        "Rental"
+                    ]
+                },
+                {
+                    "name": "tag",
+                    "additionalType": ["seasonality"],
+                    "responseNames": {
+                        "de": "Saisonalität",
+                        "en": "Seasonality"
+                    }
+                },
+                {
+                    "name": "campaignTag",
+                    "responseName": "Weitere Filter",
+                    "selectValues": [
+                        "vgl_label-kinderregion",
+                        "vgl_label-gl-gutschein",
+                        "vgl_label-unesco",
+                        "vgl_label-glarnerlandpass"
+                    ],
+                    "orderBy": "name",
+                    "orderDirection": "asc"
+                }
+            ],
+            "leafType": [
+                "ShoppingCenter",
+                "WholesaleStore",
+                "GroceryStore",
+                "ConvenienceStore",
+                "DepartmentStore",
+                "Market",
+                "FarmShop",
+                "BookStore",
+                "HardwareStore",
+                "ComputerStore",
+                "HobbyShop",
+                "TobaccoShop",
+                "Perfumery",
+                "OutletStore",
+                "OfficeEquipmentStore",
+                "FurnitureStore",
+                "JewelryStore",
+                "Opticians",
+                "MovieRentalStore",
+                "Forge",
+                "MobilePhoneStore",
+                "GardenStore",
+                "NonFood",
+                "MusicStore",
+                "Florist",
+                "HomeGoodsStore",
+                "ElectronicsStore",
+                "SportingGoodsStore",
+                "ClothingStore",
+                "MensClothingStore",
+                "Fashion",
+                "Accessoires",
+                "Clothing",
+                "ButcherShop",
+                "Kiosk",
+                "SpiritsStore",
+                "IceCreamShop",
+                "Confectionery",
+                "LiquorStore",
+                "Bakery",
+                "Dairy",
+                "WatersportRental",
+                "WintersportRental",
+                "Rental"
+            ]
+    }
+}
