@@ -68,16 +68,6 @@
                     ]
             },
             {
-                "name": "categoryTree",
-                "count": 1000,
-                "scope": "all"
-            },
-            {
-                "name": "combinedTypeTree",
-                "count": 1000,
-                "scope": "all"
-            },
-            {
                 "name": "leafType",
                 "responseNames": {
                     "de": "Hotel oder ähnliche",
