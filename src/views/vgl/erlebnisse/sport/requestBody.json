@@ -149,8 +149,8 @@
                 {
                     "name": "categoryTree",
                     "responseNames": {
-                        "de": "Wintersport",
-                        "en": "winter sports"
+                        "de": "Fitness",
+                        "en": "fitness"
                     },
                     "selectValues": [
                         "sui_0116",
