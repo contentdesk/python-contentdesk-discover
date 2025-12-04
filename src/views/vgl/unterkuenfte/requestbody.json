@@ -99,6 +99,50 @@
                 ]
             },
             {
+                "name": "leafType",
+                "responseNames": {
+                    "de": "Ferien & Gruppenunterkunft",
+                    "en": "Vacation & Group Accommodation"
+                },
+                "orderBy": "name",
+                "orderDirection": "asc",
+                "selectValues": [
+                    "GroupAccommodation",   
+                    "HolidayApartment",
+                    "HolidayHouse"
+                ]
+            },
+            {
+                "name": "leafType",
+                "responseNames": {
+                    "de": "Berghütten",
+                    "en": "Mountain Huts"
+                },
+                "orderBy": "name",
+                "orderDirection": "asc",
+                "selectValues": [
+                    "Mountainhut",
+                    "RescueHut"
+                ]
+            },
+            {
+                "name": "leafType",
+                "responseNames": {
+                    "de": "In der Natur",
+                    "en": "In Nature"
+                },
+                "orderBy": "name",
+                "orderDirection": "asc",
+                "selectValues": [
+                    "Campground",
+                    "RVPark",
+                    "Agrotourism",
+                    "FarmLodging",
+                    "IglooVillage",
+                    "SelfCateredHut"
+                ]
+            },
+            {
                 "name": "tag",
                 "responseNames": {
                     "de": "Saisonalität",
