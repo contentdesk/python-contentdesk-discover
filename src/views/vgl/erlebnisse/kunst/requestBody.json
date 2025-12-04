@@ -1,0 +1,191 @@
+{
+    "name": "VGL Erlebnisse - Kunst",
+    "description": "VGL Erlebnisse - Kunst Objekte",
+    "scheduleStrategy": "Daily",
+    "searchRequest": {
+            "project": [
+                "{{project}}"
+            ],
+            "facets": [
+                {
+                    "name": "containedInPlace/id",
+                    "responseNames": {
+                        "de": "Ferienregion",
+                        "en": "vacation area"
+                    },
+                    "selectValues": [
+                        "osm_1683140",
+                        "plz_8865_0",
+                        "plz_8867_0",
+                        "plz_8868_0",
+                        "plz_8752_0",
+                        "plz_8753_0",
+                        "plz_8757_0",
+                        "plz_8758_0",
+                        "plz_8874_0",
+                        "plz_8866_0",
+                        "plz_8754_0",
+                        "plz_8750_0",
+                        "plz_8750_2",
+                        "plz_8750_3",
+                        "plz_8755_0",
+                        "plz_8767_0",
+                        "plz_8765_0",
+                        "plz_8766_0",
+                        "plz_8784_0",
+                        "plz_8783_0",
+                        "plz_8751_0",
+                        "plz_6465_0",
+                        "plz_6464_0",
+                        "plz_8772_0",
+                        "plz_8774_0",
+                        "plz_8775_1",
+                        "plz_8775_2",
+                        "plz_8777_0",
+                        "plz_8777_2",
+                        "plz_8782_0",
+                        "plz_8756_0",
+                        "plz_8762_0",
+                        "plz_8762_2",
+                        "plz_8762_3",
+                        "plz_8773_0"
+                    ]
+                },
+                {
+                    "name": "leafType",
+                    "responseNames": {
+                        "de": "Kunst & Museum",
+                        "en": "art & museum"
+                    },
+                    "orderBy": "name",
+                    "orderDirection": "asc",
+                    "selectValues": [
+                        "ArtObject",
+                        "Gallery",
+                        "ArtGallery",
+                        "Museum"
+                    ]
+                },
+                {
+                    "name": "leafType",
+                    "responseNames": {
+                        "de": "Musik & Theater",
+                        "en": "music & theater"
+                    },
+                    "orderBy": "name",
+                    "orderDirection": "asc",
+                    "selectValues": [
+                        "ConcertHall",
+                        "MusicVenue",
+                        "OperaHouse",
+                        "PerformingArtsTheater",
+                        "OutdoorStage",
+                        "Theatre",
+                        "ComedyClub"
+                    ]
+                },
+                {
+                    "name": "leafType",
+                    "responseNames": {
+                        "de": "Architektur & Archeologie",
+                        "en": "architecture & archeology"
+                    },
+                    "orderBy": "name",
+                    "orderDirection": "asc",
+                    "selectValues": [
+                        "BuddhistTemple",
+                        "CatholicChurch",
+                        "Chapel",
+                        "Church",
+                        "HinduTemple",
+                        "Monastery",
+                        "Mosque",
+                        "Synagogue",
+                        "Castle",
+                        "Fortress",
+                        "PlaceOfWorship",
+                        "DamOrWeir",
+                        "IndustrialMonument",
+                        "Monument",
+                        "Ruin",
+                        "WaysideShrine"
+                    ]
+                },
+                {
+                    "name": "categoryTree",
+                    "responseNames": {
+                        "de": "Kategorie",
+                        "en": "category"
+                    },
+                    "selectValues": [
+                        "sui_0203",
+                        "sui_0205",
+                        "sui_0206",
+                        "sui_0208",
+                        "sui_0219",
+                        "sui_0210",
+                        "sui_0212",
+                        "sui_0202",
+                        "sui_0221",
+                        "sui_0215",
+                        "sui_0213",
+                        "sui_0214",
+                        "sui_0209",
+                        "sui_0203",
+                        "sui_0205",
+                        "sui_0206",
+                        "sui_0208"
+                    ]
+                },
+                {
+                    "name": "tag",
+                    "additionalType": ["seasonality"],
+                    "responseNames": {
+                        "de": "Saisonalität",
+                        "en": "Seasonality"
+                    }
+                },
+                {
+                    "name": "campaignTag",
+                    "responseName": "Weitere Filter",
+                    "selectValues": [
+                        "vgl_label-kinderregion",
+                        "vgl_label-gl-gutschein",
+                        "vgl_label-unesco",
+                        "vgl_label-glarnerlandpass"
+                    ],
+                    "orderBy": "name",
+                    "orderDirection": "asc"
+                }
+            ],
+            "leafType": [
+                "ArtObject",
+                "Gallery",
+                "ArtGallery",
+                "Museum",
+                "ConcertHall",
+                "MusicVenue",
+                "OperaHouse",
+                "PerformingArtsTheater",
+                "OutdoorStage",
+                "Theatre",
+                "ComedyClub",
+                "BuddhistTemple",
+                "CatholicChurch",
+                "Chapel",
+                "Church",
+                "HinduTemple",
+                "Monastery",
+                "Mosque",
+                "Synagogue",
+                "Castle",
+                "Fortress",
+                "PlaceOfWorship",
+                "DamOrWeir",
+                "IndustrialMonument",
+                "Monument",
+                "Ruin",
+                "WaysideShrine"
+            ]
+    }
+}
