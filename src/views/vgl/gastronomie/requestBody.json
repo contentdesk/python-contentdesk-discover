@@ -57,6 +57,16 @@
                         "de": "Restaurant",
                         "en": "Restaurant"
                     },
+                    "orderBy": "count",
+                    "orderDirection": "asc",
+                    "count": 100
+                },
+                {
+                    "name": "leafType",
+                    "responseNames": {
+                        "de": "Restaurant",
+                        "en": "Restaurant"
+                    },
                     "orderBy": "name",
                     "orderDirection": "asc",
                     "selectValues": [
