@@ -52,10 +52,18 @@
                     ]
                 },
                 {
+                    "name": "categoryTree",
+                    "count": 200
+                },
+                {
+                    "name": "combinedTypeTree",
+                    "count": 600
+                },
+                {
                     "name": "leafType",
                     "responseNames": {
-                        "de": "Kategorie",
-                        "en": "Category"
+                        "de": "Kunsttyp",
+                        "en": "art type"
                     },
                     "orderBy": "name",
                     "orderDirection": "asc",
