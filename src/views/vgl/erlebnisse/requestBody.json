@@ -53,11 +53,21 @@
                 },
                 {
                     "name": "categoryTree",
-                    "count": 100
+                    "count": 200
                 },
                 {
                     "name": "combinedTypeTree",
-                    "count": 100
+                    "count": 600
+                },
+                {
+                    "name": "leafType",
+                    "responseNames": {
+                        "de": "Erlebnistyp",
+                        "en": "Type of experience"
+                    },
+                    "orderBy": "name",
+                    "orderDirection": "asc",
+                    "count": 600
                 },
                 {
                     "name": "tag",
