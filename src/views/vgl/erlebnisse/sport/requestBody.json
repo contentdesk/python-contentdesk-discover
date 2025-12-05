@@ -52,6 +52,14 @@
                     ]
                 },
                 {
+                    "name": "categoryTree",
+                    "count": 200
+                },
+                {
+                    "name": "combinedTypeTree",
+                    "count": 600
+                },
+                {
                     "name": "leafType",
                     "responseNames": {
                         "de": "Sport- & Freizeit-Typ",
