@@ -152,7 +152,8 @@
             ],
             "combinedTypeTree": [
                 "Thing|Place|LocalBusiness|FoodEstablishment",
-                "Thing|Place|LocalBusiness|LodgingBusiness|ManagedHut"
+                "Thing|Place|LocalBusiness|LodgingBusiness|ManagedHut",
+                "Thing|Place|LocalBusiness|EntertainmentBusiness|NightClub"
             ]
     }
 }
