@@ -54,7 +54,7 @@
                 {
                     "name": "leafType",
                     "responseNames": {
-                        "de": "Kategorien",
+                        "de": "Kategorie",
                         "en": "Category"
                     },
                     "orderBy": "name",
