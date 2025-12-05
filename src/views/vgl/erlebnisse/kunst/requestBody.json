@@ -52,6 +52,16 @@
                     ]
                 },
                 {
+                    "name": "combinedType",
+                    "responseNames": {
+                        "de": "Kategorien",
+                        "en": "Category"
+                    },
+                    "orderBy": "name",
+                    "orderDirection": "asc",
+                    "count": 100
+                },
+                {
                     "name": "leafType",
                     "responseNames": {
                         "de": "Kunst & Museum",
