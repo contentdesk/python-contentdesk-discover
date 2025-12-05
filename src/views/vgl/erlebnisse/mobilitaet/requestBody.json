@@ -54,6 +54,16 @@
                 {
                     "name": "leafType",
                     "responseNames": {
+                        "de": "Kategorien",
+                        "en": "Category"
+                    },
+                    "orderBy": "name",
+                    "orderDirection": "asc",
+                    "count": 100
+                },
+                {
+                    "name": "leafType",
+                    "responseNames": {
                         "de": "Bergbahnen & Skilifte",
                         "en": "mountain railways & ski lifts"
                     },
