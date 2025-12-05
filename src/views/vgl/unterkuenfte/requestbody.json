@@ -7,20 +7,7 @@
             "{{project}}"
         ],
         "combinedTypeTree": [
-            "Thing|Place|LocalBusiness|LodgingBusiness",
-            "Thing|Place|LocalBusiness|LodgingBusiness|HolidayApartment",
-            "Thing|Place|LocalBusiness|LodgingBusiness|GroupAccommodation",
-            "Thing|Place|LocalBusiness|LodgingBusiness|Mountainhut|SelfCateredHut",
-            "Thing|Place|LocalBusiness|LodgingBusiness|Hotel",
-            "Thing|Place|LocalBusiness|LodgingBusiness|HolidayHouse",
-            "Thing|Place|LocalBusiness|LodgingBusiness|IglooVillage",
-            "Thing|Place|LocalBusiness|LodgingBusiness|BedAndBreakfast",
-            "Thing|Place|LocalBusiness|LodgingBusiness|Agrotourism",
-            "Thing|Place|LocalBusiness|LodgingBusiness|Campground",
-            "Thing|Place|LocalBusiness|LodgingBusiness|GuestHouse",
-            "Thing|Place|LocalBusiness|LodgingBusiness|PrivateRoom",
-            "Thing|Place|LocalBusiness|LodgingBusiness|Hostel",
-            "Thing|Place|LocalBusiness|LodgingBusiness|Motel"
+            "Thing|Place|LocalBusiness|LodgingBusiness"
         ],
         "facets": [
             {
@@ -66,6 +53,16 @@
                         "plz_8762_3",
                         "plz_8773_0"
                     ]
+            },
+            {
+                "name": "leafType",
+                "responseNames": {
+                    "de": "Unterkunftstyp",
+                    "en": "Type of accommodation"
+                },
+                "orderBy": "name",
+                "orderDirection": "asc",
+                "count": 100
             },
             {
                 "name": "leafType",
