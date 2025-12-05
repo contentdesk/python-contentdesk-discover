@@ -56,11 +56,11 @@
                 },
                 {
                     "name": "categoryTree",
-                    "count": 1000
+                    "count": 200
                 },
                 {
                     "name": "combinedTypeTree",
-                    "count": 1000
+                    "count": 600
                 },
                 {
                     "name": "tag",
