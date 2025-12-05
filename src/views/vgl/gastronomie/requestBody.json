@@ -54,11 +54,11 @@
                 {
                     "name": "leafType",
                     "responseNames": {
-                        "de": "Restaurant",
-                        "en": "Restaurant"
+                        "de": "Gastronomietyp",
+                        "en": "Type of gastronomy"
                     },
                     "orderBy": "count",
-                    "orderDirection": "asc",
+                    "orderDirection": "desc",
                     "count": 100
                 },
                 {
