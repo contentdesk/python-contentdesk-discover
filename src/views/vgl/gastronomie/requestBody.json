@@ -57,7 +57,7 @@
                         "de": "Gastronomietyp",
                         "en": "Type of gastronomy"
                     },
-                    "orderBy": "count",
+                    "orderBy": "name",
                     "orderDirection": "desc",
                     "count": 100
                 },
