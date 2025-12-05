@@ -52,6 +52,16 @@
                     ]
                 },
                 {
+                    "name": "combinedType",
+                    "responseNames": {
+                        "de": "Kategorie",
+                        "en": "Category"
+                    },
+                    "orderBy": "name",
+                    "orderDirection": "asc",
+                    "count": 100
+                },
+                {
                     "name": "leafType",
                     "responseNames": {
                         "de": "Gewässer",
@@ -187,8 +197,14 @@
                     "orderDirection": "asc"
                 }
             ],
-            "leafType":
-            [
+            "combinedTypeTree": [
+                "Thing|Place|CivicStructure",
+                "Thing|Place|Fauna",
+                "Thing|Place|Flora",
+                "Thing|Place|Landform",
+                "Thing|Place|LandmarkOrHistoricalBuilding"
+            ],
+            "leafType": [
                 "BodyofWater",
                 "Canal",
                 "LakeBodyOfWater",
