@@ -62,8 +62,8 @@
                 {
                     "name": "leafType",
                     "responseNames": {
-                        "de": "Kategorie",
-                        "en": "Category"
+                        "de": "Naturtyp",
+                        "en": "nature type"
                     },
                     "orderBy": "name",
                     "orderDirection": "asc",

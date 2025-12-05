@@ -62,8 +62,8 @@
                 {
                     "name": "leafType",
                     "responseNames": {
-                        "de": "Kategorie",
-                        "en": "Category"
+                        "de": "Service-Typ",
+                        "en": "service type"
                     },
                     "orderBy": "name",
                     "orderDirection": "asc",
