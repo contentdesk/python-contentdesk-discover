@@ -52,10 +52,18 @@
                     ]
                 },
                 {
+                    "name": "categoryTree",
+                    "count": 200
+                },
+                {
+                    "name": "combinedTypeTree",
+                    "count": 600
+                },
+                {
                     "name": "leafType",
                     "responseNames": {
-                        "de": "Kategorien",
-                        "en": "Category"
+                        "de": "Mobilitätstyp",
+                        "en": "mobility type"
                     },
                     "orderBy": "name",
                     "orderDirection": "asc",
