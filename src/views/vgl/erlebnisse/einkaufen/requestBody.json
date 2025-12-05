@@ -54,6 +54,16 @@
                 {
                     "name": "leafType",
                     "responseNames": {
+                        "de": "Kategorie",
+                        "en": "Category"
+                    },
+                    "orderBy": "name",
+                    "orderDirection": "asc",
+                    "count": 100
+                },
+                {
+                    "name": "leafType",
+                    "responseNames": {
                         "de": "Einkaufszentrum und Märkte",
                         "en": "shopping center and markets"
                     },
