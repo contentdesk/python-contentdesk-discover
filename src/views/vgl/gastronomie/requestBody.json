@@ -58,7 +58,7 @@
                         "en": "Type of gastronomy"
                     },
                     "orderBy": "name",
-                    "orderDirection": "desc",
+                    "orderDirection": "asc",
                     "count": 100
                 },
                 {
