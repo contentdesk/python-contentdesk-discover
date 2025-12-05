@@ -52,7 +52,7 @@
                     ]
                 },
                 {
-                    "name": "combinedType",
+                    "name": "leafType",
                     "responseNames": {
                         "de": "Kategorie",
                         "en": "Category"
