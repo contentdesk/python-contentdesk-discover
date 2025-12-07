@@ -1,0 +1,33 @@
+{
+    "name": "VGL Events",
+    "description": "VGL Events Objekte",
+    "ScheduleStrategy": "Daily",
+    "searchRequest": {
+            "project": [
+                "{{project}}"
+            ],
+            "facets": [
+                {
+                    "name": "categoryTree",
+                    "count": 200
+                },
+                {
+                    "name": "combinedTypeTree",
+                    "count": 600
+                },
+                {
+                    "name": "leafType",
+                    "responseNames": {
+                        "de": "Veranstaltungsart",
+                        "en": "Type of event"
+                    },
+                    "orderBy": "name",
+                    "orderDirection": "asc",
+                    "count": 100
+                }
+            ],
+            "combinedTypeTree": [
+                "Thing|Event"
+            ]
+    }
+}
