@@ -62,98 +62,12 @@
                 {
                     "name": "leafType",
                     "responseNames": {
-                        "de": "Kunsttyp",
+                        "de": "Kunst-Typ",
                         "en": "art type"
                     },
                     "orderBy": "name",
                     "orderDirection": "asc",
                     "count": 100
-                },
-                {
-                    "name": "leafType",
-                    "responseNames": {
-                        "de": "Kunst & Museum",
-                        "en": "art & museum"
-                    },
-                    "orderBy": "name",
-                    "orderDirection": "asc",
-                    "selectValues": [
-                        "ArtObject",
-                        "Gallery",
-                        "ArtGallery",
-                        "Museum"
-                    ]
-                },
-                {
-                    "name": "leafType",
-                    "responseNames": {
-                        "de": "Musik & Theater",
-                        "en": "music & theater"
-                    },
-                    "orderBy": "name",
-                    "orderDirection": "asc",
-                    "selectValues": [
-                        "ConcertHall",
-                        "MusicVenue",
-                        "OperaHouse",
-                        "PerformingArtsTheater",
-                        "OutdoorStage",
-                        "Theatre",
-                        "ComedyClub"
-                    ]
-                },
-                {
-                    "name": "leafType",
-                    "responseNames": {
-                        "de": "Architektur & Archeologie",
-                        "en": "architecture & archeology"
-                    },
-                    "orderBy": "name",
-                    "orderDirection": "asc",
-                    "selectValues": [
-                        "BuddhistTemple",
-                        "CatholicChurch",
-                        "Chapel",
-                        "Church",
-                        "HinduTemple",
-                        "Monastery",
-                        "Mosque",
-                        "Synagogue",
-                        "Castle",
-                        "Fortress",
-                        "PlaceOfWorship",
-                        "DamOrWeir",
-                        "IndustrialMonument",
-                        "Monument",
-                        "Ruin",
-                        "WaysideShrine"
-                    ]
-                },
-                {
-                    "name": "categoryTree",
-                    "responseNames": {
-                        "de": "Kategorie",
-                        "en": "category"
-                    },
-                    "selectValues": [
-                        "sui_0203",
-                        "sui_0205",
-                        "sui_0206",
-                        "sui_0208",
-                        "sui_0219",
-                        "sui_0210",
-                        "sui_0212",
-                        "sui_0202",
-                        "sui_0221",
-                        "sui_0215",
-                        "sui_0213",
-                        "sui_0214",
-                        "sui_0209",
-                        "sui_0203",
-                        "sui_0205",
-                        "sui_0206",
-                        "sui_0208"
-                    ]
                 },
                 {
                     "name": "tag",
