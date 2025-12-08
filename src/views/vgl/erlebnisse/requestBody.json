@@ -62,7 +62,7 @@
                 {
                     "name": "leafType",
                     "responseNames": {
-                        "de": "Erlebnistyp",
+                        "de": "Erlebnis-Typ",
                         "en": "Type of experience"
                     },
                     "orderBy": "name",
