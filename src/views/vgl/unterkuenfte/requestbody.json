@@ -7,7 +7,8 @@
             "{{project}}"
         ],
         "combinedTypeTree": [
-            "Thing|Place|LocalBusiness|LodgingBusiness"
+            "Thing|Place|LocalBusiness|LodgingBusiness",
+            "Thing|Place|CivicStructure|RVPark"
         ],
         "facets": [
             {
@@ -71,71 +72,6 @@
                 "orderBy": "name",
                 "orderDirection": "asc",
                 "count": 100
-            },
-            {
-                "name": "leafType",
-                "responseNames": {
-                    "de": "Hotel oder ähnliche",
-                    "en": "Hotel or similar"
-                },
-                "orderBy": "name",
-                "orderDirection": "asc",
-                "selectValues": [
-                    "Resort",
-                    "Hotel",
-                    "Garni",
-                    "CountryInn",
-                    "Pension",
-                    "Motel",
-                    "Hostel",
-                    "BedAndBreakfast",
-                    "GuestHouse",
-                    "PrivateRoom"
-                ]
-            },
-            {
-                "name": "leafType",
-                "responseNames": {
-                    "de": "Ferien & Gruppenunterkunft",
-                    "en": "Vacation & Group Accommodation"
-                },
-                "orderBy": "name",
-                "orderDirection": "asc",
-                "selectValues": [
-                    "GroupAccommodation",   
-                    "HolidayApartment",
-                    "HolidayHouse"
-                ]
-            },
-            {
-                "name": "leafType",
-                "responseNames": {
-                    "de": "Berghütten",
-                    "en": "Mountain Huts"
-                },
-                "orderBy": "name",
-                "orderDirection": "asc",
-                "selectValues": [
-                    "Mountainhut",
-                    "RescueHut"
-                ]
-            },
-            {
-                "name": "leafType",
-                "responseNames": {
-                    "de": "In der Natur",
-                    "en": "In Nature"
-                },
-                "orderBy": "name",
-                "orderDirection": "asc",
-                "selectValues": [
-                    "Campground",
-                    "RVPark",
-                    "Agrotourism",
-                    "FarmLodging",
-                    "IglooVillage",
-                    "SelfCateredHut"
-                ]
             },
             {
                 "name": "tag",
