@@ -49,9 +49,23 @@ def main():
     
     with open("../../output/discover/AmenityFeatures/"+str_current_datetime+"/akeneoAmenityFeatures.json", "w") as file:
         json.dump(akeneoAmenityFeatures, file)
+        
+    with open("../../output/akeneoAmenityFeatures.json", "w") as file:
+        json.dump(akeneoAmenityFeatures, file)
 
     # Save as csv with UTF-8 encoding and replace "None" in every field with empty string
     with open("../../output/discover/AmenityFeatures/"+str_current_datetime+"/akeneoAmenityFeatures.csv", "w", encoding='utf-8') as file:
+        for code, body in akeneoAmenityFeatures.items():
+            en = body['labels']['en_US'] if 'en_US' in body['labels'] else ''
+            de = body['labels']['de_DE'] if 'de_DE' in body['labels'] else ''
+            fr = body['labels']['fr_FR'] if 'fr_FR' in body['labels'] else ''
+            it = body['labels']['it_IT'] if 'it_IT' in body['labels'] else ''
+            parent = body['parent'] if 'parent' in body else ''
+            valueType = body['valueType'] if 'valueType' in body else ''
+            file.write(f"{code};{en};{de};{fr};{it};{valueType};{parent}\n")
+            
+    # Save as csv with UTF-8 encoding and replace "None" in every field with empty string
+    with open("../../output/akeneoAmenityFeatures.csv", "w", encoding='utf-8') as file:
         for code, body in akeneoAmenityFeatures.items():
             en = body['labels']['en_US'] if 'en_US' in body['labels'] else ''
             de = body['labels']['de_DE'] if 'de_DE' in body['labels'] else ''
