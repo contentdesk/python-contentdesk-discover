@@ -52,14 +52,6 @@
                     ]
                 },
                 {
-                    "name": "categoryTree",
-                    "count": 200
-                },
-                {
-                    "name": "combinedTypeTree",
-                    "count": 600
-                },
-                {
                     "name": "leafType",
                     "responseNames": {
                         "de": "Gastronomietyp",
@@ -68,66 +60,6 @@
                     "orderBy": "name",
                     "orderDirection": "asc",
                     "count": 100
-                },
-                {
-                    "name": "leafType",
-                    "responseNames": {
-                        "de": "Restaurant",
-                        "en": "Restaurant"
-                    },
-                    "orderBy": "name",
-                    "orderDirection": "asc",
-                    "selectValues": [
-                        "Bistro",
-                        "FastFoodRestaurant",
-                        "Pizzeria",
-                        "Restaurant",
-                        "MountainRestaurant",
-                        "ManagedHut"
-                    ]
-                },
-                {
-                    "name": "leafType",
-                    "responseNames": {
-                        "de": "Café & Take-Away",
-                        "en": "Café & Take-Away"
-                    },
-                    "orderBy": "name",
-                    "orderDirection": "asc",
-                    "selectValues": [
-                        "CafeOrCoffeeShop",
-                        "Imbiss",
-                        "TakeAway",
-                        "Gelateria"
-                    ]
-                },
-                {
-                    "name": "leafType",
-                    "responseNames": {
-                        "de": "Weinliebhaber",
-                        "en": "Wine Lovers"
-                    },
-                    "orderBy": "name",
-                    "orderDirection": "asc",
-                    "selectValues": [
-                        "Vineyard",
-                        "Vinotheque",
-                        "Winery"
-                    ]
-                },
-                {
-                    "name": "leafType",
-                    "responseNames": {
-                        "de": "Bar & Nachtleben",
-                        "en": "Bar & Nightlife"
-                    },
-                    "orderBy": "name",
-                    "orderDirection": "asc",
-                    "selectValues": [
-                        "BarOrPub",
-                        "BeerGarden",
-                        "Beverage"
-                    ]
                 },
                 {
                     "name": "tag",
