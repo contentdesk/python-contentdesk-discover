@@ -59,7 +59,7 @@
                 {
                     "name": "leafType",
                     "responseNames": {
-                        "de": "Gastronomietyp",
+                        "de": "Gastronomie-Typ",
                         "en": "Type of gastronomy"
                     },
                     "orderBy": "name",
