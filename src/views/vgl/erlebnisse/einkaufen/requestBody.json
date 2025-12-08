@@ -62,100 +62,12 @@
                 {
                     "name": "leafType",
                     "responseNames": {
-                        "de": "Einkaufstyp",
+                        "de": "Einkaufs-Typ",
                         "en": "shopping type"
                     },
                     "orderBy": "name",
                     "orderDirection": "asc",
                     "count": 100
-                },
-                {
-                    "name": "leafType",
-                    "responseNames": {
-                        "de": "Einkaufszentrum und Märkte",
-                        "en": "shopping center and markets"
-                    },
-                    "orderBy": "name",
-                    "orderDirection": "asc",
-                    "selectValues": [
-                        "ShoppingCenter",
-                        "WholesaleStore",
-                        "GroceryStore",
-                        "ConvenienceStore",
-                        "DepartmentStore",
-                        "Market",
-                        "FarmShop"
-                    ]
-                },
-                {
-                    "name": "leafType",
-                    "responseNames": {
-                        "de": "Fachgeschäfte",
-                        "en": "specialty stores"
-                    },
-                    "orderBy": "name",
-                    "orderDirection": "asc",
-                    "selectValues": [
-                        "BookStore",
-                        "HardwareStore",
-                        "ComputerStore",
-                        "HobbyShop",
-                        "TobaccoShop",
-                        "Perfumery",
-                        "OutletStore",
-                        "OfficeEquipmentStore",
-                        "FurnitureStore",
-                        "JewelryStore",
-                        "Opticians",
-                        "MovieRentalStore",
-                        "Forge",
-                        "MobilePhoneStore",
-                        "GardenStore",
-                        "NonFood",
-                        "MusicStore",
-                        "Florist",
-                        "HomeGoodsStore",
-                        "ElectronicsStore",
-                        "SportingGoodsStore",
-                        "ClothingStore",
-                        "MensClothingStore",
-                        "Fashion",
-                        "Accessoires",
-                        "Clothing"
-                    ]
-                },
-                {
-                    "name": "leafType",
-                    "responseNames": {
-                        "de": "Lebensmittelgeschäfte",
-                        "en": "food stores"
-                    },
-                    "orderBy": "name",
-                    "orderDirection": "asc",
-                    "selectValues": [
-                        "ButcherShop",
-                        "Kiosk",
-                        "SpiritsStore",
-                        "IceCreamShop",
-                        "Confectionery",
-                        "LiquorStore",
-                        "Bakery",
-                        "Dairy"
-                    ]
-                },
-                {
-                    "name": "leafType",
-                    "responseNames": {
-                        "de": "Verleih",
-                        "en": "rental"
-                    },
-                    "orderBy": "name",
-                    "orderDirection": "asc",
-                    "selectValues": [
-                        "WatersportRental",
-                        "WintersportRental",
-                        "Rental"
-                    ]
                 },
                 {
                     "name": "tag",
