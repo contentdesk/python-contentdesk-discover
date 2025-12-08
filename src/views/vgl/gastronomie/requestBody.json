@@ -6,6 +6,11 @@
             "project": [
                 "{{project}}"
             ],
+            "combinedTypeTree": [
+                "Thing|Place|LocalBusiness|FoodEstablishment",
+                "Thing|Place|LocalBusiness|LodgingBusiness|ManagedHut",
+                "Thing|Place|LocalBusiness|EntertainmentBusiness|NightClub"
+            ],
             "facets": [
                 {
                     "name": "containedInPlace/id",
@@ -89,11 +94,6 @@
                     "orderBy": "name",
                     "orderDirection": "asc"
                 }
-            ],
-            "combinedTypeTree": [
-                "Thing|Place|LocalBusiness|FoodEstablishment",
-                "Thing|Place|LocalBusiness|LodgingBusiness|ManagedHut",
-                "Thing|Place|LocalBusiness|EntertainmentBusiness|NightClub"
             ]
     }
 }
