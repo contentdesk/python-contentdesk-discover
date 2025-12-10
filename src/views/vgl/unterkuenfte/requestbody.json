@@ -17,7 +17,7 @@
                         "de": "Ferienregion",
                         "en": "vacation area"
                     },
-                "selectValues": [
+                "filterValues": [
                         "osm_1683140",
                         "plz_8865_0",
                         "plz_8867_0",
@@ -56,14 +56,6 @@
                     ]
             },
             {
-                "name": "categoryTree",
-                "count": 200
-            },
-            {
-                "name": "combinedTypeTree",
-                "count": 600
-            },
-            {
                 "name": "leafType",
                 "responseNames": {
                     "de": "Unterkunfts-Typ",
@@ -92,7 +84,7 @@
             {
                 "name": "campaignTag",
                 "responseName": "Weitere Filter",
-                "selectValues": [
+                "filterValues": [
                     "vgl_label-kinderregion",
                     "vgl_label-gl-gutschein",
                     "vgl_label-unesco",
