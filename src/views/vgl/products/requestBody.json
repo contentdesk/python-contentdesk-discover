@@ -9,7 +9,7 @@
             "combinedTypeTree": [
                 "Thing|Place"
             ],
-            "filter": "tag eq 'vgl_label-gl-gutschein'",
+            "allTag": "vgl_label-gl-gutschein",
             "facets": [
                 {
                     "name": "containedInPlace/id",
