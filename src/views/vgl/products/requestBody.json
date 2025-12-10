@@ -9,7 +9,9 @@
             "combinedTypeTree": [
                 "Thing|Place"
             ],
-            "allTag": "vgl_label-gl-gutschein",
+            "campaignTag": [
+                "vgl_label-gl-gutschein"
+            ],
             "facets": [
                 {
                     "name": "containedInPlace/id",
