@@ -60,7 +60,7 @@
                 {
                     "name": "leafType",
                     "responseNames": {
-                        "de": "Einlösestellen-Typ",
+                        "de": "Einlösestell",
                         "en": "Type of redemption location"
                     },
                     "orderBy": "name",
