@@ -1,6 +1,6 @@
 {
-    "name": "VGL Gastronomie",
-    "description": "VGL Gastronomie Objekte",
+    "name": "VGL Produkt - Shop / Produkte / Gutscheine",
+    "description": "VGL Produkt Objekte - Shop / Produkte / Gutscheine",
     "scheduleStrategy": "Daily",
     "searchRequest": {
             "project": [
