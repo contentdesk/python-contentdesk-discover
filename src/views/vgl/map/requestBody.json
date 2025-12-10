@@ -16,15 +16,15 @@
                         "de": "Ferienregion",
                         "en": "vacation area"
                     },
-                    "selectValues": ["ds_braunwald_toedigebiet", "ds_elm_sernftal", "ds_glarus_kloental", "ds_glarusnord_walensee", "ds_grosstal_mettmen"]
+                    "filterValues": ["ds_braunwald_toedigebiet", "ds_elm_sernftal", "ds_glarus_kloental", "ds_glarusnord_walensee", "ds_grosstal_mettmen"]
                 },
                 {
                     "name": "categoryTree",
-                    "count": 200
+                    "count": 1000
                 },
                 {
                     "name": "combinedTypeTree",
-                    "count": 600
+                    "count": 1000
                 },
                 {
                     "name": "tag",
@@ -45,7 +45,7 @@
                 {
                     "name": "campaignTag",
                     "responseName": "Weitere Filter",
-                    "selectValues": [
+                    "filterValues": [
                         "vgl_label-kinderregion",
                         "vgl_label-gl-gutschein",
                         "vgl_label-unesco",
