@@ -13,7 +13,9 @@
                         "de": "Ferienregion",
                         "en": "vacation area"
                     },
-                    "filterValues": ["ds_braunwald_toedigebiet", "ds_elm_sernftal", "ds_glarus_kloental", "ds_glarusnord_walensee", "ds_grosstal_mettmen"]
+                    "filterValues": ["ds_braunwald_toedigebiet", "ds_elm_sernftal", "ds_glarus_kloental", "ds_glarusnord_walensee", "ds_grosstal_mettmen"],
+                    "orderBy": "name",
+                    "orderDirection": "asc"
                 },
                 {
                     "name": "categoryTree",
