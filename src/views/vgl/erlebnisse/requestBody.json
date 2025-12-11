@@ -19,10 +19,14 @@
                 },
                 {
                     "name": "categoryTree",
+                    "scope": "all",
+                    "excludeRedundant": true,
                     "count": 1000
                 },
                 {
                     "name": "combinedTypeTree",
+                    "scope": "all",
+                    "excludeRedundant": true,
                     "count": 600
                 },
                 {
