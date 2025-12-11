@@ -18,10 +18,6 @@
                     "orderDirection": "asc"
                 },
                 {
-                    "name": "combinedTypeTree",
-                    "count": 600
-                },
-                {
                     "name": "leafType",
                     "responseNames": {
                         "de": "Natur-Typ",
