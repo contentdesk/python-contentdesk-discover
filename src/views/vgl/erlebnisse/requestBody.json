@@ -27,7 +27,7 @@
                     "name": "combinedTypeTree",
                     "scope": "all",
                     "excludeRedundant": true,
-                    "count": 600
+                    "count": 1000
                 },
                 {
                     "name": "tag",
@@ -327,7 +327,9 @@
                 "Synagogue",
                 "Castle",
                 "Fortress",
-                "Museum"
+                "Museum",
+                "SkiLift",
+                "TransportationSystem"
             ]
     }
 }
