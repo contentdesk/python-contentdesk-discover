@@ -10,6 +10,9 @@
             "Thing|Place|LocalBusiness|LodgingBusiness",
             "Thing|Place|CivicStructure|RVPark"
         ],
+        "filters": [
+            "type ne 'ManagedHut'"
+        ],
         "facets": [
             {
                 "name": "containedInPlace/id",
